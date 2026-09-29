@@ -1020,3 +1020,61 @@ h3{letter-spacing:-.04em}
   .cases,.evidence,.home-insights,.contact{padding:84px 0}
   .case-feature h3{font-size:32px}
 }
+
+/* V15 — clarity, compact hero and first-month support */
+.hero--v15 h1,.service-hero h1{font-size:clamp(41px,4.2vw,63px);line-height:1.06}
+body:has(.hero--v15) h2,body:has(.service-hero) h2{font-size:clamp(30px,3.15vw,44px);line-height:1.1}
+.hero--v15{padding-top:38px;min-height:0}
+.hero--v15 .hero__grid{grid-template-columns:minmax(0,1.08fr) minmax(320px,.68fr);gap:58px;min-height:0;padding-bottom:32px}
+.hero--v15 .hero__overline{margin-bottom:18px;padding-bottom:12px}
+.hero--v15 .hero__lead{margin-top:18px;line-height:1.55}
+.hero-formats{display:grid;grid-template-columns:1fr 1fr;gap:0 20px;margin-top:20px;border-top:1px solid var(--line)}
+.hero-formats a{padding:11px 0;border-bottom:1px solid var(--line);font-size:12px;line-height:1.45;color:var(--green);text-decoration:none}
+.hero-formats a:hover{text-decoration:underline}
+.hero--v15 .hero__focusline{margin-top:16px}
+.hero--v15 .hero__actions{margin-top:22px}
+.hero--v15 .hero__portrait{min-height:0}
+.hero--v15 .portrait-frame--clean{height:450px;min-height:0}
+.hero--v15 .portrait-meta{min-height:64px}
+.hero--v15 .proof-line>div{padding-top:18px;padding-bottom:20px}
+.first-month{padding:64px 0;border-top:1px solid var(--line)}
+.first-month__layout{display:grid;grid-template-columns:.72fr 1.28fr;gap:80px}
+.first-month__promise{font-family:Georgia,"Times New Roman",serif;font-size:23px;line-height:1.5;margin:0}
+.workflow-principle{font-size:14px;line-height:1.7;color:var(--green);margin:22px 0 0}
+.service-process__steps>div:last-child{grid-column:1/-1}
+@media(max-width:1100px){
+ .hero--v15 .hero__grid{gap:32px;grid-template-columns:minmax(0,1fr) minmax(280px,.72fr)}
+ .hero--v15 .portrait-frame--clean{height:410px}
+}
+@media(max-width:860px){
+ .hero--v15 .hero__grid{grid-template-columns:1fr;gap:28px;padding-bottom:28px}
+ .hero--v15 .hero__portrait{width:min(100%,460px);margin-inline:auto}
+ .hero--v15 .portrait-frame--clean{height:480px}
+ .first-month__layout{grid-template-columns:1fr;gap:24px}
+}
+@media(max-width:560px){
+ .hero--v15{padding-top:24px}
+ .hero--v15 h1,.service-hero h1{font-size:33px}
+ body:has(.hero--v15) h2,body:has(.service-hero) h2{font-size:29px}
+ .hero--v15 .hero__lead{font-size:15px;margin-top:16px;line-height:1.55}
+ .hero-formats{grid-template-columns:1fr;margin-top:16px}
+ .hero-formats a{padding:8px 0}
+ .hero--v15 .hero__portrait{width:min(100%,340px)}
+ .hero--v15 .portrait-frame--clean{height:100vw;max-height:390px}
+ .first-month{padding:48px 0}
+ .first-month__promise{font-size:20px}
+ .workflow-principle{font-size:13px}
+}
+
+@media(max-width:860px){
+ body:has(.hero--v15) .section-grid,body:has(.hero--v15) .system__layout,body:has(.hero--v15) .experience__layout,body:has(.hero--v15) .services__layout,body:has(.hero--v15) .about__layout{grid-template-columns:minmax(0,1fr)}
+ body:has(.hero--v15) .system-orbit{min-width:0}
+ .hero--v15 .proof-line{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));overflow:visible}
+ .hero--v15 .proof-line>div{min-width:0}
+}
+@media(max-width:680px){
+ body:has(.hero--v15) .experience-rows>div{grid-template-columns:1fr;gap:5px}
+ body:has(.hero--v15) .services-list a{grid-template-columns:34px minmax(0,1fr) 24px}
+ body:has(.hero--v15) .system-orbit{min-height:0}
+ .hero--v15 .proof-line strong{font-size:23px}
+}
