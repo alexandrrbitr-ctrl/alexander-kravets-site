@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://alexandrrbitr-ctrl.github.io/alexander-kravets-site/sitemap.xml
