@@ -14,7 +14,7 @@
     mobileNav.setAttribute("aria-label", "Мобильная навигация");
     mobileNav.hidden = true;
     mobileNav.innerHTML = `<div class="mobile-nav__inner">${desktopNav.innerHTML}<a class="mobile-nav__contact" href="https://t.me/formularosta_pro" target="_blank" rel="noopener noreferrer" data-goal="telegram_contact">Обсудить задачу ↗</a></div>`;
-    document.querySelector(".header")?.appendChild(mobileNav);
+    document.body.appendChild(mobileNav);
 
     const setMenu = (open) => {
       toggle.setAttribute("aria-expanded", open ? "true" : "false");
@@ -138,4 +138,65 @@
       window.ym(Number(yandexId), "reachGoal", el.dataset.goal);
     }
   });
+
+  // V17: active navigation on pages, section anchors and mobile menu.
+  const navLinks = [...document.querySelectorAll('.nav a, .mobile-nav__inner > a')]
+    .filter(a => !a.classList.contains('mobile-nav__contact'));
+  const path = location.pathname.replace(/\/index\.html$/, '/');
+  const isHome = /\/alexander-kravets-site\/$/.test(path) || path === '/';
+  const inInsights = /\/insights\//.test(path);
+  const inCases = /\/(?:cases\.html|case-[^/]+\.html)$/.test(path);
+  const inMedicine = /\/industries\/medicine-pharma\//.test(path);
+  const inServices = /\/(?:commercial-management|commercial-analytics|sales-audit|crm-bitrix24|sales-team-recruitment)\//.test(path);
+
+  const markActive = (key) => {
+    navLinks.forEach((a) => {
+      let value = '';
+      try {
+        const url = new URL(a.getAttribute('href'), location.href);
+        if (key === 'insights' && /\/insights\//.test(url.pathname)) value = 'yes';
+        else if (key === 'medicine' && /\/industries\/medicine-pharma\//.test(url.pathname)) value = 'yes';
+        else if (key === 'cases' && (url.hash === '#cases' || /\/cases\.html$/.test(url.pathname))) value = 'yes';
+        else if (key === 'services' && url.hash === '#services') value = 'yes';
+        else if (key === 'system' && url.hash === '#system') value = 'yes';
+        else if (key === 'about' && url.hash === '#about') value = 'yes';
+      } catch (_) { /* Invalid href should not break navigation. */ }
+      if (value) a.setAttribute('aria-current', isHome ? 'location' : 'page');
+      else a.removeAttribute('aria-current');
+    });
+  };
+  if (inInsights) markActive('insights');
+  else if (inCases) markActive('cases');
+  else if (inMedicine) markActive('medicine');
+  else if (inServices) markActive('services');
+  else if (isHome) {
+    const sectionKeys = ['cases', 'system', 'services', 'about'];
+    const syncHash = () => {
+      const key = location.hash.substring(1);
+      markActive(sectionKeys.includes(key) ? key : '');
+    };
+    syncHash();
+    window.addEventListener('hashchange', syncHash);
+    navLinks.forEach(a => a.addEventListener('click', () => {
+      const key = (a.hash || '').slice(1);
+      if (sectionKeys.includes(key)) markActive(key);
+    }));
+    // Recalculate from current positions so leaving a section clears stale state.
+    const trackedSections = sectionKeys.map(k => document.getElementById(k)).filter(Boolean);
+    let navFrame = null;
+    const syncScroll = () => {
+      if (navFrame !== null) return;
+      navFrame = window.requestAnimationFrame(() => {
+        navFrame = null;
+        const headerBottom = document.querySelector('.header')?.getBoundingClientRect().bottom || 0;
+        const current = trackedSections.find(el => {
+          const rect = el.getBoundingClientRect();
+          return rect.top <= window.innerHeight * .4 && rect.bottom > headerBottom + 1;
+        });
+        markActive(current?.id || '');
+      });
+    };
+    window.addEventListener('scroll', syncScroll, { passive: true });
+    window.addEventListener('resize', syncScroll);
+  }
 })();
