@@ -1,36 +1,6 @@
 (() => {
   "use strict";
 
-  // 8-contour model
-  const orbitNodes = [...document.querySelectorAll(".orbit-node")];
-  const orbitTitle = document.getElementById("orbit-title");
-  const orbitCopy = document.getElementById("orbit-copy");
-
-  function activateOrbit(node) {
-    if (!node || !orbitTitle || !orbitCopy) return;
-    orbitNodes.forEach(n => {
-      n.classList.toggle("active", n === node);
-      n.setAttribute("aria-pressed", n === node ? "true" : "false");
-    });
-    orbitTitle.textContent = node.dataset.title || "";
-    orbitCopy.textContent = node.dataset.copy || "";
-  }
-
-  orbitNodes.forEach((node, index) => {
-    node.addEventListener("click", () => activateOrbit(node));
-    node.addEventListener("keydown", (e) => {
-      if (!["ArrowRight","ArrowDown","ArrowLeft","ArrowUp","Home","End"].includes(e.key)) return;
-      e.preventDefault();
-      let next = index;
-      if (e.key === "ArrowRight" || e.key === "ArrowDown") next = (index + 1) % orbitNodes.length;
-      if (e.key === "ArrowLeft" || e.key === "ArrowUp") next = (index - 1 + orbitNodes.length) % orbitNodes.length;
-      if (e.key === "Home") next = 0;
-      if (e.key === "End") next = orbitNodes.length - 1;
-      orbitNodes[next].focus();
-      activateOrbit(orbitNodes[next]);
-    });
-  });
-
   // Mobile navigation: clones the current page's desktop nav, preserving relative links.
   const toggle = document.querySelector(".menu-toggle");
   const desktopNav = document.querySelector(".nav");
