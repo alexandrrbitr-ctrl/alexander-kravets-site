@@ -1,0 +1,87 @@
+<!DOCTYPE html><html lang="ru">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<title>Анализ продаж по выгрузке CRM или Excel — Александр Кравец</title>
+<meta name="description" content="Анализ продаж по выгрузке CRM / Excel без доступа к системе: воронка, план-факт, клиентская база, ABC/RFM, менеджеры, потери и точки роста."/>
+<meta name="author" content="Александр Кравец"/>
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"/>
+<meta name="theme-color" content="#f6f4ef"/>
+<link rel="canonical" href="https://alexandrrbitr-ctrl.github.io/alexander-kravets-site/sales-data-analysis/"/>
+<link href="../styles.css" rel="stylesheet"/>
+<link href="../assets/favicon.ico" rel="icon"/>
+<link href="../assets/favicon-32.png" rel="icon" sizes="32x32" type="image/png"/>
+<link href="../assets/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="../site.webmanifest" rel="manifest"/>
+<meta property="og:locale" content="ru_RU"/>
+<meta property="og:type" content="website"/>
+<meta property="og:site_name" content="Александр Кравец — системное управление продажами"/>
+<meta property="og:title" content="Анализ продаж по выгрузке CRM или Excel — Александр Кравец"/>
+<meta property="og:description" content="Анализ продаж по выгрузке CRM / Excel без доступа к системе: воронка, план-факт, клиентская база, ABC/RFM, менеджеры, потери и точки роста."/>
+<meta property="og:url" content="https://alexandrrbitr-ctrl.github.io/alexander-kravets-site/sales-data-analysis/"/>
+<meta property="og:image" content="https://alexandrrbitr-ctrl.github.io/alexander-kravets-site/assets/og-cover.jpg"/>
+<meta property="og:image:width" content="1200"/>
+<meta property="og:image:height" content="630"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="Анализ продаж по выгрузке CRM или Excel — Александр Кравец"/>
+<meta name="twitter:description" content="Анализ продаж по выгрузке CRM / Excel без доступа к системе: воронка, план-факт, клиентская база, ABC/RFM, менеджеры, потери и точки роста."/>
+<meta name="twitter:image" content="https://alexandrrbitr-ctrl.github.io/alexander-kravets-site/assets/og-cover.jpg"/>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Person","@id":"https://alexandrrbitr-ctrl.github.io/alexander-kravets-site/#alexander-kravets","name":"Александр Кравец","jobTitle":"Коммерческий руководитель","description":"Системное управление продажами, коммерческая аналитика, CRM, команда и клиентская база.","url":"https://alexandrrbitr-ctrl.github.io/alexander-kravets-site/about/","sameAs":["https://t.me/formularosta_pro","https://github.com/alexandrrbitr-ctrl"],"knowsAbout":["системное управление продажами","коммерческая аналитика","аудит отдела продаж","CRM","Bitrix24","клиентская база","ABC/RFM","управление коммерческой командой","продажи в медицине","продажи в фармацевтике","удалённый отдел продаж"]},{"@type":"Service","@id":"https://alexandrrbitr-ctrl.github.io/alexander-kravets-site/sales-data-analysis/#service","name":"Анализ продаж по выгрузке CRM или Excel","description":"Анализ продаж по выгрузке CRM / Excel без доступа к системе: воронка, план-факт, клиентская база, ABC/RFM, менеджеры, потери и точки роста.","url":"https://alexandrrbitr-ctrl.github.io/alexander-kravets-site/sales-data-analysis/","provider":{"@id":"https://alexandrrbitr-ctrl.github.io/alexander-kravets-site/#alexander-kravets"},"areaServed":["Россия","Беларусь","Казахстан","страны СНГ","русскоязычные рынки"],"serviceType":"анализ продаж excel crm","category":"Коммерческие услуги"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Главная","item":"https://alexandrrbitr-ctrl.github.io/alexander-kravets-site/"},{"@type":"ListItem","position":2,"name":"Услуги","item":"https://alexandrrbitr-ctrl.github.io/alexander-kravets-site/services/"},{"@type":"ListItem","position":3,"name":"Анализ продаж по выгрузке CRM или Excel","item":"https://alexandrrbitr-ctrl.github.io/alexander-kravets-site/sales-data-analysis/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Какие данные нужны?","acceptedAnswer":{"@type":"Answer","text":"Зависит от вопроса. Обычно достаточно ID сделки/клиента, дат, стадий, сумм, менеджера, результата и нескольких сегментирующих признаков."}},{"@type":"Question","name":"Можно обезличить клиентов?","acceptedAnswer":{"@type":"Answer","text":"Да. Для большинства коммерческих задач имя, телефон и другие персональные данные не нужны."}},{"@type":"Question","name":"Обязательно использовать SQL?","acceptedAnswer":{"@type":"Answer","text":"Нет. Инструмент выбирается под объём и структуру данных. Для многих задач достаточно корректной выгрузки и табличной аналитики."}},{"@type":"Question","name":"Можно сделать только один конкретный расчёт?","acceptedAnswer":{"@type":"Answer","text":"Да. Формат не обязан быть большим аудитом: можно разобрать одну воронку, базу, менеджеров или отдельную гипотезу."}}]}]}</script>
+</head>
+<body><a class="skip-link" href="#main-content">К содержанию</a><header class="header">
+<div class="shell header__inner">
+<a aria-label="Александр Кравец" class="brand" href="../">
+<span class="brand__emblem"><img alt="" decoding="async" height="600" src="../assets/fr-emblem-silver.webp" width="525"/></span>
+<span class="brand__copy"><strong>Александр Кравец</strong><small>коммерческий руководитель</small></span>
+</a>
+<nav aria-label="Основная навигация" class="nav" id="primary-nav"><a data-nav="services" href="../services/">Услуги</a><a data-nav="industries" href="../industries/">Отрасли</a><a data-nav="cases" href="../cases.html">Кейсы</a><a data-nav="insights" href="../insights/">Статьи</a><a data-nav="about" href="../about/">Обо мне</a></nav>
+<button aria-controls="mobile-menu" aria-expanded="false" aria-label="Открыть меню" class="menu-toggle" type="button"><span></span><span></span><span></span></button>
+<a class="header__cta" data-goal="telegram_contact" href="https://t.me/formularosta_pro" rel="noopener noreferrer" target="_blank">Обсудить задачу <span>↗</span></a>
+</div>
+</header>
+<main id="main-content">
+<section class="v19-page-hero"><div class="shell v19-page-hero__grid">
+<div><p class="eyebrow">Коммерческие услуги</p><h1>Анализ продаж по выгрузке CRM или Excel</h1><p class="v19-lead">Если доступ к CRM давать не хочется или он просто не нужен, могу разобрать продажи по обезличенной выгрузке: воронка, база, менеджеры, регулярность, потери и управленческие выводы.</p>
+<div class="hero__actions"><a class="button button--dark" data-goal="telegram_contact" href="https://t.me/formularosta_pro" rel="noopener noreferrer" target="_blank">Обсудить задачу</a><a class="text-link" href="#work">Что входит <span>↓</span></a></div></div>
+<aside class="v19-hero-note"><small>Принцип</small><strong>Причина → решение → внедрение → измерение</strong><p>Первый месяц сопровождения встроен в работу после запуска изменений.</p></aside>
+</div></section>
+<section class="v19-section"><div class="shell"><div class="v19-section-head"><p class="eyebrow">Когда это актуально</p><h2>Ситуации, в которых стоит разбирать систему, а не отдельный симптом</h2></div><div class="v19-signal-grid"><article><span>01</span><p>Данные в CRM есть, но стандартные отчёты не отвечают на конкретный вопрос собственника.</p></article><article><span>02</span><p>Нужен независимый анализ без внедрения и без доступа к рабочей системе.</p></article><article><span>03</span><p>Выгрузка большая, а команда смотрит только итоговую выручку и количество сделок.</p></article><article><span>04</span><p>Нужно понять, какой сегмент, этап или менеджер формирует отклонение.</p></article></div></div></section>
+<section class="v19-section v19-section--tint" id="work"><div class="shell v19-work-grid"><div><p class="eyebrow">Что делаю</p><h2>Работа строится вокруг управленческого результата</h2><div class="v19-output"><h3>Что остаётся после работы</h3><ul><li>требования к выгрузке</li><li>проверка качества данных</li><li>воронка и причины потерь</li><li>ABC/RFM и клиентские сегменты</li><li>сравнение менеджеров</li><li>управленческие выводы и приоритеты</li></ul></div></div><ol class="v19-work-list"><li><span>01</span><p>Согласую управленческий вопрос и минимальный набор полей для выгрузки.</p></li><li><span>02</span><p>Проверяю качество данных и фиксирую ограничения анализа.</p></li><li><span>03</span><p>Считаю воронку, скорость, план-факт, клиентские сегменты, повторные продажи и показатели команды.</p></li><li><span>04</span><p>Ищу не просто корреляции, а точки, которые можно превратить в действие.</p></li><li><span>05</span><p>Формирую короткую управленческую записку и таблицы/дашборды по необходимости.</p></li></ol></div></section>
+<section class="v19-proof"><div class="shell v19-proof__grid">
+<div><p class="eyebrow eyebrow--dark">Подтверждённый опыт</p><h2>Аналитика — часть основной управленческой практики</h2></div>
+<p>В проектах использовались ABC/RFM, план-факт, прогноз, анализ глубины продаж, дашборды и показатели регулярности. Задача аналитики — не отчёт ради отчёта, а раннее обнаружение отклонения и выбор действия.</p></div></section><section class="v19-section v19-section--process">
+<div class="shell"><div class="v19-section-head"><p class="eyebrow">Как работаю</p><h2>Не рекомендации ради рекомендаций, а цикл внедрения</h2></div>
+<div class="v19-process"><article><span>01</span><h3>Диагностика</h3><p>Фиксирую исходную картину, ограничения данных и главный управленческий вопрос.</p></article><article><span>02</span><h3>Решение</h3><p>Определяю, какой участок системы нужно менять первым и по какому показателю проверять эффект.</p></article><article><span>03</span><h3>Внедрение</h3><p>Перевожу решение в воронку, CRM, KPI, регламент, аналитику или управленческий ритм.</p></article><article><span>04</span><h3>Первый месяц</h3><p>Смотрю, как изменение работает на реальных сделках и в реальной команде.</p></article><article><span>05</span><h3>Контроль результата</h3><p>Сравниваю факт с исходной точкой и фиксирую следующий приоритет.</p></article></div></div></section>
+<section class="v19-section"><div class="shell v19-faq-grid"><div><p class="eyebrow">FAQ</p><h2>Частые вопросы</h2></div><div class="v19-faq"><details><summary>Какие данные нужны?</summary><p>Зависит от вопроса. Обычно достаточно ID сделки/клиента, дат, стадий, сумм, менеджера, результата и нескольких сегментирующих признаков.</p></details><details><summary>Можно обезличить клиентов?</summary><p>Да. Для большинства коммерческих задач имя, телефон и другие персональные данные не нужны.</p></details><details><summary>Обязательно использовать SQL?</summary><p>Нет. Инструмент выбирается под объём и структуру данных. Для многих задач достаточно корректной выгрузки и табличной аналитики.</p></details><details><summary>Можно сделать только один конкретный расчёт?</summary><p>Да. Формат не обязан быть большим аудитом: можно разобрать одну воронку, базу, менеджеров или отдельную гипотезу.</p></details></div></div></section>
+<section class="v19-related"><div class="shell"><div class="v19-related-head"><p class="eyebrow">Связанные материалы</p><h2>Продолжить по задаче</h2></div><div class="v19-related-grid"><a href="../commercial-analytics/"><span>01</span><strong>Коммерческая аналитика</strong><i>↗</i></a><a href="../customer-base-reactivation/"><span>02</span><strong>Реактивация базы</strong><i>↗</i></a><a href="../crm-commercial-audit/"><span>03</span><strong>Аудит CRM</strong><i>↗</i></a><a href="../insights/commercial-analytics-plan-fact/"><span>04</span><strong>План-факт и прогноз</strong><i>↗</i></a></div></div></section>
+<section class="contact">
+<div class="shell contact__layout reveal">
+<div>
+<p class="eyebrow eyebrow--dark">Обсудить задачу</p>
+<h2>Начнём с фактов и текущих цифр</h2>
+<p>Опишите задачу, воронку или то, что сейчас не устраивает в продажах. Формат работы определим после понимания причины.</p>
+</div>
+<div class="contact__actions">
+<a class="button button--light" data-goal="telegram_contact" href="https://t.me/formularosta_pro" rel="noopener noreferrer" target="_blank">Telegram</a>
+<a class="button button--outline-light" data-goal="whatsapp_contact" href="https://wa.me/79112815471" rel="noopener noreferrer" target="_blank">WhatsApp</a>
+<small>@formularosta_pro · +7 911 281-54-71</small>
+</div>
+</div>
+</section></main><footer class="footer">
+<div class="shell footer__inner">
+<div class="footer__brand">
+<img alt="" decoding="async" height="600" loading="lazy" src="../assets/fr-emblem-silver.webp" width="525"/>
+<span><strong>Александр Кравец</strong><small>системное управление продажами и коммерцией</small></span>
+</div>
+<div class="footer__right">
+<span>Россия · Беларусь · Казахстан · страны СНГ · другие русскоязычные рынки</span>
+<span><a href="../privacy.html">Конфиденциальность</a> · <a href="../cookies.html">Cookies</a> · <button class="cookie-settings" hidden="" type="button">Настройки cookies</button></span>
+</div>
+</div>
+</footer>
+<script src="../analytics-config.js"></script>
+<script data-root="../" src="../site.js"></script>
+<div aria-label="Быстрый контакт" class="mobile-cta">
+<a data-goal="telegram_contact" href="https://t.me/formularosta_pro" rel="noopener noreferrer" target="_blank">Telegram</a>
+<a data-goal="whatsapp_contact" href="https://wa.me/79112815471" rel="noopener noreferrer" target="_blank">WhatsApp</a>
+</div></body></html>

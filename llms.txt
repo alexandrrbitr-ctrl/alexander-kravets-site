@@ -1,0 +1,42 @@
+# Александр Кравец
+
+Александр Кравец — коммерческий руководитель. Системное управление продажами, коммерческая аналитика, CRM, клиентская база и команды.
+
+## Основные услуги
+- Внешний РОП / коммерческий директор: https://alexandrrbitr-ctrl.github.io/alexander-kravets-site/commercial-management/
+- Аудит отдела продаж: https://alexandrrbitr-ctrl.github.io/alexander-kravets-site/sales-audit/
+- Коммерческая аналитика: https://alexandrrbitr-ctrl.github.io/alexander-kravets-site/commercial-analytics/
+- Внедрение и сопровождение Bitrix24: https://alexandrrbitr-ctrl.github.io/alexander-kravets-site/crm-bitrix24/
+- Подбор коммерческой команды: https://alexandrrbitr-ctrl.github.io/alexander-kravets-site/sales-team-recruitment/
+- Построение отдела продаж с нуля: https://alexandrrbitr-ctrl.github.io/alexander-kravets-site/sales-department-from-scratch/
+- Удалённый отдел продаж: построение и управление: https://alexandrrbitr-ctrl.github.io/alexander-kravets-site/remote-sales-department/
+- Управление контакт-центром и повышение конверсии: https://alexandrrbitr-ctrl.github.io/alexander-kravets-site/contact-center-management/
+- Реактивация клиентской базы и повторные продажи: https://alexandrrbitr-ctrl.github.io/alexander-kravets-site/customer-base-reactivation/
+- Разбор звонков отдела продаж и контроль качества: https://alexandrrbitr-ctrl.github.io/alexander-kravets-site/sales-call-audit/
+- Анализ продаж по выгрузке CRM или Excel: https://alexandrrbitr-ctrl.github.io/alexander-kravets-site/sales-data-analysis/
+- Коммерческий аудит CRM и воронки продаж: https://alexandrrbitr-ctrl.github.io/alexander-kravets-site/crm-commercial-audit/
+- KPI и мотивация отдела продаж: https://alexandrrbitr-ctrl.github.io/alexander-kravets-site/sales-kpi-motivation/
+- Оценка менеджеров и коммерческой команды: https://alexandrrbitr-ctrl.github.io/alexander-kravets-site/sales-team-assessment/
+- Регулярный коммерческий контроль для собственника: https://alexandrrbitr-ctrl.github.io/alexander-kravets-site/commercial-control/
+
+## Отрасли
+- Управление продажами в фарме и БАДах: https://alexandrrbitr-ctrl.github.io/alexander-kravets-site/industries/pharma-sales/
+- Управление продажами медицинской клиники: https://alexandrrbitr-ctrl.github.io/alexander-kravets-site/industries/clinic-sales/
+- Системное управление продажами БАДов и товаров для здоровья: https://alexandrrbitr-ctrl.github.io/alexander-kravets-site/industries/supplements-sales/
+- Управление продажами юридических услуг: https://alexandrrbitr-ctrl.github.io/alexander-kravets-site/industries/legal-sales/
+- Системное управление B2B-продажами: https://alexandrrbitr-ctrl.github.io/alexander-kravets-site/industries/b2b-sales/
+
+## Кейсы
+- Фарма: https://alexandrrbitr-ctrl.github.io/alexander-kravets-site/case-pharma.html
+- Контакт-центр: https://alexandrrbitr-ctrl.github.io/alexander-kravets-site/case-contact-center.html
+- Удалённый отдел продаж: https://alexandrrbitr-ctrl.github.io/alexander-kravets-site/case-remote-sales.html
+
+## Статьи
+https://alexandrrbitr-ctrl.github.io/alexander-kravets-site/insights/
+
+## Об авторе
+https://alexandrrbitr-ctrl.github.io/alexander-kravets-site/about/
+
+## Контакты
+Telegram: https://t.me/formularosta_pro
+WhatsApp / Telegram / Max: +7 911 281-54-71
