@@ -27,9 +27,12 @@
 - Системное управление B2B-продажами: https://alexandrrbitr-ctrl.github.io/alexander-kravets-site/industries/b2b-sales/
 
 ## Кейсы
-- Фарма: https://alexandrrbitr-ctrl.github.io/alexander-kravets-site/case-pharma.html
-- Контакт-центр: https://alexandrrbitr-ctrl.github.io/alexander-kravets-site/case-contact-center.html
-- Удалённый отдел продаж: https://alexandrrbitr-ctrl.github.io/alexander-kravets-site/case-remote-sales.html
+- Фарма: −11,0% → +11,55% · +22,55 п.п.. https://alexandrrbitr-ctrl.github.io/alexander-kravets-site/case-pharma.html
+- Арбитр Групп: 55,2% → 69,2% · 1 → 6 договоров. https://alexandrrbitr-ctrl.github.io/alexander-kravets-site/case-arbitr-group.html
+- Удалённый отдел: 134% / 150% · 33 договора. https://alexandrrbitr-ctrl.github.io/alexander-kravets-site/case-remote-sales.html
+- Контакт-центр: 20% → 40,5% · 51% → 73%. https://alexandrrbitr-ctrl.github.io/alexander-kravets-site/case-contact-center.html
+- Лидогенерация: +34% · CPL −20%+. https://alexandrrbitr-ctrl.github.io/alexander-kravets-site/case-lead-generation.html
+
 
 ## Статьи
 https://alexandrrbitr-ctrl.github.io/alexander-kravets-site/insights/
@@ -40,3 +43,7 @@ https://alexandrrbitr-ctrl.github.io/alexander-kravets-site/about/
 ## Контакты
 Telegram: https://t.me/formularosta_pro
 WhatsApp / Telegram / Max: +7 911 281-54-71
+
+## Экспертная площадка
+Telegram @formularosta_pro: https://t.me/formularosta_pro
+Разборы продаж, управления, аналитики, CRM и технологий.
