@@ -27,12 +27,11 @@
 - Системное управление B2B-продажами: https://alexandrrbitr-ctrl.github.io/alexander-kravets-site/industries/b2b-sales/
 
 ## Кейсы
-- Фарма: −11,0% → +11,55% · +22,55 п.п.. https://alexandrrbitr-ctrl.github.io/alexander-kravets-site/case-pharma.html
-- Арбитр Групп: 55,2% → 69,2% · 1 → 6 договоров. https://alexandrrbitr-ctrl.github.io/alexander-kravets-site/case-arbitr-group.html
-- Удалённый отдел: 134% / 150% · 33 договора. https://alexandrrbitr-ctrl.github.io/alexander-kravets-site/case-remote-sales.html
-- Контакт-центр: 20% → 40,5% · 51% → 73%. https://alexandrrbitr-ctrl.github.io/alexander-kravets-site/case-contact-center.html
-- Лидогенерация: +34% · CPL −20%+. https://alexandrrbitr-ctrl.github.io/alexander-kravets-site/case-lead-generation.html
-
+- Фармацевтика / товары для здоровья: I квартал 2026 к I кварталу 2025 — −11,0%; II квартал 2026 к II кварталу 2025 — +11,55%; Смена квартальной динамики — +22,55 п.п.. Квартальные показатели сравниваются с соответствующими кварталами 2025 года. База врачей, сегментация, KPI и CRM/BI. https://alexandrrbitr-ctrl.github.io/alexander-kravets-site/case-pharma.html
+- Юридические услуги · контакт-центр + продажи: Доходимость до встречи — 55,2% → 69,2%; Результат основного менеджера — 1 → 6 договоров в месяц. Доходимость — доля назначенных встреч, которые состоялись. Сопоставимая воронка: октябрь 2025 — март 2026. Результат менеджера приведён отдельно. https://alexandrrbitr-ctrl.github.io/alexander-kravets-site/case-legal-contact-center-sales.html
+- Удалённый отдел продаж · юридические услуги: Выполнение плана в 1-м месяце — 134%; Выполнение плана во 2-м месяце — 150%; Договоры в первый месяц — 33 договора. Запуск пяти менеджеров с нуля, трое без релевантного опыта. Адаптация, CRM, управление воронкой и KPI. https://alexandrrbitr-ctrl.github.io/alexander-kravets-site/case-remote-sales.html
+- Контакт-центр · сервисный бизнес: Конверсия лид → фактический визит — 20% → 40,5%; Конверсия назначение → фактический визит — 51% → 73%. Показатели до и после изменений. Поток 2,5–3 тыс. лидов в месяц; точные календарные границы не публикуются. https://alexandrrbitr-ctrl.github.io/alexander-kravets-site/case-contact-center.html
+- Лидогенерация · услуги: Рост количества качественных лидов — +34%; Снижение стоимости лида (CPL) — более 20%. Сравнение до и после изменений. Экономика источников и связь маркетинга с продажами; календарный период не публикуется. https://alexandrrbitr-ctrl.github.io/alexander-kravets-site/case-lead-generation.html
 
 ## Статьи
 https://alexandrrbitr-ctrl.github.io/alexander-kravets-site/insights/

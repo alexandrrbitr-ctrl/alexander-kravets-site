@@ -1,6 +1,33 @@
 (() => {
   "use strict";
 
+  // Measure fixed UI so content and anchor targets remain accessible after resizing.
+  const layoutHeader = document.querySelector(".header");
+  const layoutCta = document.querySelector(".mobile-cta");
+  const syncLayout = () => {
+    const height = layoutHeader?.getBoundingClientRect().height || 0;
+    document.documentElement.style.setProperty("--header-height", `${height}px`);
+    const fixed = layoutHeader && getComputedStyle(layoutHeader).position === "fixed";
+    document.documentElement.style.setProperty("--header-flow-offset", `${fixed ? height : 0}px`);
+    const ctaHeight = document.querySelector(".mobile-cta")?.getBoundingClientRect().height || 0;
+    document.documentElement.style.setProperty("--mobile-cta-space", `${ctaHeight ? ctaHeight + 28 : 0}px`);
+    const openMenu = document.querySelector(".mobile-nav:not([hidden])");
+    if (openMenu) openMenu.style.top = `${height}px`;
+  };
+  syncLayout();
+  window.addEventListener("resize", syncLayout);
+  if ("ResizeObserver" in window) {
+    const layoutObserver = new ResizeObserver(syncLayout);
+    if (layoutHeader) layoutObserver.observe(layoutHeader);
+    const observeCta = () => {
+      const cta = document.querySelector(".mobile-cta");
+      if (cta) layoutObserver.observe(cta);
+      syncLayout();
+    };
+    if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", observeCta, { once: true });
+    else observeCta();
+  }
+
   // Mobile navigation: clones the current page's desktop nav, preserving relative links.
   const toggle = document.querySelector(".menu-toggle");
   const desktopNav = document.querySelector(".nav");
