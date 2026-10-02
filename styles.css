@@ -1643,3 +1643,11 @@ main{padding-top:var(--header-flow-offset)}
  .footer__nav{max-width:none;gap:16px 22px}
  .v22-specialty{font-size:13px}
 }
+
+/* Formula Rosta: personal brand, silver system lines */
+.design-v17 .brand__copy small{text-transform:none;letter-spacing:.015em;line-height:1.4}
+.brand-context{max-width:740px;margin:22px 0 30px;padding-left:18px;border-left:2px solid var(--silver-dark);font-size:14px;line-height:1.7;color:var(--muted)}
+#system .v19-process{border-top-color:var(--silver-dark)}
+#system .v19-process article{border-bottom-color:var(--silver)}
+#system .v19-process article+article{border-left-color:var(--silver)}
+@media(max-width:680px){.design-v17 .brand__copy small{display:block;font-size:10px;margin-top:4px}.brand__detail{display:none}.brand-context{font-size:13px;padding-left:14px}}
