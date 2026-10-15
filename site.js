@@ -28,6 +28,28 @@
     else observeCta();
   }
 
+  // MAX direct messages stay absent until the owner supplies and confirms a profile URL.
+  // A channel URL must never become a direct-message button.
+  const maxDirectProfileUrl = "";
+  const maxDirectProfileVerified = false;
+  if (maxDirectProfileUrl && maxDirectProfileVerified) {
+    try {
+      const profile = new URL(maxDirectProfileUrl);
+      const isProfile = profile.protocol === "https:" && profile.hostname === "max.ru" &&
+        profile.pathname !== "/" && !profile.pathname.startsWith("/join/");
+      if (isProfile) document.querySelectorAll("[data-max-direct-slot]").forEach((slot) => {
+        const link = document.createElement("a");
+        link.href = profile.href;
+        link.textContent = "MAX — личные сообщения";
+        link.dataset.maxDirect = "";
+        link.target = "_blank";
+        link.rel = "noopener noreferrer";
+        slot.replaceChildren(link);
+        slot.hidden = false;
+      });
+    } catch { /* Keep the control unpublished for empty or invalid configuration. */ }
+  }
+
   // Mobile navigation: clones the current page's desktop nav, preserving relative links.
   const toggle = document.querySelector(".menu-toggle");
   const desktopNav = document.querySelector(".nav");
