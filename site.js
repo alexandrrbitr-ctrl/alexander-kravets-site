@@ -9,7 +9,9 @@
     document.documentElement.style.setProperty("--header-height", `${height}px`);
     const fixed = layoutHeader && getComputedStyle(layoutHeader).position === "fixed";
     document.documentElement.style.setProperty("--header-flow-offset", `${fixed ? height : 0}px`);
-    const ctaHeight = document.querySelector(".mobile-cta")?.getBoundingClientRect().height || 0;
+    const cta = document.querySelector(".mobile-cta");
+    const fixedCta = cta && getComputedStyle(cta).position === "fixed";
+    const ctaHeight = fixedCta ? cta.getBoundingClientRect().height : 0;
     document.documentElement.style.setProperty("--mobile-cta-space", `${ctaHeight ? ctaHeight + 28 : 0}px`);
     const openMenu = document.querySelector(".mobile-nav:not([hidden])");
     if (openMenu) openMenu.style.top = `${height}px`;
@@ -27,6 +29,22 @@
     if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", observeCta, { once: true });
     else observeCta();
   }
+
+  // Keep mobile messenger actions in normal flow, after the opening content.
+  // With JavaScript disabled the same non-fixed panel remains at the page end.
+  const placeMobileContacts = () => {
+    const panel = document.querySelector(".mobile-cta");
+    const opening = document.querySelector("main > section .shell");
+    if (!panel || !opening || !document.body.classList.contains("fr-premium")) return;
+    const metrics = Array.from(opening.children).find((child) =>
+      child.classList.contains("fr-metrics") || child.classList.contains("proof-line"));
+    opening.insertBefore(panel, metrics || null);
+    panel.dataset.placement = "flow";
+    syncLayout();
+  };
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", placeMobileContacts, { once: true });
+  } else placeMobileContacts();
 
   // MAX direct messages stay absent until the owner supplies and confirms a profile URL.
   // A channel URL must never become a direct-message button.

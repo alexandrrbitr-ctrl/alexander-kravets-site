@@ -320,3 +320,13 @@
 .fr-premium .fr-dark .article-meta a{color:#d7b386;font-size:14px;min-height:44px;display:inline-flex;align-items:center}
 @media(max-width:1000px){.fr-premium .service-proof__grid{grid-template-columns:minmax(0,1fr);gap:22px}}
 @media(max-width:680px){.fr-premium .hotfix-results-grid{grid-template-columns:minmax(0,1fr)}.fr-premium .hotfix-results-grid article{padding:24px}}
+
+/* Messenger actions occupy their own row instead of covering the viewport. */
+@media(max-width:680px){
+ body.fr-premium{padding-bottom:env(safe-area-inset-bottom,0px)}
+ html:has(body.fr-premium){scroll-padding-bottom:0}
+ .fr-premium .mobile-cta{position:static;inset:auto;z-index:auto;width:100%;grid-column:1/-1;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin:24px 0 0;box-shadow:none;visibility:visible}
+ .fr-premium .shell[class*="__grid"]>.mobile-cta{margin-top:0;order:99}
+ .fr-premium .mobile-cta a{min-height:48px;font-size:13px;border:1px solid var(--fr-line)}
+ .fr-premium .fr-dark .mobile-cta a:first-child{background:var(--fr-bronze);color:var(--fr-night-deep);border-color:var(--fr-bronze)}
+}
