@@ -1,0 +1,30 @@
+{
+  "base_commit": "1452cb17ccfca0c924ed88b27cbdb5c452f89be7",
+  "branch": "v28-contacts",
+  "static": {
+    "html_pages": 57,
+    "internal_links_and_resources": 1710,
+    "jsonld_blocks": 59,
+    "preserved_paragraphs_and_items": 1424,
+    "sitemap_urls": 54,
+    "errors": []
+  },
+  "browser": {
+    "checks": 285,
+    "chooserChecks": 434,
+    "menuContactChecks": 216,
+    "routes": 57,
+    "errors": [],
+    "contrast": []
+  },
+  "navigation": {
+    "menuChecks": 54,
+    "faqChecks": 73,
+    "maxGuardScenarios": 6,
+    "errors": []
+  },
+  "interaction": {
+    "checks": 14,
+    "errors": []
+  }
+}
