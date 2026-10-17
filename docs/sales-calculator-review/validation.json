@@ -1,0 +1,32 @@
+{
+  "base_commit": "0789417374d1a5f665297abc32160cc9b657b91f",
+  "branch": "feature-sales-calculator",
+  "v28_publication": {
+    "commit": "0789417374d1a5f665297abc32160cc9b657b91f",
+    "workflow_run": 39022687588,
+    "status": "completed",
+    "conclusion": "success",
+    "live_browser_pages": 10,
+    "live_html_css_js_match_approved_commit": true
+  },
+  "model_tests": {
+    "tests": 15,
+    "passed": 15,
+    "failed": 0
+  },
+  "browser": {
+    "pages": 59,
+    "checks": 354,
+    "privacyChecks": 2,
+    "uiChecks": 8,
+    "errors": []
+  },
+  "static": {
+    "pages": 59,
+    "internal_links_resources": 1883,
+    "jsonld_blocks": 61,
+    "sitemap_urls": 56,
+    "errors": []
+  },
+  "source_zip_sha256": "92050be64ca69a0b1cb1d4dbfe5fe696b30a15db379f23bcaf79f97dd0b31722"
+}

@@ -248,7 +248,7 @@
   // Privacy-first free analytics loader. IDs are intentionally empty in the prototype.
   const scriptTag = document.currentScript;
   const rootPath = scriptTag?.dataset?.root || "";
-  const cfg = window.KRAVETS_ANALYTICS || {};
+  const cfg = document.body.hasAttribute("data-private-tool") ? {} : (window.KRAVETS_ANALYTICS || {});
   const consentKey = "kravets_analytics_consent_v1";
 
   function currentConsent() { try { return localStorage.getItem(consentKey); } catch(e) { return null; } }
@@ -325,7 +325,8 @@
   const currentPath = location.pathname.replace(/\/index\.html$/, '/');
   const serviceRoutes = ["commercial-management", "sales-audit", "commercial-analytics", "crm-bitrix24", "sales-team-recruitment", "services", "sales-department-from-scratch", "remote-sales-department", "contact-center-management", "customer-base-reactivation", "sales-call-audit", "sales-data-analysis", "crm-commercial-audit", "sales-kpi-motivation", "sales-team-assessment", "commercial-control"];
   let currentSection = '';
-  if (/\/insights\//.test(currentPath)) currentSection = 'insights';
+  if (/\/tools\//.test(currentPath)) currentSection = 'tools';
+  else if (/\/insights\//.test(currentPath)) currentSection = 'insights';
   else if (/\/industries\//.test(currentPath)) currentSection = 'industries';
   else if (/\/(?:cases\.html|case-[^/]+\.html)$/.test(currentPath)) currentSection = 'cases';
   else if (/\/about\//.test(currentPath)) currentSection = 'about';

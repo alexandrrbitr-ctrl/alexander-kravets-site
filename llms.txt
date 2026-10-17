@@ -49,3 +49,8 @@ MAX — канал «Формула роста»: https://max.ru/join/k2QL7Pt9u5
 https://alexandrrbitr-ctrl.github.io/alexander-kravets-site/insights/
 MAX — канал «Формула роста»: https://max.ru/join/k2QL7Pt9u58fANz_TeDPS4544NNb7YW2O73SHhbTSmk
 Telegram и WhatsApp предназначены для личных сообщений. Ссылка на личный профиль MAX пока не предоставлена.
+
+## Инструменты
+- Каталог готовых инструментов: https://alexandrrbitr-ctrl.github.io/alexander-kravets-site/tools/
+- Калькулятор экономики отдела продаж: https://alexandrrbitr-ctrl.github.io/alexander-kravets-site/tools/sales-economics/
+Расчёты выполняются локально; показатели не сохраняются и не отправляются в аналитику или мессенджеры. Условная модель за один месяц, не бухгалтерская прибыль и не гарантированный прогноз.
