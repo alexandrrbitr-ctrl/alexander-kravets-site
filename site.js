@@ -3,16 +3,11 @@
 
   // Measure fixed UI so content and anchor targets remain accessible after resizing.
   const layoutHeader = document.querySelector(".header");
-  const layoutCta = document.querySelector(".mobile-cta");
   const syncLayout = () => {
     const height = layoutHeader?.getBoundingClientRect().height || 0;
     document.documentElement.style.setProperty("--header-height", `${height}px`);
     const fixed = layoutHeader && getComputedStyle(layoutHeader).position === "fixed";
     document.documentElement.style.setProperty("--header-flow-offset", `${fixed ? height : 0}px`);
-    const cta = document.querySelector(".mobile-cta");
-    const fixedCta = cta && getComputedStyle(cta).position === "fixed";
-    const ctaHeight = fixedCta ? cta.getBoundingClientRect().height : 0;
-    document.documentElement.style.setProperty("--mobile-cta-space", `${ctaHeight ? ctaHeight + 28 : 0}px`);
     const openMenu = document.querySelector(".mobile-nav:not([hidden])");
     if (openMenu) openMenu.style.top = `${height}px`;
   };
@@ -21,30 +16,7 @@
   if ("ResizeObserver" in window) {
     const layoutObserver = new ResizeObserver(syncLayout);
     if (layoutHeader) layoutObserver.observe(layoutHeader);
-    const observeCta = () => {
-      const cta = document.querySelector(".mobile-cta");
-      if (cta) layoutObserver.observe(cta);
-      syncLayout();
-    };
-    if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", observeCta, { once: true });
-    else observeCta();
   }
-
-  // Keep mobile messenger actions in normal flow, after the opening content.
-  // With JavaScript disabled the same non-fixed panel remains at the page end.
-  const placeMobileContacts = () => {
-    const panel = document.querySelector(".mobile-cta");
-    const opening = document.querySelector("main > section .shell");
-    if (!panel || !opening || !document.body.classList.contains("fr-premium")) return;
-    const metrics = Array.from(opening.children).find((child) =>
-      child.classList.contains("fr-metrics") || child.classList.contains("proof-line"));
-    opening.insertBefore(panel, metrics || null);
-    panel.dataset.placement = "flow";
-    syncLayout();
-  };
-  if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", placeMobileContacts, { once: true });
-  } else placeMobileContacts();
 
   // Contacts: personal chats and editorial channels have distinct destinations.
   const personalTelegramUrl = "https://t.me/Alekdvv";
@@ -91,6 +63,7 @@
     document.body.appendChild(mobileNav);
 
     const setMenu = (open) => {
+      if (open) closeContacts(false);
       toggle.setAttribute("aria-expanded", open ? "true" : "false");
       toggle.setAttribute("aria-label", open ? "Закрыть меню" : "Открыть меню");
       mobileNav.style.top = `${document.querySelector(".header")?.getBoundingClientRect().height || 0}px`;
@@ -123,91 +96,139 @@
   }
 
 
-  // A non-modal, in-flow dialog reserves space instead of covering page content.
-  // Links remain usable without JavaScript, including "open in a new tab".
-  let contactDock = null;
-  let contactDialog = null;
+  // One floating, non-modal contact window shared by every page and CTA.
+  const contactWidget = document.createElement("div");
+  contactWidget.className = "fr-contact-widget";
+  contactWidget.innerHTML = `<dialog class="fr-contact-dialog" id="contact-chooser" aria-labelledby="contact-chooser-title" aria-describedby="contact-chooser-description">
+    <div class="fr-contact-dialog__heading"><div><p class="fr-contact-dialog__eyebrow">Связь с Александром</p><h2 id="contact-chooser-title">Обсудить задачу</h2></div><button class="fr-contact-dialog__close" type="button" aria-label="Закрыть выбор мессенджера">×</button></div>
+    <p id="contact-chooser-description">Личные сообщения — Telegram и WhatsApp.</p>
+    <div class="fr-contact-dialog__links">
+      <a class="fr-messenger" href="${personalTelegramUrl}" target="_blank" rel="noopener noreferrer" data-goal="telegram_contact"><img src="${new URL("messenger-telegram.svg", contactAssets)}" width="30" height="30" alt=""/><span><strong>Telegram</strong><small>Личные сообщения · @Alekdvv</small></span><span aria-hidden="true">↗</span></a>
+      <a class="fr-messenger" href="${whatsappUrl}" target="_blank" rel="noopener noreferrer" data-goal="whatsapp_contact"><img src="${new URL("messenger-whatsapp.svg", contactAssets)}" width="30" height="30" alt=""/><span><strong>WhatsApp</strong><small>Личные сообщения</small></span><span aria-hidden="true">↗</span></a>
+      <a class="fr-messenger fr-messenger--channel" href="${maxChannelUrl}" target="_blank" rel="noopener noreferrer" data-max-channel><img src="${new URL("messenger-max.svg", contactAssets)}" width="30" height="30" alt=""/><span><strong>MAX</strong><small>Канал «Формула роста»</small></span><span aria-hidden="true">↗</span></a>
+      <span data-max-direct-slot hidden></span>
+    </div>
+  </dialog>
+  <button class="fr-contact-toggle" type="button" data-contact-chooser data-goal="contact_chooser_open" aria-haspopup="dialog" aria-controls="contact-chooser" aria-expanded="false" aria-label="Открыть способы связи"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.4 8.4 0 0 1-3.8-.9L3 21l1.9-5.7a8.4 8.4 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.4 8.4 0 0 1 3.8-.9h.5a8.5 8.5 0 0 1 8 8v.5Z"/><path d="M8 10h8M8 14h5"/></svg></button>`;
+  document.body.appendChild(contactWidget);
+  const contactDialog = contactWidget.querySelector("dialog");
+  const contactToggle = contactWidget.querySelector(".fr-contact-toggle");
   let contactTrigger = null;
-  const closeContacts = (restoreFocus = true) => {
-    if (!contactDialog?.open) return;
+  let observedConsent = null;
+  let contactFrame = 0;
+
+  function closeContacts(restoreFocus = true) {
+    if (!contactDialog.open) return;
+    const outsideFocus = !contactDialog.contains(document.activeElement) ? document.activeElement : null;
     contactDialog.close();
-    contactDock.hidden = true;
+    // A non-modal dialog can restore its original focus automatically. Preserve
+    // the new target when the user tabs out, opens the menu or clicks elsewhere.
+    if (!restoreFocus && outsideFocus) outsideFocus.focus({ preventScroll: true });
     document.querySelectorAll("[data-contact-chooser]").forEach((el) => el.setAttribute("aria-expanded", "false"));
+    contactToggle.setAttribute("aria-label", "Открыть способы связи");
     if (restoreFocus) {
-      const target = contactTrigger?.getClientRects().length ? contactTrigger : toggle;
-      target?.focus({ preventScroll: true });
-      // Closing a dock above the viewport can move its trigger out of view.
-      const rect = target?.getBoundingClientRect();
+      const rect = contactTrigger?.getBoundingClientRect();
       const headerBottom = layoutHeader?.getBoundingClientRect().bottom || 0;
-      if (rect && (rect.top < headerBottom || rect.bottom > innerHeight)) {
-        target.scrollIntoView({ block: "center", behavior: "instant" });
-      }
+      const visibleTrigger = rect && rect.width && rect.height &&
+        rect.bottom > (contactTrigger.closest(".header") ? 0 : headerBottom) && rect.top < innerHeight;
+      const target = visibleTrigger ? contactTrigger : contactToggle;
+      target.focus({ preventScroll: true });
     }
-  };
-  const createContactDialog = () => {
-    if (contactDialog) return;
-    contactDock = document.createElement("div");
-    contactDock.className = "fr-contact-dock";
-    contactDock.hidden = true;
-    contactDock.innerHTML = `<div class="fr-contact-dock__inner"><dialog class="fr-contact-dialog" id="contact-chooser" aria-labelledby="contact-chooser-title" aria-describedby="contact-chooser-description">
-      <div class="fr-contact-dialog__heading"><div><p class="fr-contact-dialog__eyebrow">Личная связь</p><h2 id="contact-chooser-title">Обсудить задачу</h2></div><button class="fr-contact-dialog__close" type="button" aria-label="Закрыть выбор мессенджера">×</button></div>
-      <p id="contact-chooser-description">Выберите, где удобнее написать мне.</p>
-      <div class="fr-contact-dialog__chats">
-        <a class="fr-messenger" href="${personalTelegramUrl}" target="_blank" rel="noopener noreferrer" data-goal="telegram_contact"><img src="${new URL("messenger-telegram.svg", contactAssets)}" width="32" height="32" alt=""/><span><strong>Telegram</strong><small>Личные сообщения · @Alekdvv</small></span><span aria-hidden="true">↗</span></a>
-        <a class="fr-messenger" href="${whatsappUrl}" target="_blank" rel="noopener noreferrer" data-goal="whatsapp_contact"><img src="${new URL("messenger-whatsapp.svg", contactAssets)}" width="32" height="32" alt=""/><span><strong>WhatsApp</strong><small>Личные сообщения</small></span><span aria-hidden="true">↗</span></a>
-      </div>
-      <div class="fr-contact-dialog__channel"><p class="fr-contact-dialog__eyebrow">Материалы и новости</p>
-        <a class="fr-messenger fr-messenger--channel" href="${maxChannelUrl}" target="_blank" rel="noopener noreferrer" data-max-channel><img src="${new URL("messenger-max.svg", contactAssets)}" width="30" height="30" alt=""/><span><strong>MAX</strong><small>Канал «Формула роста»</small></span><span aria-hidden="true">↗</span></a>
-        <span data-max-direct-slot hidden></span><p class="fr-contact-dialog__note">Личный чат MAX пока недоступен.</p>
-      </div>
-    </dialog></div>`;
-    contactDialog = contactDock.querySelector("dialog");
-    contactDock.querySelector("button").addEventListener("click", () => closeContacts());
-    contactDialog.addEventListener("cancel", (event) => { event.preventDefault(); closeContacts(); });
-    contactDialog.addEventListener("click", (event) => {
-      if (event.target.closest("a")) setTimeout(() => closeContacts(), 0);
+  }
+
+  const queueContactLayout = () => {
+    if (!contactFrame) contactFrame = requestAnimationFrame(() => {
+      contactFrame = 0;
+      syncContactLayout();
     });
   };
+  const contactResize = "ResizeObserver" in window ? new ResizeObserver(queueContactLayout) : null;
+  if (layoutHeader) contactResize?.observe(layoutHeader);
+  function syncContactLayout() {
+    const viewport = window.visualViewport;
+    const viewportBottom = viewport ? Math.min(innerHeight, viewport.offsetTop + viewport.height) : innerHeight;
+    contactWidget.style.setProperty("--fr-contact-viewport-offset", `${Math.max(0, innerHeight - viewportBottom)}px`);
+    contactWidget.style.setProperty("--fr-contact-cookie-offset", "0px");
+    const consent = document.querySelector(".cookie-consent");
+    if (consent !== observedConsent) {
+      if (observedConsent) contactResize?.unobserve(observedConsent);
+      if (consent) contactResize?.observe(consent);
+      observedConsent = consent;
+    }
+    const consentVisible = consent && !consent.hidden && consent.getClientRects().length && getComputedStyle(consent).visibility !== "hidden";
+    if (consentVisible) {
+      const banner = consent.getBoundingClientRect();
+      const button = contactToggle.getBoundingClientRect();
+      // The popup is wider than its launcher: reserve its full horizontal footprint.
+      const popupWidth = parseFloat(getComputedStyle(contactDialog).width) || 336;
+      const contactLeft = Math.min(button.left, button.right - Math.min(popupWidth, innerWidth - 32));
+      if (banner.right > contactLeft - 12 && banner.left < button.right + 12) {
+        contactWidget.style.setProperty("--fr-contact-cookie-offset", `${Math.max(0, button.bottom - banner.top + 12)}px`);
+      }
+    }
+    const button = contactToggle.getBoundingClientRect();
+    const headerBottom = layoutHeader?.getBoundingClientRect().bottom || 0;
+    const topLimit = Math.max(headerBottom + 12, (viewport?.offsetTop || 0) + 16);
+    const available = Math.max(0, button.top - 12 - topLimit);
+    contactWidget.style.setProperty("--fr-contact-available-height", `${Math.floor(available)}px`);
+    // An unusually tall cookie notice has priority over the chat control.
+    contactWidget.toggleAttribute("data-obscured", available < 100);
+    if (document.body.classList.contains("menu-open") || available < 100) closeContacts(false);
+  }
   const openContacts = (trigger) => {
-    if (contactDialog?.open && contactTrigger === trigger) { closeContacts(); return; }
-    closeContacts(false);
-    createContactDialog();
+    if (contactDialog.open && (contactTrigger === trigger || trigger === contactToggle)) { closeContacts(); return; }
+    syncContactLayout();
+    if (contactWidget.hasAttribute("data-obscured")) {
+      document.querySelector(".cookie-consent:not([hidden]) button")?.focus();
+      return;
+    }
     contactTrigger = trigger;
-    const inHeader = !!trigger.closest(".header, .mobile-nav");
-    const actions = trigger.closest(".hero__actions, .contact__actions");
-    const section = trigger.closest("main section");
-    const standalone = inHeader || !actions;
-    contactDock.classList.toggle("fr-contact-dock--standalone", standalone);
-    contactDock.classList.toggle("fr-contact-dock--header", inHeader);
-    if (inHeader) layoutHeader.after(contactDock);
-    else if (actions?.classList.contains("contact__actions")) actions.appendChild(contactDock);
-    else if (actions) actions.after(contactDock);
-    else (section || document.querySelector("main") || layoutHeader).after(contactDock);
-    contactDock.hidden = false;
     populateMaxDirectSlots();
-    contactDialog.show();
+    document.querySelectorAll("[data-contact-chooser]").forEach((el) => el.setAttribute("aria-expanded", "false"));
+    if (!contactDialog.open) contactDialog.show();
     trigger.setAttribute("aria-expanded", "true");
+    contactToggle.setAttribute("aria-expanded", "true");
+    contactToggle.setAttribute("aria-label", "Закрыть способы связи");
     contactDialog.querySelector(".fr-messenger").focus({ preventScroll: true });
-    contactDialog.scrollIntoView({ block: "nearest", behavior: "instant" });
   };
+  contactWidget.querySelector(".fr-contact-dialog__close").addEventListener("click", () => closeContacts());
+  contactDialog.addEventListener("cancel", (event) => { event.preventDefault(); closeContacts(); });
+  contactDialog.addEventListener("click", (event) => {
+    if (event.target.closest("a")) setTimeout(() => closeContacts(), 0);
+  });
   document.addEventListener("click", (event) => {
     const trigger = event.target.closest("[data-contact-chooser]");
     if (trigger && !event.ctrlKey && !event.metaKey && !event.shiftKey && !event.altKey) {
       event.preventDefault();
       openContacts(trigger);
-    } else if (event.target.closest(".menu-toggle")) closeContacts(false);
+    } else if (!contactWidget.contains(event.target)) {
+      // Let another link or control receive focus normally after an outside click.
+      const interactive = event.target.closest("a,button,input,select,textarea,summary,[tabindex]");
+      closeContacts(!interactive);
+    }
   });
   document.addEventListener("keydown", (event) => {
-    if (event.key === "Escape" && contactDialog?.open) {
+    if (event.key === "Escape" && contactDialog.open) {
       event.preventDefault(); closeContacts();
-    } else if (event.key === " " && event.target.matches("[data-contact-chooser]")) {
+    } else if (event.key === "Tab" && contactDialog.open && !event.shiftKey && event.target === contactToggle) {
+      // Tab continues to the browser/page normally; this is not a modal focus trap.
+      closeContacts(false);
+    } else if (event.key === " " && event.target.matches("a[data-contact-chooser]")) {
       event.preventDefault(); event.target.click();
     }
   });
-
-  // Keep aria-controls valid before the first activation, without displaying a window.
-  createContactDialog();
-  document.body.appendChild(contactDock);
+  document.addEventListener("focusin", (event) => {
+    if (contactDialog.open && !contactWidget.contains(event.target) && !event.target.matches("[data-contact-chooser]")) closeContacts(false);
+  });
+  window.addEventListener("resize", queueContactLayout);
+  window.addEventListener("scroll", queueContactLayout, { passive: true });
+  window.visualViewport?.addEventListener("resize", queueContactLayout);
+  window.visualViewport?.addEventListener("scroll", queueContactLayout, { passive: true });
+  // Cookie settings may appear after the contact widget or be reopened later.
+  new MutationObserver((records) => {
+    if (records.some((record) => record.target === document.body || record.target.matches?.(".cookie-consent"))) queueContactLayout();
+  }).observe(document.body, { childList: true, subtree: true, attributes: true, attributeFilter: ["hidden", "class", "style"] });
+  syncContactLayout();
 
   // Subtle viewport reveals with a safe fallback.
   const revealItems = document.querySelectorAll(".reveal, .case-feature");

@@ -1,17 +1,19 @@
 {
-  "base_commit": "1452cb17ccfca0c924ed88b27cbdb5c452f89be7",
+  "base_commit": "7326b3f492de27e822f78023cd552d9411d0c601",
   "branch": "v28-contacts",
   "static": {
     "html_pages": 57,
+    "old_mobile_panels_removed": 56,
     "internal_links_and_resources": 1710,
     "jsonld_blocks": 59,
     "preserved_paragraphs_and_items": 1424,
     "sitemap_urls": 54,
+    "html_change_scope": "Removal of old mobile-cta blocks only; all other HTML and SEO unchanged",
     "errors": []
   },
   "browser": {
     "checks": 285,
-    "chooserChecks": 434,
+    "chooserChecks": 1004,
     "menuContactChecks": 216,
     "routes": 57,
     "errors": [],
@@ -24,7 +26,8 @@
     "errors": []
   },
   "interaction": {
-    "checks": 14,
+    "checks": 112,
+    "cookieChecks": 9,
     "errors": []
   }
 }
