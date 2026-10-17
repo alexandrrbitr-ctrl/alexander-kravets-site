@@ -1,0 +1,98 @@
+{
+  "base_commit": "4aed041f9d65e5633ca3330daddf7fed5142a8e6",
+  "branch": "feature-services-packaging",
+  "static": {
+    "base_commit": "4aed041f9d65e5633ca3330daddf7fed5142a8e6",
+    "html_pages": 57,
+    "changed_html_pages": [
+      "about/index.html",
+      "index.html",
+      "industries/b2b-sales/index.html",
+      "industries/clinic-sales/index.html",
+      "industries/legal-sales/index.html",
+      "industries/pharma-sales/index.html",
+      "industries/supplements-sales/index.html",
+      "insights/bitrix24-sales-implementation/index.html",
+      "services/index.html"
+    ],
+    "sitemap_urls": 54,
+    "internal_links_resources": 1720,
+    "jsonld_blocks": 59,
+    "head_metadata_h1_preserved": true,
+    "schema_change": "Home ProfessionalService description qualifies scope; pharma FAQ answer synchronized. Identifiers and other schema preserved.",
+    "header_footer_and_contact_code_unchanged": true,
+    "confirmed_case_files_unchanged": true,
+    "unconditional_first_month_promises_found": 0,
+    "new_pages": 0,
+    "directory_links": 7,
+    "new_project_ctas": 2,
+    "errors": []
+  },
+  "pages_browser": {
+    "pages": 57,
+    "checks": 285,
+    "widths": [
+      360,
+      390,
+      430,
+      768,
+      1440
+    ],
+    "errors": []
+  },
+  "catalog_functional": {
+    "catalog_widths": [
+      360,
+      390,
+      430,
+      768,
+      1440
+    ],
+    "scenario_and_directory_anchor_checks": 50,
+    "keyboard_cta_checks": 22,
+    "catalog_link_http_checks": 23,
+    "errors": []
+  },
+  "contacts": {
+    "widths": [
+      360,
+      390,
+      430,
+      768,
+      1440
+    ],
+    "cross_outside_checks": 20,
+    "messenger_destination_checks": 15,
+    "messenger_requests_intercepted": true,
+    "errors": []
+  },
+  "compact_directory": [
+    {
+      "width": 360,
+      "directoryHeight": 247,
+      "linkCount": 7,
+      "minTapHeight": 44
+    },
+    {
+      "width": 390,
+      "directoryHeight": 247,
+      "linkCount": 7,
+      "minTapHeight": 44
+    },
+    {
+      "width": 1440,
+      "directoryHeight": 97,
+      "linkCount": 7,
+      "minTapHeight": 44
+    }
+  ],
+  "node_check_site_js": "passed: exit 0",
+  "git_diff_check": "passed: exit 0",
+  "visual_inspection": [
+    "mobile directory at 390 px",
+    "desktop directory at 1440 px",
+    "mobile flagship with launch CTA",
+    "full catalog screenshots regenerated at 390 and 1440 px"
+  ],
+  "publication": "Not merged into main. Local browser review only."
+}
