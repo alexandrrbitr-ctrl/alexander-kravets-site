@@ -1,0 +1,457 @@
+{
+  "pages": 59,
+  "widths": [
+    360,
+    390,
+    768,
+    1440
+  ],
+  "renders": 236,
+  "chartRenders": 20,
+  "menus": 112,
+  "choosers": 236,
+  "network": [],
+  "measurements": [
+    {
+      "route": "case-contact-center.html",
+      "width": 360,
+      "values": [
+        "20%",
+        "40,5%",
+        "51%",
+        "73%"
+      ],
+      "bars": [
+        {
+          "fraction": 0.19996675531914893,
+          "within": true
+        },
+        {
+          "fraction": 0.4049756205673759,
+          "within": true
+        },
+        {
+          "fraction": 0.5099734042553191,
+          "within": true
+        },
+        {
+          "fraction": 0.7299977836879432,
+          "within": true
+        }
+      ]
+    },
+    {
+      "route": "case-lead-generation.html",
+      "width": 360,
+      "values": [
+        "43%",
+        "52%"
+      ],
+      "bars": [
+        {
+          "fraction": 0.4299645390070922,
+          "within": true
+        },
+        {
+          "fraction": 0.5199468085106383,
+          "within": true
+        }
+      ]
+    },
+    {
+      "route": "case-legal-contact-center-sales.html",
+      "width": 360,
+      "values": [
+        "55,2%",
+        "60,1%",
+        "66,2%",
+        "69,2%"
+      ],
+      "bars": [
+        {
+          "fraction": 0.5519725177304965,
+          "within": true
+        },
+        {
+          "fraction": 0.6009530141843972,
+          "within": true
+        },
+        {
+          "fraction": 0.6619570035460993,
+          "within": true
+        },
+        {
+          "fraction": 0.6919880319148937,
+          "within": true
+        }
+      ]
+    },
+    {
+      "route": "case-pharma.html",
+      "width": 360,
+      "values": [
+        "+25%",
+        "+30%"
+      ],
+      "bars": [
+        {
+          "fraction": 0.5,
+          "within": true
+        },
+        {
+          "fraction": 0.5999556737588653,
+          "within": true
+        }
+      ]
+    },
+    {
+      "route": "case-remote-sales.html",
+      "width": 360,
+      "values": [
+        "134%",
+        "150%"
+      ],
+      "bars": [
+        {
+          "fraction": 0.8374889184397163,
+          "within": true
+        },
+        {
+          "fraction": 0.9375,
+          "within": true
+        }
+      ]
+    },
+    {
+      "route": "case-contact-center.html",
+      "width": 390,
+      "values": [
+        "20%",
+        "40,5%",
+        "51%",
+        "73%"
+      ],
+      "bars": [
+        {
+          "fraction": 0.19996995192307693,
+          "within": true
+        },
+        {
+          "fraction": 0.4049979967948718,
+          "within": true
+        },
+        {
+          "fraction": 0.5099659455128205,
+          "within": true
+        },
+        {
+          "fraction": 0.7299679487179487,
+          "within": true
+        }
+      ]
+    },
+    {
+      "route": "case-lead-generation.html",
+      "width": 390,
+      "values": [
+        "43%",
+        "52%"
+      ],
+      "bars": [
+        {
+          "fraction": 0.4299879807692308,
+          "within": true
+        },
+        {
+          "fraction": 0.5199819711538461,
+          "within": true
+        }
+      ]
+    },
+    {
+      "route": "case-legal-contact-center-sales.html",
+      "width": 390,
+      "values": [
+        "55,2%",
+        "60,1%",
+        "66,2%",
+        "69,2%"
+      ],
+      "bars": [
+        {
+          "fraction": 0.5519831730769231,
+          "within": true
+        },
+        {
+          "fraction": 0.6009615384615384,
+          "within": true
+        },
+        {
+          "fraction": 0.6619591346153846,
+          "within": true
+        },
+        {
+          "fraction": 0.6919571314102564,
+          "within": true
+        }
+      ]
+    },
+    {
+      "route": "case-pharma.html",
+      "width": 390,
+      "values": [
+        "+25%",
+        "+30%"
+      ],
+      "bars": [
+        {
+          "fraction": 0.5,
+          "within": true
+        },
+        {
+          "fraction": 0.5999599358974359,
+          "within": true
+        }
+      ]
+    },
+    {
+      "route": "case-remote-sales.html",
+      "width": 390,
+      "values": [
+        "134%",
+        "150%"
+      ],
+      "bars": [
+        {
+          "fraction": 0.8374899839743589,
+          "within": true
+        },
+        {
+          "fraction": 0.9375,
+          "within": true
+        }
+      ]
+    },
+    {
+      "route": "case-contact-center.html",
+      "width": 768,
+      "values": [
+        "20%",
+        "40,5%",
+        "51%",
+        "73%"
+      ],
+      "bars": [
+        {
+          "fraction": 0.19996686547382372,
+          "within": true
+        },
+        {
+          "fraction": 0.4049867461895295,
+          "within": true
+        },
+        {
+          "fraction": 0.509981776010603,
+          "within": true
+        },
+        {
+          "fraction": 0.7299950298210736,
+          "within": true
+        }
+      ]
+    },
+    {
+      "route": "case-lead-generation.html",
+      "width": 768,
+      "values": [
+        "43%",
+        "52%"
+      ],
+      "bars": [
+        {
+          "fraction": 0.42996189529489726,
+          "within": true
+        },
+        {
+          "fraction": 0.5199635520212061,
+          "within": true
+        }
+      ]
+    },
+    {
+      "route": "case-legal-contact-center-sales.html",
+      "width": 768,
+      "values": [
+        "55,2%",
+        "60,1%",
+        "66,2%",
+        "69,2%"
+      ],
+      "bars": [
+        {
+          "fraction": 0.5519797879390325,
+          "within": true
+        },
+        {
+          "fraction": 0.6009774685222001,
+          "within": true
+        },
+        {
+          "fraction": 0.6619864148442677,
+          "within": true
+        },
+        {
+          "fraction": 0.6919731610337972,
+          "within": true
+        }
+      ]
+    },
+    {
+      "route": "case-pharma.html",
+      "width": 768,
+      "values": [
+        "+25%",
+        "+30%"
+      ],
+      "bars": [
+        {
+          "fraction": 0.5,
+          "within": true
+        },
+        {
+          "fraction": 0.5999834327369119,
+          "within": true
+        }
+      ]
+    },
+    {
+      "route": "case-remote-sales.html",
+      "width": 768,
+      "values": [
+        "134%",
+        "150%"
+      ],
+      "bars": [
+        {
+          "fraction": 0.8374751491053678,
+          "within": true
+        },
+        {
+          "fraction": 0.9375,
+          "within": true
+        }
+      ]
+    },
+    {
+      "route": "case-contact-center.html",
+      "width": 1440,
+      "values": [
+        "20%",
+        "40,5%",
+        "51%",
+        "73%"
+      ],
+      "bars": [
+        {
+          "fraction": 0.2,
+          "within": true
+        },
+        {
+          "fraction": 0.40497936016511865,
+          "within": true
+        },
+        {
+          "fraction": 0.509984520123839,
+          "within": true
+        },
+        {
+          "fraction": 0.7299793601651187,
+          "within": true
+        }
+      ]
+    },
+    {
+      "route": "case-lead-generation.html",
+      "width": 1440,
+      "values": [
+        "43%",
+        "52%"
+      ],
+      "bars": [
+        {
+          "fraction": 0.4299793601651187,
+          "within": true
+        },
+        {
+          "fraction": 0.5199948400412797,
+          "within": true
+        }
+      ]
+    },
+    {
+      "route": "case-legal-contact-center-sales.html",
+      "width": 1440,
+      "values": [
+        "55,2%",
+        "60,1%",
+        "66,2%",
+        "69,2%"
+      ],
+      "bars": [
+        {
+          "fraction": 0.5519865841073271,
+          "within": true
+        },
+        {
+          "fraction": 0.6009803921568627,
+          "within": true
+        },
+        {
+          "fraction": 0.6619969040247679,
+          "within": true
+        },
+        {
+          "fraction": 0.6919762641898864,
+          "within": true
+        }
+      ]
+    },
+    {
+      "route": "case-pharma.html",
+      "width": 1440,
+      "values": [
+        "+25%",
+        "+30%"
+      ],
+      "bars": [
+        {
+          "fraction": 0.5,
+          "within": true
+        },
+        {
+          "fraction": 0.6,
+          "within": true
+        }
+      ]
+    },
+    {
+      "route": "case-remote-sales.html",
+      "width": 1440,
+      "values": [
+        "134%",
+        "150%"
+      ],
+      "bars": [
+        {
+          "fraction": 0.8374871001031992,
+          "within": true
+        },
+        {
+          "fraction": 0.9374871001031991,
+          "within": true
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,23 @@
+{
+  "base": "471544fdab9d9fbeac67fc94916783bfc29d08c0",
+  "htmlPages": 59,
+  "sitemapUrls": 56,
+  "internalLinksAndResources": 1711,
+  "jsonldBlocksValid": 59,
+  "charts": 5,
+  "originalCaseContentAndMetadataUnchanged": true,
+  "originalSharedCssJsContactsAnalyticsAndPolicyUnchanged": true,
+  "ipFooterOnEveryPage": true,
+  "forbiddenNameInHtml": false,
+  "pharmaChartAbsoluteAmounts": false,
+  "modifiedExistingHtml": [
+    "case-contact-center.html",
+    "case-lead-generation.html",
+    "case-legal-contact-center-sales.html",
+    "case-pharma.html",
+    "case-remote-sales.html",
+    "index.html",
+    "site-map.html"
+  ],
+  "errors": []
+}

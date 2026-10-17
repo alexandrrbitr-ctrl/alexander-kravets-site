@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Калькулятор экономики отдела продаж — Формула роста</title>
+<meta name="description" content="Бесплатный калькулятор экономики отдела продаж: выручка, валовая прибыль, ФОТ, маркетинг, операционный результат до налогов и точка безубыточности."/>
+<meta name="robots" content="index,follow"/>
+<meta name="theme-color" content="#13231a"/>
+<link rel="canonical" href="https://alexandrrbitr-ctrl.github.io/alexander-kravets-site/tools/sales-economics/"/>
+<link rel="icon" href="../../assets/favicon.ico"/>
+<link rel="stylesheet" href="../../styles.css"/><link rel="stylesheet" href="../../premium.css"/><link rel="stylesheet" href="./calculator.css"/>
+<meta property="og:type" content="website"/><meta property="og:locale" content="ru_RU"/><meta property="og:site_name" content="Формула роста"/><meta property="og:title" content="Калькулятор экономики отдела продаж — Формула роста"/><meta property="og:description" content="Бесплатный калькулятор экономики отдела продаж: выручка, валовая прибыль, ФОТ, маркетинг, операционный результат до налогов и точка безубыточности."/><meta property="og:url" content="https://alexandrrbitr-ctrl.github.io/alexander-kravets-site/tools/sales-economics/"/><meta property="og:image" content="https://alexandrrbitr-ctrl.github.io/alexander-kravets-site/assets/og-cover.jpg"/><meta name="twitter:card" content="summary_large_image"/><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebApplication","name":"Калькулятор экономики отдела продаж — Формула роста","description":"Бесплатный калькулятор экономики отдела продаж: выручка, валовая прибыль, ФОТ, маркетинг, операционный результат до налогов и точка безубыточности.","url":"https://alexandrrbitr-ctrl.github.io/alexander-kravets-site/tools/sales-economics/","inLanguage":"ru","publisher":{"@id":"https://alexandrrbitr-ctrl.github.io/alexander-kravets-site/#alexander-kravets"},"applicationCategory":"BusinessApplication","operatingSystem":"Web"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Главная","item":"https://alexandrrbitr-ctrl.github.io/alexander-kravets-site/"},{"@type":"ListItem","position":2,"name":"Инструменты","item":"https://alexandrrbitr-ctrl.github.io/alexander-kravets-site/tools/"},{"@type":"ListItem","position":3,"name":"Экономика отдела продаж","item":"https://alexandrrbitr-ctrl.github.io/alexander-kravets-site/tools/sales-economics/"}]}]}</script></head>
+<body class="fr-premium sales-tools"><a class="skip-link" href="#main-content">К содержанию</a>
+
+<header class="header">
+<div class="shell header__inner">
+<a aria-label="Александр Кравец" class="brand" href="../../">
+<span class="brand__emblem"><img alt="" decoding="async" height="600" src="../../assets/fr-emblem-silver.webp" width="525"/></span>
+<span class="brand__copy">
+<strong>Александр Кравец</strong>
+<small>Формула роста<span class="brand__detail"> · коммерческие системы</span></small>
+</span>
+</a>
+<nav aria-label="Основная навигация" class="nav" id="primary-nav"><a data-nav="services" href="../../services/">Услуги</a><a data-nav="industries" href="../../industries/">Отрасли</a><a data-nav="cases" href="../../cases.html">Кейсы</a><a data-nav="insights" href="../../insights/">Статьи</a><a data-nav="about" href="../../about/">Обо мне</a><a class="is-active" aria-current="page" href="../../tools/">Инструменты</a></nav>
+<button aria-controls="mobile-menu" aria-expanded="false" aria-label="Открыть меню" class="menu-toggle" type="button"><span></span><span></span><span></span></button><a class="header__cta" href="https://t.me/Alekdvv" target="_blank" rel="noopener noreferrer" data-contact-chooser aria-haspopup="dialog" aria-controls="contact-chooser" aria-expanded="false" role="button" data-goal="contact_chooser_open">
+      Обсудить задачу <span>↗</span>
+</a>
+</div>
+</header>
+<main id="main-content">
+<section class="calc-hero"><div class="shell"><p class="eyebrow">Бесплатные инструменты / экономика продаж</p><h1>Сколько на самом деле зарабатывает отдел продаж?</h1><p>Измените исходные показатели и оцените выручку, расходы, операционный результат и число сделок для выхода в ноль. Без регистрации и отправки данных.</p></div></section>
+<section class="calc-section" id="calculator"><div class="shell calc-layout">
+<noscript><p class="calc-panel">Для работы калькулятора включите JavaScript. Расчёты выполняются только в вашем браузере.</p></noscript><form class="calc-panel" id="calculator-form" novalidate><p class="eyebrow">01 / Входные данные</p><h2>Параметры отдела</h2><p class="calc-panel__intro">Расчёт на один месяц. Все суммы — в рублях.</p>
+<div class="calc-form-section"><h3>Спрос и продажи</h3><div class="calc-fields">
+<label class="calc-field"><span>Лиды за месяц</span><span class="calc-field__box"><input data-field="leads" type="number" inputmode="numeric" min="0" max="10000000" step="1" required/><span class="calc-field__unit">шт.</span></span></label>
+<label class="calc-field"><span>Конверсия лид → сделка</span><span class="calc-field__box"><input data-field="conversion" type="number" inputmode="decimal" min="0" max="100" step="any" required/><span class="calc-field__unit">%</span></span></label>
+<label class="calc-field"><span>Средний чек</span><span class="calc-field__box"><input data-field="averageCheck" type="number" inputmode="decimal" min="0" max="1000000000" step="any" required/><span class="calc-field__unit">₽</span></span></label>
+<label class="calc-field"><span>Валовая маржа</span><span class="calc-field__box"><input data-field="grossMargin" type="number" inputmode="decimal" min="0" max="100" step="any" required/><span class="calc-field__unit">%</span></span><small>После себестоимости продукта</small></label>
+</div></div>
+<div class="calc-form-section"><h3>Команда и переменные расходы</h3><div class="calc-fields">
+<label class="calc-field"><span>Количество менеджеров</span><span class="calc-field__box"><input data-field="managerCount" type="number" inputmode="numeric" min="0" max="10000" step="1" required/><span class="calc-field__unit">чел.</span></span></label>
+<label class="calc-field"><span>Полная стоимость 1 сотрудника</span><span class="calc-field__box"><input data-field="managerFullCost" type="number" inputmode="decimal" min="0" max="1000000000" step="any" required/><span class="calc-field__unit">₽</span></span><small>Фикс, налоги на ФОТ и взносы — вместе</small></label>
+<label class="calc-field calc-field--wide"><span>Переменные бонусы от выручки</span><span class="calc-field__box"><input data-field="commission" type="number" inputmode="decimal" min="0" max="100" step="any" required/><span class="calc-field__unit">%</span></span><small>Общая переменная часть, сверх указанной полной стоимости сотрудников</small></label>
+</div></div>
+<div class="calc-form-section"><h3>Постоянные расходы</h3><div class="calc-fields">
+<label class="calc-field"><span>Маркетинг</span><span class="calc-field__box"><input data-field="marketing" type="number" inputmode="decimal" min="0" max="100000000000" step="any" required/><span class="calc-field__unit">₽</span></span></label>
+<label class="calc-field"><span>Прочие расходы</span><span class="calc-field__box"><input data-field="otherFixed" type="number" inputmode="decimal" min="0" max="100000000000" step="any" required/><span class="calc-field__unit">₽</span></span><small>Аренда, CRM, связь, управление и др.</small></label>
+</div></div>
+<div class="calc-controls"><button type="button" id="reset" class="calc-btn calc-btn--secondary">Сбросить пример</button><button type="button" id="copy" class="calc-btn">Скопировать расчёт</button></div><p id="form-status" class="calc-form-status" role="status" aria-live="polite"></p>
+</form>
+<section class="calc-panel calc-results" id="results" aria-label="Результат расчёта" aria-live="off"><p class="eyebrow">02 / Экономика месяца</p><h2>Результат модели</h2><p>Ожидаемые значения — не прогноз гарантированных продаж.</p>
+<div class="calc-summary">
+<div class="calc-metric"><span>Выручка</span><strong id="metric-revenue">—</strong><small>До вычета затрат</small></div>
+<div class="calc-metric"><span>Валовая прибыль</span><strong id="metric-gross">—</strong><small>После себестоимости</small></div>
+<div class="calc-metric calc-metric--focus"><span>Операционный результат</span><strong id="metric-profit" data-state="positive">—</strong><small id="metric-profit-caption">До налогов</small></div>
+<div class="calc-metric"><span>Ожидаемые сделки</span><strong id="metric-deals">—</strong><small><span id="metric-leads">—</span> лидов × <span id="metric-conversion">—</span></small></div>
+</div>
+<div class="calc-break-even"><h3>Точка безубыточности</h3><div class="calc-break-even__values"><strong id="break-even-deals">—</strong><span>сделок или</span><strong id="break-even-leads">—</strong><span>лидов за месяц</span></div><p id="break-even-help"></p></div>
+<div class="calc-costs"><h3>Из чего складываются затраты</h3><dl>
+<div class="calc-cost-row"><dt>Себестоимость продукта</dt><dd id="cost-products">—</dd></div>
+<div class="calc-cost-row"><dt>Бонусы от выручки</dt><dd id="cost-commissions">—</dd></div>
+<div class="calc-cost-row"><dt>Стоимость команды</dt><dd id="cost-payroll">—</dd></div>
+<div class="calc-cost-row"><dt>Маркетинг</dt><dd id="cost-marketing">—</dd></div>
+<div class="calc-cost-row"><dt>Другие постоянные расходы</dt><dd id="cost-other">—</dd></div>
+<div class="calc-cost-row calc-cost-row--total"><dt>Всего затрат</dt><dd id="cost-total">—</dd></div>
+</dl></div>
+</section>
+</div></section>
+<section class="calc-scenarios"><div class="shell"><p class="eyebrow">03 / Анализ чувствительности</p><h2>Что меняется при другой конверсии</h2><p class="calc-scenarios__intro">Те же расходы, лиды, чек и маржа. Меняется только конверсия на ±2 процентных пункта в пределах от 0 до 100%.</p><div class="calc-scenario-list" id="scenario-list" aria-live="polite"></div></div></section>
+<div class="shell"><aside class="calc-disclaimer"><strong>Методика.</strong> Сделки = лиды × конверсия; выручка = сделки × чек; валовая прибыль = выручка × маржа; результат до налогов = валовая прибыль − бонусы − полная стоимость команды − маркетинг − прочие расходы. Точка безубыточности рассчитана с округлением количества сделок и лидов вверх. Не учтены налоги с деятельности, НДС и другие неуказанные расходы. Ожидаемые сделки показаны с округлением; расчёт ведётся без округления. Расчёт не заменяет бюджет или управленческую отчётность.</aside>
+<div class="calc-next-step"><div><p class="eyebrow">Следующий шаг</p><h2>Найти реальные потери в продажах</h2><p>Если модель показывает слабую экономику, по выгрузке CRM можно установить, где именно возникают потери: в качестве лидов, конверсии, чеке или расходах.</p></div><a class="calc-btn" href="https://t.me/Alekdvv" data-contact-chooser aria-haspopup="dialog" aria-controls="contact-chooser" aria-expanded="false" role="button" rel="noopener noreferrer" target="_blank">Обсудить результаты ↗</a></div></div>
+</main>
+<footer class="footer"><div class="shell footer__inner"><div class="footer__brand"><img src="../../assets/fr-emblem-silver.webp" width="525" height="600" loading="lazy" decoding="async" alt=""/><span><strong>Александр Кравец</strong><small>Формула роста · системное управление продажами</small></span></div><nav class="footer__nav" aria-label="Основные разделы"><a href="../../services/">Решения</a><a href="../../cases.html">Кейсы</a><a href="../../about/">Обо мне</a><a href="../../insights/">Статьи</a><a href="../../tools/">Инструменты</a></nav><div class="footer__right"><a href="https://t.me/Alekdvv" target="_blank" rel="noopener noreferrer">Telegram</a><a href="https://wa.me/79112815471" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">WhatsApp</a><span data-max-direct-slot hidden></span><span><a href="../../privacy.html">Политика конфиденциальности</a> <button class="cookie-settings" hidden type="button">Изменить согласие</button></span></div></div><div class="shell footer__geo">Россия, Беларусь, Казахстан, страны СНГ и другие русскоязычные рынки</div>
+<div class="shell footer__ip" aria-label="Реквизиты индивидуального предпринимателя"><small>© 2026 Формула роста · ИП Кравец А. С. · ИНН 471609542293 · ОГРНИП 326470400083199</small></div></footer>
+<script type="module" src="./ui.mjs"></script>
+<script data-root="../../" src="../../site.js"></script></body></html>
