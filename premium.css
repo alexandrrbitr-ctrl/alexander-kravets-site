@@ -377,13 +377,17 @@ html:has(body.fr-premium){scroll-padding-bottom:0}
 .fr-premium .fr-materials-channel__links{display:grid;gap:12px;flex-shrink:0}
 
 /* Legal information is a reading document, not a commercial landing page. */
-.fr-premium .legal-document{--fr-h1:28px;--fr-h2:20px;--fr-body:16px;padding:32px 0 40px}
-.fr-premium .legal-document__body{max-width:72ch;overflow-wrap:anywhere}
+.fr-premium .legal-document{--fr-h1:24px;--fr-h2:18px;--fr-body:14px;padding:24px 0 28px}
+.fr-premium .legal-document__body{max-width:68ch;overflow-wrap:anywhere}
 .fr-premium .legal-document h1,.fr-premium .legal-document h2{font-family:Inter,"Segoe UI",Arial,sans-serif;font-weight:600;letter-spacing:-.015em;line-height:1.35}
-.fr-premium .legal-document h1{margin:0 0 12px}
-.fr-premium .legal-document h2{margin:0 0 12px}
-.fr-premium .legal-document section{margin-top:24px;padding:0;scroll-margin-top:100px}
-.fr-premium .legal-document p{margin:0 0 12px}
+.fr-premium .legal-document h1{margin:0 0 10px}
+.fr-premium .legal-document h2{margin:0 0 8px}
+.fr-premium .legal-document section{margin-top:18px;padding:0;scroll-margin-top:100px}
+.fr-premium .legal-document p{margin:0 0 8px}
 .fr-premium .legal-document code{font-size:14px;overflow-wrap:anywhere}
 .fr-premium .legal-consent-settings{min-height:44px;padding:9px 12px;font-size:15px;line-height:1.5;border:1px solid var(--fr-line);border-radius:4px;color:var(--fr-ink);background:var(--fr-surface);cursor:pointer;text-align:left}
 .fr-premium .legal-consent-settings[hidden]{display:none}
+
+@media(max-width:680px){
+ .fr-premium .legal-document{--fr-body:15px;padding:20px 0 24px}
+}
