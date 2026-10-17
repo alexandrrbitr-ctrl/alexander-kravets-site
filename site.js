@@ -99,13 +99,12 @@
   // One floating, non-modal contact window shared by every page and CTA.
   const contactWidget = document.createElement("div");
   contactWidget.className = "fr-contact-widget";
-  contactWidget.innerHTML = `<dialog class="fr-contact-dialog" id="contact-chooser" aria-labelledby="contact-chooser-title" aria-describedby="contact-chooser-description">
-    <div class="fr-contact-dialog__heading"><div><p class="fr-contact-dialog__eyebrow">Связь с Александром</p><h2 id="contact-chooser-title">Обсудить задачу</h2></div><button class="fr-contact-dialog__close" type="button" aria-label="Закрыть выбор мессенджера">×</button></div>
-    <p id="contact-chooser-description">Личные сообщения — Telegram и WhatsApp.</p>
+  contactWidget.innerHTML = `<dialog class="fr-contact-dialog" id="contact-chooser" aria-labelledby="contact-chooser-title">
+    <div class="fr-contact-dialog__heading"><div><h2 id="contact-chooser-title">Обсудить задачу</h2></div><button class="fr-contact-dialog__close" type="button" aria-label="Закрыть выбор мессенджера">×</button></div>
     <div class="fr-contact-dialog__links">
-      <a class="fr-messenger" href="${personalTelegramUrl}" target="_blank" rel="noopener noreferrer" data-goal="telegram_contact"><img src="${new URL("messenger-telegram.svg", contactAssets)}" width="30" height="30" alt=""/><span><strong>Telegram</strong><small>Личные сообщения · @Alekdvv</small></span><span aria-hidden="true">↗</span></a>
-      <a class="fr-messenger" href="${whatsappUrl}" target="_blank" rel="noopener noreferrer" data-goal="whatsapp_contact"><img src="${new URL("messenger-whatsapp.svg", contactAssets)}" width="30" height="30" alt=""/><span><strong>WhatsApp</strong><small>Личные сообщения</small></span><span aria-hidden="true">↗</span></a>
-      <a class="fr-messenger fr-messenger--channel" href="${maxChannelUrl}" target="_blank" rel="noopener noreferrer" data-max-channel><img src="${new URL("messenger-max.svg", contactAssets)}" width="30" height="30" alt=""/><span><strong>MAX</strong><small>Канал «Формула роста»</small></span><span aria-hidden="true">↗</span></a>
+      <a class="fr-messenger" href="${personalTelegramUrl}" target="_blank" rel="noopener noreferrer" data-goal="telegram_contact"><img src="${new URL("messenger-telegram.svg", contactAssets)}" width="30" height="30" alt=""/><span><strong>Telegram</strong></span></a>
+      <a class="fr-messenger" href="${whatsappUrl}" target="_blank" rel="noopener noreferrer" data-goal="whatsapp_contact"><img src="${new URL("messenger-whatsapp.svg", contactAssets)}" width="30" height="30" alt=""/><span><strong>WhatsApp</strong></span></a>
+      <a class="fr-messenger fr-messenger--channel" href="${maxChannelUrl}" target="_blank" rel="noopener noreferrer" data-max-channel><img src="${new URL("messenger-max.svg", contactAssets)}" width="30" height="30" alt=""/><span><strong>MAX</strong><small>Канал</small></span></a>
       <span data-max-direct-slot hidden></span>
     </div>
   </dialog>
