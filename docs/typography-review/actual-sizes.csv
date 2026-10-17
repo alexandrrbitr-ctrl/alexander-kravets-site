@@ -1,0 +1,286 @@
+﻿page,viewport_px,h1_px,h2_px,h3_px,h1_line_px,hero_padding_top_px,hero_padding_bottom_px,content_padding_top_px,content_padding_bottom_px,h1_to_lead_gap_px,h2_margin_bottom_px,body_p_sizes_px,before_height_px,after_height_px,height_reduction_percent
+404.html,360,32,—,—,35.2,40,40,,,25,—,16,1591,844,47.0
+about/index.html,360,32,27,21,35.2,40,40,40,40,22,14,16,11449,10121,11.6
+case-contact-center.html,360,32,27,—,35.2,32,0,64,40,,14,16,6880,5479,20.4
+case-lead-generation.html,360,32,27,—,35.2,32,0,64,40,,14,16,6727,5567,17.2
+case-legal-contact-center-sales.html,360,32,27,—,35.2,32,0,64,40,,14,16,7682,6287,18.2
+case-pharma.html,360,32,27,21,35.2,32,0,64,40,22,14,16,9270,7571,18.3
+case-remote-sales.html,360,32,27,—,35.2,32,0,64,40,,14,16,7211,5771,20.0
+cases.html,360,32,27,21,35.2,40,40,40,40,22,14,16,4757,4567,4.0
+commercial-analytics/index.html,360,32,27,21,35.2,40,40,40,40,25,14,16,9154,7977,12.9
+commercial-control/index.html,360,32,27,21,35.2,40,40,40,40,22,14,16,6433,6156,4.3
+commercial-management/index.html,360,32,27,—,35.2,40,40,40,40,25,14,16,8036,6963,13.4
+contact-center-management/index.html,360,32,27,21,35.2,40,40,40,40,22,14,16,7769,7346,5.4
+cookies.html,360,32,27,—,35.2,40,40,40,40,22,18,16,1856,1670,10.0
+crm-bitrix24/index.html,360,32,27,—,35.2,40,40,40,40,25,14,16,8199,7041,14.1
+crm-commercial-audit/index.html,360,32,27,21,35.2,40,40,40,40,22,14,16,6327,6067,4.1
+customer-base-reactivation/index.html,360,32,27,21,35.2,40,40,40,40,22,14,16,6529,6364,2.5
+index.html,360,34,27,21,37.4,28,0,72,40,22,14,16 / 17,15371,13726,10.7
+industries/b2b-sales/index.html,360,32,27,21,35.2,40,40,40,40,22,14,16,6233,5758,7.6
+industries/clinic-sales/index.html,360,32,27,21,35.2,40,40,40,40,22,14,16,6424,5927,7.7
+industries/index.html,360,32,27,—,35.2,40,40,40,40,22,14,16,3311,3105,6.2
+industries/legal-sales/index.html,360,32,27,21,35.2,40,40,40,40,22,14,16,8059,7329,9.1
+industries/medicine-pharma/index.html,360,32,27,21,35.2,40,40,40,40,25,14,16,9074,9128,-0.6
+industries/pharma-sales/index.html,360,32,27,21,35.2,40,40,40,40,22,14,16,7429,6853,7.8
+industries/supplements-sales/index.html,360,32,27,21,35.2,40,40,40,40,22,14,16,6296,5772,8.3
+insights/abc-rfm-b2b/index.html,360,32,27,—,35.2,40,40,40,40,26,14,16,3695,2983,19.3
+insights/abc-rfm-health/index.html,360,32,27,—,35.2,40,40,40,40,26,14,16,4641,3736,19.5
+insights/before-hiring-head-of-sales/index.html,360,32,27,—,35.2,40,40,40,40,26,14,16,4237,3458,18.4
+insights/bitrix24-sales-implementation/index.html,360,32,27,—,35.2,40,40,40,40,26,14,16,3924,3131,20.2
+insights/build-sales-department-guide/index.html,360,32,27,—,35.2,40,40,40,40,26,14,16,3930,3242,17.5
+insights/client-base-reactivation/index.html,360,32,27,—,35.2,40,40,40,40,26,14,16,3557,2896,18.6
+insights/clinic-funnel/index.html,360,32,27,—,35.2,40,40,40,40,26,14,16,4144,3346,19.3
+insights/clinic-sales-audit/index.html,360,32,27,—,35.2,40,40,40,40,26,14,16,3493,2857,18.2
+insights/commercial-analytics-plan-fact/index.html,360,32,27,—,35.2,40,40,40,40,26,14,16,3602,2870,20.3
+insights/contact-center-metrics/index.html,360,32,27,—,35.2,40,40,40,40,26,14,16,3744,3012,19.6
+insights/crm-audit-checklist/index.html,360,32,27,—,35.2,40,40,40,40,26,14,16,3658,3000,18.0
+insights/crm-management-questions/index.html,360,32,27,—,35.2,40,40,40,40,26,14,16,4749,3913,17.6
+insights/external-rop-when-needed/index.html,360,32,27,—,35.2,40,40,40,40,26,14,16,4068,3248,20.2
+insights/index.html,360,32,27,—,35.2,40,40,40,40,,16 / 18,16,9130,9129,0.0
+insights/pharma-sales-management/index.html,360,32,27,—,35.2,40,40,40,40,26,14,16,3661,2898,20.8
+insights/problem-not-salespeople/index.html,360,32,27,—,35.2,40,40,40,40,26,14,16,4428,3607,18.5
+insights/remote-sales-control/index.html,360,32,27,—,35.2,40,40,40,40,26,14,16,3822,3078,19.5
+insights/sales-audit-checklist/index.html,360,32,27,—,35.2,40,40,40,40,26,14,16,3701,2960,20.0
+insights/sales-forecast/index.html,360,32,27,—,35.2,40,40,40,40,26,14,16,3566,2877,19.3
+insights/sales-kpi-guide/index.html,360,32,27,—,35.2,40,40,40,40,26,14,16,3503,2905,17.1
+insights/sales-manager-assessment/index.html,360,32,27,—,35.2,40,40,40,40,26,14,16,3682,2895,21.4
+insights/sales-plan-early-warning/index.html,360,32,27,—,35.2,40,40,40,40,26,14,16,4449,3621,18.6
+privacy.html,360,32,27,—,35.2,40,40,40,40,22,18,16,2202,1916,13.0
+remote-sales-department/index.html,360,32,27,21,35.2,40,40,40,40,22,14,16,8011,7664,4.3
+sales-audit/index.html,360,32,27,—,35.2,40,40,40,40,25,14,16,7728,6630,14.2
+sales-call-audit/index.html,360,32,27,21,35.2,40,40,40,40,22,14,16,6470,6227,3.8
+sales-data-analysis/index.html,360,32,27,21,35.2,40,40,40,40,22,14,16,7296,6888,5.6
+sales-department-from-scratch/index.html,360,32,27,21,35.2,40,40,40,40,22,14,16,7713,7301,5.3
+sales-kpi-motivation/index.html,360,32,27,21,35.2,40,40,40,40,22,14,16,6393,6106,4.5
+sales-team-assessment/index.html,360,32,27,21,35.2,40,40,40,40,22,14,16,6536,6172,5.6
+sales-team-recruitment/index.html,360,32,27,—,35.2,40,40,40,40,25,14,16,7545,6515,13.7
+services/index.html,360,32,27,21,35.2,40,40,40,38,22,14,16,13197,12021,8.9
+site-map.html,360,32,27,—,35.2,40,40,,,22,14,16,4019,4184,-4.1
+404.html,390,32,—,—,35.2,40,40,,,25,—,16,1573,844,46.3
+about/index.html,390,32,27,21,35.2,40,40,40,40,22,14,16,10914,9678,11.3
+case-contact-center.html,390,32,27,—,35.2,32,0,64,40,,14,16,6525,5271,19.2
+case-lead-generation.html,390,32,27,—,35.2,32,0,64,40,,14,16,6544,5297,19.1
+case-legal-contact-center-sales.html,390,32,27,—,35.2,32,0,64,40,,14,16,7429,6016,19.0
+case-pharma.html,390,32,27,21,35.2,32,0,64,40,22,14,16,8723,7247,16.9
+case-remote-sales.html,390,32,27,—,35.2,32,0,64,40,,14,16,6847,5550,18.9
+cases.html,390,32,27,21,35.2,40,40,40,40,22,14,16,4522,4368,3.4
+commercial-analytics/index.html,390,32,27,21,35.2,40,40,40,40,25,14,16,8954,7731,13.7
+commercial-control/index.html,390,32,27,21,35.2,40,40,40,40,22,14,16,6242,6009,3.7
+commercial-management/index.html,390,32,27,—,35.2,40,40,40,40,25,14,16,7781,6750,13.3
+contact-center-management/index.html,390,32,27,21,35.2,40,40,40,40,22,14,16,7522,7006,6.9
+cookies.html,390,32,27,—,35.2,40,40,40,40,22,18,16,1856,1617,12.9
+crm-bitrix24/index.html,390,32,27,—,35.2,40,40,40,40,25,14,16,7820,6651,14.9
+crm-commercial-audit/index.html,390,32,27,21,35.2,40,40,40,40,22,14,16,6153,5868,4.6
+customer-base-reactivation/index.html,390,32,27,21,35.2,40,40,40,40,22,14,16,6279,6113,2.6
+index.html,390,34,27,21,37.4,28,0,72,40,22,14,16 / 17,14830,13135,11.4
+industries/b2b-sales/index.html,390,32,27,21,35.2,40,40,40,40,22,14,16,6001,5508,8.2
+industries/clinic-sales/index.html,390,32,27,21,35.2,40,40,40,40,22,14,16,6140,5701,7.1
+industries/index.html,390,32,27,—,35.2,40,40,40,40,22,14,16,3199,3070,4.0
+industries/legal-sales/index.html,390,32,27,21,35.2,40,40,40,40,22,14,16,7737,7001,9.5
+industries/medicine-pharma/index.html,390,32,27,21,35.2,40,40,40,40,25,14,16,8678,8816,-1.6
+industries/pharma-sales/index.html,390,32,27,21,35.2,40,40,40,40,22,14,16,7065,6600,6.6
+industries/supplements-sales/index.html,390,32,27,21,35.2,40,40,40,40,22,14,16,5998,5608,6.5
+insights/abc-rfm-b2b/index.html,390,32,27,—,35.2,40,40,40,40,26,14,16,3634,2904,20.1
+insights/abc-rfm-health/index.html,390,32,27,—,35.2,40,40,40,40,26,14,16,4328,3630,16.1
+insights/before-hiring-head-of-sales/index.html,390,32,27,—,35.2,40,40,40,40,26,14,16,4027,3281,18.5
+insights/bitrix24-sales-implementation/index.html,390,32,27,—,35.2,40,40,40,40,26,14,16,3724,3018,19.0
+insights/build-sales-department-guide/index.html,390,32,27,—,35.2,40,40,40,40,26,14,16,3895,3156,19.0
+insights/client-base-reactivation/index.html,390,32,27,—,35.2,40,40,40,40,26,14,16,3428,2810,18.0
+insights/clinic-funnel/index.html,390,32,27,—,35.2,40,40,40,40,26,14,16,3931,3194,18.7
+insights/clinic-sales-audit/index.html,390,32,27,—,35.2,40,40,40,40,26,14,16,3431,2742,20.1
+insights/commercial-analytics-plan-fact/index.html,390,32,27,—,35.2,40,40,40,40,26,14,16,3471,2817,18.8
+insights/contact-center-metrics/index.html,390,32,27,—,35.2,40,40,40,40,26,14,16,3621,2933,19.0
+insights/crm-audit-checklist/index.html,390,32,27,—,35.2,40,40,40,40,26,14,16,3560,2940,17.4
+insights/crm-management-questions/index.html,390,32,27,—,35.2,40,40,40,40,26,14,16,4545,3726,18.0
+insights/external-rop-when-needed/index.html,390,32,27,—,35.2,40,40,40,40,26,14,16,3905,3143,19.5
+insights/index.html,390,32,27,—,35.2,40,40,40,40,,16 / 18,16,8509,8575,-0.8
+insights/pharma-sales-management/index.html,390,32,27,—,35.2,40,40,40,40,26,14,16,3467,2898,16.4
+insights/problem-not-salespeople/index.html,390,32,27,—,35.2,40,40,40,40,26,14,16,4224,3455,18.2
+insights/remote-sales-control/index.html,390,32,27,—,35.2,40,40,40,40,26,14,16,3697,2973,19.6
+insights/sales-audit-checklist/index.html,390,32,27,—,35.2,40,40,40,40,26,14,16,3568,2908,18.5
+insights/sales-forecast/index.html,390,32,27,—,35.2,40,40,40,40,26,14,16,3405,2784,18.2
+insights/sales-kpi-guide/index.html,390,32,27,—,35.2,40,40,40,40,26,14,16,3471,2791,19.6
+insights/sales-manager-assessment/index.html,390,32,27,—,35.2,40,40,40,40,26,14,16,3355,2766,17.6
+insights/sales-plan-early-warning/index.html,390,32,27,—,35.2,40,40,40,40,26,14,16,4197,3489,16.9
+privacy.html,390,32,27,—,35.2,40,40,40,40,22,18,16,2037,1837,9.8
+remote-sales-department/index.html,390,32,27,21,35.2,40,40,40,40,22,14,16,7736,7290,5.8
+sales-audit/index.html,390,32,27,—,35.2,40,40,40,40,25,14,16,7453,6476,13.1
+sales-call-audit/index.html,390,32,27,21,35.2,40,40,40,40,22,14,16,6307,6003,4.8
+sales-data-analysis/index.html,390,32,27,21,35.2,40,40,40,40,22,14,16,7032,6604,6.1
+sales-department-from-scratch/index.html,390,32,27,21,35.2,40,40,40,40,22,14,16,7431,7084,4.7
+sales-kpi-motivation/index.html,390,32,27,21,35.2,40,40,40,40,22,14,16,6148,5947,3.3
+sales-team-assessment/index.html,390,32,27,21,35.2,40,40,40,40,22,14,16,6284,5993,4.6
+sales-team-recruitment/index.html,390,32,27,—,35.2,40,40,40,40,25,14,16,7314,6299,13.9
+services/index.html,390,32,27,21,35.2,40,40,40,38,22,14,16,12705,11419,10.1
+site-map.html,390,32,27,—,35.2,40,40,,,22,14,16,3875,3998,-3.2
+404.html,1280,42.66,—,—,46.9286,56,56,,,25,—,17,1465,1000,31.7
+about/index.html,1280,42.66,28.54,23,46.9286,56,56,56,56,22,18,17,7015,6063,13.6
+case-contact-center.html,1280,42.66,28.54,—,46.9286,32,0,88,56,,18,17,4485,3357,25.2
+case-lead-generation.html,1280,42.66,28.54,—,46.9286,32,0,88,56,,18,17,4515,3363,25.5
+case-legal-contact-center-sales.html,1280,42.66,28.54,—,46.9286,32,0,88,56,,18,17,5063,3863,23.7
+case-pharma.html,1280,42.66,28.54,23,46.9286,32,0,88,56,22,18,17,5609,4479,20.1
+case-remote-sales.html,1280,42.66,28.54,—,46.9286,32,0,88,56,,18,17,4709,3546,24.7
+cases.html,1280,42.66,28.54,23,46.9286,56,56,56,56,22,18,17,2887,2613,9.5
+commercial-analytics/index.html,1280,42.66,28.54,23,46.9286,56,56,56,56,25,18,17,5599,4516,19.3
+commercial-control/index.html,1280,42.66,28.54,23,46.9286,56,56,56,56,22,18,17,4285,3507,18.2
+commercial-management/index.html,1280,42.66,28.54,—,46.9286,56,56,56,56,25,18,17,4712,3778,19.8
+contact-center-management/index.html,1280,42.66,28.54,23,46.9286,56,56,56,56,22,18,17,5183,4171,19.5
+cookies.html,1280,42.66,28.54,—,46.9286,56,56,56,56,22,18,17,1156,1083,6.3
+crm-bitrix24/index.html,1280,42.66,28.54,—,46.9286,56,56,56,56,25,18,17,4794,3871,19.3
+crm-commercial-audit/index.html,1280,42.66,28.54,23,46.9286,56,56,56,56,22,18,17,4221,3458,18.1
+customer-base-reactivation/index.html,1280,42.66,28.54,23,46.9286,56,56,56,56,22,18,17,4355,3486,20.0
+index.html,1280,48,28.54,23,52.8,40,0,88,56,22,18,16 / 17,9306,7854,15.6
+industries/b2b-sales/index.html,1280,42.66,28.54,23,46.9286,56,56,56,56,22,18,17,4072,3315,18.6
+industries/clinic-sales/index.html,1280,42.66,28.54,23,46.9286,56,56,56,56,22,18,17,4072,3371,17.2
+industries/index.html,1280,42.66,28.54,—,46.9286,56,56,56,56,22,18,17,2214,1877,15.2
+industries/legal-sales/index.html,1280,42.66,28.54,23,46.9286,56,56,56,56,22,18,17,5223,4278,18.1
+industries/medicine-pharma/index.html,1280,42.66,28.54,23,46.9286,56,56,56,56,25,18,17,5398,5087,5.8
+industries/pharma-sales/index.html,1280,42.66,28.54,23,46.9286,56,56,56,56,22,18,17,4845,4077,15.9
+industries/supplements-sales/index.html,1280,42.66,28.54,23,46.9286,56,56,56,56,22,18,17,4183,3318,20.7
+insights/abc-rfm-b2b/index.html,1280,42.66,28.54,—,46.9286,56,56,56,56,26,14 / 18,17,2500,1920,23.2
+insights/abc-rfm-health/index.html,1280,42.66,28.54,—,46.9286,56,56,56,56,26,14 / 18,17,2805,2236,20.3
+insights/before-hiring-head-of-sales/index.html,1280,42.66,28.54,—,46.9286,56,56,56,56,26,14 / 18,17,2589,2069,20.1
+insights/bitrix24-sales-implementation/index.html,1280,42.66,28.54,—,46.9286,56,56,56,56,26,14 / 18,17,2561,1976,22.8
+insights/build-sales-department-guide/index.html,1280,42.66,28.54,—,46.9286,56,56,56,56,26,14 / 18,17,2563,2054,19.9
+insights/client-base-reactivation/index.html,1280,42.66,28.54,—,46.9286,56,56,56,56,26,14 / 18,17,2373,1920,19.1
+insights/clinic-funnel/index.html,1280,42.66,28.54,—,46.9286,56,56,56,56,26,14 / 18,17,2589,2097,19.0
+insights/clinic-sales-audit/index.html,1280,42.66,28.54,—,46.9286,56,56,56,56,26,14 / 18,17,2436,1920,21.2
+insights/commercial-analytics-plan-fact/index.html,1280,42.66,28.54,—,46.9286,56,56,56,56,26,14 / 18,17,2404,1920,20.1
+insights/contact-center-metrics/index.html,1280,42.66,28.54,—,46.9286,56,56,56,56,26,14 / 18,17,2565,2045,20.3
+insights/crm-audit-checklist/index.html,1280,42.66,28.54,—,46.9286,56,56,56,56,26,14 / 18,17,2566,2045,20.3
+insights/crm-management-questions/index.html,1280,42.66,28.54,—,46.9286,56,56,56,56,26,14 / 18,17,2773,2284,17.6
+insights/external-rop-when-needed/index.html,1280,42.66,28.54,—,46.9286,56,56,56,56,26,14 / 18,17,2561,2116,17.4
+insights/index.html,1280,42.66,28.54,—,46.9286,56,56,56,56,,16 / 18,17,4255,4005,5.9
+insights/pharma-sales-management/index.html,1280,42.66,28.54,—,46.9286,56,56,56,56,26,14 / 18,17,2467,1920,22.2
+insights/problem-not-salespeople/index.html,1280,42.66,28.54,—,46.9286,56,56,56,56,26,14 / 18,17,2650,2181,17.7
+insights/remote-sales-control/index.html,1280,42.66,28.54,—,46.9286,56,56,56,56,26,14 / 18,17,2436,1920,21.2
+insights/sales-audit-checklist/index.html,1280,42.66,28.54,—,46.9286,56,56,56,56,26,14 / 18,17,2564,2026,21.0
+insights/sales-forecast/index.html,1280,42.66,28.54,—,46.9286,56,56,56,56,26,14 / 18,17,2375,1892,20.3
+insights/sales-kpi-guide/index.html,1280,42.66,28.54,—,46.9286,56,56,56,56,26,14 / 18,17,2312,1920,17.0
+insights/sales-manager-assessment/index.html,1280,42.66,28.54,—,46.9286,56,56,56,56,26,14 / 18,17,2439,1864,23.6
+insights/sales-plan-early-warning/index.html,1280,42.66,28.54,—,46.9286,56,56,56,56,26,14 / 18,17,2651,2172,18.1
+privacy.html,1280,42.66,28.54,—,46.9286,56,56,56,56,22,18,17,1248,1167,6.5
+remote-sales-department/index.html,1280,42.66,28.54,23,46.9286,56,56,56,56,22,18,17,5198,4315,17.0
+sales-audit/index.html,1280,42.66,28.54,—,46.9286,56,56,56,56,25,18,17,4593,3671,20.1
+sales-call-audit/index.html,1280,42.66,28.54,23,46.9286,56,56,56,56,22,18,17,4307,3507,18.6
+sales-data-analysis/index.html,1280,42.66,28.54,23,46.9286,56,56,56,56,22,18,17,4961,4057,18.2
+sales-department-from-scratch/index.html,1280,42.66,28.54,23,46.9286,56,56,56,56,22,18,17,5084,4161,18.2
+sales-kpi-motivation/index.html,1280,42.66,28.54,23,46.9286,56,56,56,56,22,18,17,4166,3333,20.0
+sales-team-assessment/index.html,1280,42.66,28.54,23,46.9286,56,56,56,56,22,18,17,4213,3478,17.4
+sales-team-recruitment/index.html,1280,42.66,28.54,—,46.9286,56,56,56,56,25,18,17,4545,3617,20.4
+services/index.html,1280,42.66,28.54,23,46.9286,56,56,56,32,22,18,16 / 17,7794,5764,26.0
+site-map.html,1280,42.66,28.54,—,46.9286,56,56,,,22,18,17,2222,2286,-2.9
+404.html,1440,48,—,—,52.7947,56,56,,,25,—,17,1465,1000,31.7
+about/index.html,1440,48,32,23,52.7947,56,56,56,56,22,18,17,7288,6071,16.7
+case-contact-center.html,1440,48,32,—,52.7947,32,0,88,56,,18,17,4770,3381,29.1
+case-lead-generation.html,1440,48,32,—,52.7947,32,0,88,56,,18,17,4800,3394,29.3
+case-legal-contact-center-sales.html,1440,48,32,—,52.7947,32,0,88,56,,18,17,5270,3887,26.2
+case-pharma.html,1440,48,32,23,52.7947,32,0,88,56,22,18,17,5808,4507,22.4
+case-remote-sales.html,1440,48,32,—,52.7947,32,0,88,56,,18,17,4994,3574,28.4
+cases.html,1440,48,32,23,52.7947,56,56,56,56,22,18,17,2960,2623,11.4
+commercial-analytics/index.html,1440,48,32,23,52.7947,56,56,56,56,25,18,17,5849,4597,21.4
+commercial-control/index.html,1440,48,32,23,52.7947,56,56,56,56,22,18,17,4515,3554,21.3
+commercial-management/index.html,1440,48,32,—,52.7947,56,56,56,56,25,18,17,4914,3802,22.6
+contact-center-management/index.html,1440,48,32,23,52.7947,56,56,56,56,22,18,17,5458,4223,22.6
+cookies.html,1440,48,32,—,52.7947,56,56,56,56,22,18,17,1178,1101,6.5
+crm-bitrix24/index.html,1440,48,32,—,52.7947,56,56,56,56,25,18,17,5003,3899,22.1
+crm-commercial-audit/index.html,1440,48,32,23,52.7947,56,56,56,56,22,18,17,4449,3505,21.2
+customer-base-reactivation/index.html,1440,48,32,23,52.7947,56,56,56,56,22,18,17,4589,3570,22.2
+index.html,1440,48,32,23,52.8,40,0,88,56,22,18,16 / 17,9504,7882,17.1
+industries/b2b-sales/index.html,1440,48,32,23,52.7947,56,56,56,56,22,18,17,4282,3348,21.8
+industries/clinic-sales/index.html,1440,48,32,23,52.7947,56,56,56,56,22,18,17,4282,3403,20.5
+industries/index.html,1440,48,32,—,52.7947,56,56,56,56,22,18,17,2312,1950,15.7
+industries/legal-sales/index.html,1440,48,32,23,52.7947,56,56,56,56,22,18,17,5481,4322,21.1
+industries/medicine-pharma/index.html,1440,48,32,23,52.7947,56,56,56,56,25,18,17,5616,5152,8.3
+industries/pharma-sales/index.html,1440,48,32,23,52.7947,56,56,56,56,22,18,17,5097,4112,19.3
+industries/supplements-sales/index.html,1440,48,32,23,52.7947,56,56,56,56,22,18,17,4399,3447,21.6
+insights/abc-rfm-b2b/index.html,1440,48,32,—,52.7947,56,56,56,56,26,14 / 18,17,2553,1957,23.3
+insights/abc-rfm-health/index.html,1440,48,32,—,52.7947,56,56,56,56,26,14 / 18,17,2859,2278,20.3
+insights/before-hiring-head-of-sales/index.html,1440,48,32,—,52.7947,56,56,56,56,26,14 / 18,17,2640,2141,18.9
+insights/bitrix24-sales-implementation/index.html,1440,48,32,—,52.7947,56,56,56,56,26,14 / 18,17,2615,2013,23.0
+insights/build-sales-department-guide/index.html,1440,48,32,—,52.7947,56,56,56,56,26,14 / 18,17,2678,2090,22.0
+insights/client-base-reactivation/index.html,1440,48,32,—,52.7947,56,56,56,56,26,14 / 18,17,2424,1957,19.3
+insights/clinic-funnel/index.html,1440,48,32,—,52.7947,56,56,56,56,26,14 / 18,17,2640,2129,19.4
+insights/clinic-sales-audit/index.html,1440,48,32,—,52.7947,56,56,56,56,26,14 / 18,17,2487,1957,21.3
+insights/commercial-analytics-plan-fact/index.html,1440,48,32,—,52.7947,56,56,56,56,26,14 / 18,17,2455,1957,20.3
+insights/contact-center-metrics/index.html,1440,48,32,—,52.7947,56,56,56,56,26,14 / 18,17,2682,2086,22.2
+insights/crm-audit-checklist/index.html,1440,48,32,—,52.7947,56,56,56,56,26,14 / 18,17,2619,2086,20.4
+insights/crm-management-questions/index.html,1440,48,32,—,52.7947,56,56,56,56,26,14 / 18,17,2824,2322,17.8
+insights/external-rop-when-needed/index.html,1440,48,32,—,52.7947,56,56,56,56,26,14 / 18,17,2615,2154,17.6
+insights/index.html,1440,48,32,—,52.7947,56,56,56,56,,16 / 18,17,4311,4174,3.2
+insights/pharma-sales-management/index.html,1440,48,32,—,52.7947,56,56,56,56,26,14 / 18,17,2521,1957,22.4
+insights/problem-not-salespeople/index.html,1440,48,32,—,52.7947,56,56,56,56,26,14 / 18,17,2701,2213,18.1
+insights/remote-sales-control/index.html,1440,48,32,—,52.7947,56,56,56,56,26,14 / 18,17,2553,1957,23.3
+insights/sales-audit-checklist/index.html,1440,48,32,—,52.7947,56,56,56,56,26,14 / 18,17,2615,2061,21.2
+insights/sales-forecast/index.html,1440,48,32,—,52.7947,56,56,56,56,26,14 / 18,17,2426,1929,20.5
+insights/sales-kpi-guide/index.html,1440,48,32,—,52.7947,56,56,56,56,26,14 / 18,17,2429,1957,19.4
+insights/sales-manager-assessment/index.html,1440,48,32,—,52.7947,56,56,56,56,26,14 / 18,17,2492,1901,23.7
+insights/sales-plan-early-warning/index.html,1440,48,32,—,52.7947,56,56,56,56,26,14 / 18,17,2702,2210,18.2
+privacy.html,1440,48,32,—,52.7947,56,56,56,56,22,18,17,1270,1185,6.7
+remote-sales-department/index.html,1440,48,32,23,52.7947,56,56,56,56,22,18,17,5536,4359,21.3
+sales-audit/index.html,1440,48,32,—,52.7947,56,56,56,56,25,18,17,4798,3695,23.0
+sales-call-audit/index.html,1440,48,32,23,52.7947,56,56,56,56,22,18,17,4538,3554,21.7
+sales-data-analysis/index.html,1440,48,32,23,52.7947,56,56,56,56,22,18,17,5288,4109,22.3
+sales-department-from-scratch/index.html,1440,48,32,23,52.7947,56,56,56,56,22,18,17,5360,4252,20.7
+sales-kpi-motivation/index.html,1440,48,32,23,52.7947,56,56,56,56,22,18,17,4390,3375,23.1
+sales-team-assessment/index.html,1440,48,32,23,52.7947,56,56,56,56,22,18,17,4441,3525,20.6
+sales-team-recruitment/index.html,1440,48,32,—,52.7947,56,56,56,56,25,18,17,4751,3641,23.4
+services/index.html,1440,48,32,23,52.7947,56,56,56,32,22,18,16 / 17,7904,5791,26.7
+site-map.html,1440,48,32,—,52.7947,56,56,,,22,18,17,2247,2312,-2.9
+404.html,1920,48,—,—,52.8,56,56,,,25,—,17,1465,1000,31.7
+about/index.html,1920,48,32,23,52.8,56,56,56,56,22,18,17,7358,6071,17.5
+case-contact-center.html,1920,48,32,—,52.8,32,0,88,56,,18,17,4819,3381,29.8
+case-lead-generation.html,1920,48,32,—,52.8,32,0,88,56,,18,17,4849,3394,30.0
+case-legal-contact-center-sales.html,1920,48,32,—,52.8,32,0,88,56,,18,17,5318,3887,26.9
+case-pharma.html,1920,48,32,23,52.8,32,0,88,56,22,18,17,5857,4507,23.0
+case-remote-sales.html,1920,48,32,—,52.8,32,0,88,56,,18,17,5043,3574,29.1
+cases.html,1920,48,32,23,52.8,56,56,56,56,22,18,17,2980,2623,12.0
+commercial-analytics/index.html,1920,48,32,23,52.8,56,56,56,56,25,18,17,5913,4597,22.3
+commercial-control/index.html,1920,48,32,23,52.8,56,56,56,56,22,18,17,4566,3554,22.2
+commercial-management/index.html,1920,48,32,—,52.8,56,56,56,56,25,18,17,4965,3802,23.4
+contact-center-management/index.html,1920,48,32,23,52.8,56,56,56,56,22,18,17,5522,4223,23.5
+cookies.html,1920,48,32,—,52.8,56,56,56,56,22,18,17,1185,1101,7.1
+crm-bitrix24/index.html,1920,48,32,—,52.8,56,56,56,56,25,18,17,5054,3899,22.9
+crm-commercial-audit/index.html,1920,48,32,23,52.8,56,56,56,56,22,18,17,4500,3505,22.1
+customer-base-reactivation/index.html,1920,48,32,23,52.8,56,56,56,56,22,18,17,4640,3570,23.1
+index.html,1920,48,32,23,52.8,40,0,88,56,22,18,16 / 17,9553,7882,17.5
+industries/b2b-sales/index.html,1920,48,32,23,52.8,56,56,56,56,22,18,17,4333,3348,22.7
+industries/clinic-sales/index.html,1920,48,32,23,52.8,56,56,56,56,22,18,17,4333,3403,21.5
+industries/index.html,1920,48,32,—,52.8,56,56,56,56,22,18,17,2331,1950,16.3
+industries/legal-sales/index.html,1920,48,32,23,52.8,56,56,56,56,22,18,17,5545,4322,22.1
+industries/medicine-pharma/index.html,1920,48,32,23,52.8,56,56,56,56,25,18,17,5667,5152,9.1
+industries/pharma-sales/index.html,1920,48,32,23,52.8,56,56,56,56,22,18,17,5161,4112,20.3
+industries/supplements-sales/index.html,1920,48,32,23,52.8,56,56,56,56,22,18,17,4450,3447,22.5
+insights/abc-rfm-b2b/index.html,1920,48,32,—,52.8,56,56,56,56,26,14 / 18,17,2566,1957,23.7
+insights/abc-rfm-health/index.html,1920,48,32,—,52.8,56,56,56,56,26,14 / 18,17,2871,2278,20.7
+insights/before-hiring-head-of-sales/index.html,1920,48,32,—,52.8,56,56,56,56,26,14 / 18,17,2653,2141,19.3
+insights/bitrix24-sales-implementation/index.html,1920,48,32,—,52.8,56,56,56,56,26,14 / 18,17,2627,2013,23.4
+insights/build-sales-department-guide/index.html,1920,48,32,—,52.8,56,56,56,56,26,14 / 18,17,2690,2090,22.3
+insights/client-base-reactivation/index.html,1920,48,32,—,52.8,56,56,56,56,26,14 / 18,17,2437,1957,19.7
+insights/clinic-funnel/index.html,1920,48,32,—,52.8,56,56,56,56,26,14 / 18,17,2652,2129,19.7
+insights/clinic-sales-audit/index.html,1920,48,32,—,52.8,56,56,56,56,26,14 / 18,17,2500,1957,21.7
+insights/commercial-analytics-plan-fact/index.html,1920,48,32,—,52.8,56,56,56,56,26,14 / 18,17,2468,1957,20.7
+insights/contact-center-metrics/index.html,1920,48,32,—,52.8,56,56,56,56,26,14 / 18,17,2695,2086,22.6
+insights/crm-audit-checklist/index.html,1920,48,32,—,52.8,56,56,56,56,26,14 / 18,17,2632,2086,20.7
+insights/crm-management-questions/index.html,1920,48,32,—,52.8,56,56,56,56,26,14 / 18,17,2837,2322,18.2
+insights/external-rop-when-needed/index.html,1920,48,32,—,52.8,56,56,56,56,26,14 / 18,17,2627,2154,18.0
+insights/index.html,1920,48,32,—,52.8,56,56,56,56,,16 / 18,17,4324,4174,3.5
+insights/pharma-sales-management/index.html,1920,48,32,—,52.8,56,56,56,56,26,14 / 18,17,2534,1957,22.8
+insights/problem-not-salespeople/index.html,1920,48,32,—,52.8,56,56,56,56,26,14 / 18,17,2714,2213,18.5
+insights/remote-sales-control/index.html,1920,48,32,—,52.8,56,56,56,56,26,14 / 18,17,2566,1957,23.7
+insights/sales-audit-checklist/index.html,1920,48,32,—,52.8,56,56,56,56,26,14 / 18,17,2627,2061,21.5
+insights/sales-forecast/index.html,1920,48,32,—,52.8,56,56,56,56,26,14 / 18,17,2439,1929,20.9
+insights/sales-kpi-guide/index.html,1920,48,32,—,52.8,56,56,56,56,26,14 / 18,17,2442,1957,19.9
+insights/sales-manager-assessment/index.html,1920,48,32,—,52.8,56,56,56,56,26,14 / 18,17,2505,1901,24.1
+insights/sales-plan-early-warning/index.html,1920,48,32,—,52.8,56,56,56,56,26,14 / 18,17,2714,2210,18.6
+privacy.html,1920,48,32,—,52.8,56,56,56,56,22,18,17,1277,1185,7.2
+remote-sales-department/index.html,1920,48,32,23,52.8,56,56,56,56,22,18,17,5600,4359,22.2
+sales-audit/index.html,1920,48,32,—,52.8,56,56,56,56,25,18,17,4850,3695,23.8
+sales-call-audit/index.html,1920,48,32,23,52.8,56,56,56,56,22,18,17,4589,3554,22.6
+sales-data-analysis/index.html,1920,48,32,23,52.8,56,56,56,56,22,18,17,5352,4109,23.2
+sales-department-from-scratch/index.html,1920,48,32,23,52.8,56,56,56,56,22,18,17,5424,4252,21.6
+sales-kpi-motivation/index.html,1920,48,32,23,52.8,56,56,56,56,22,18,17,4441,3375,24.0
+sales-team-assessment/index.html,1920,48,32,23,52.8,56,56,56,56,22,18,17,4492,3525,21.5
+sales-team-recruitment/index.html,1920,48,32,—,52.8,56,56,56,56,25,18,17,4802,3641,24.2
+services/index.html,1920,48,32,23,52.8,56,56,56,32,22,18,16 / 17,7929,5791,27.0
+site-map.html,1920,48,32,—,52.8,56,56,,,22,18,17,2253,2312,-2.6

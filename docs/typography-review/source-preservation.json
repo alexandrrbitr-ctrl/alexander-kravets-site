@@ -1,0 +1,13 @@
+{
+  "base": "f6ae4f029285e0b0615436a5491dbc0fb578f326",
+  "html_pages_byte_identical": 57,
+  "json_ld_valid_unchanged": 59,
+  "sitemap_urls": 54,
+  "js_contacts_navigation_assets_content_unchanged": true,
+  "modified_source_files": [
+    "premium.css",
+    "services/packaging.css",
+    "styles.css"
+  ],
+  "palette_literals_preserved": true
+}

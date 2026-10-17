@@ -1,0 +1,2827 @@
+[
+  {
+    "width": 390,
+    "route": "",
+    "selector": "h1",
+    "computed": {
+      "size": "37px",
+      "line": "40.7px",
+      "padding": "0px",
+      "margin": "18px 0px 26px"
+    },
+    "candidates": [
+      {
+        "selector": "h1, h2, h3",
+        "file": "styles.css",
+        "line": "h1, h2, h3 { margin: 0px; line-height: 1.02; letter-spacing: -0.045em; }",
+        "props": {
+          "margin": "0px",
+          "margin-top": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      {
+        "selector": "h1",
+        "file": "styles.css",
+        "line": "h1 { font-size: clamp(48px, 6vw, 82px); max-width: 880px; }",
+        "props": {
+          "font-size": "clamp(48px, 6vw, 82px)"
+        }
+      },
+      {
+        "selector": "h1",
+        "file": "styles.css",
+        "line": "h1 { font-size: 44px; line-height: 1.01; }",
+        "props": {
+          "font-size": "44px"
+        }
+      },
+      {
+        "selector": "h1",
+        "file": "styles.css",
+        "line": "h1 { font-size: clamp(54px, 5.55vw, 84px); line-height: 0.99; letter-spacing: -0.052em; }",
+        "props": {
+          "font-size": "clamp(54px, 5.55vw, 84px)"
+        }
+      },
+      {
+        "selector": ".hero--v14 h1",
+        "file": "styles.css",
+        "line": ".hero--v14 h1 { font-size: clamp(50px, 6.5vw, 72px); }",
+        "props": {
+          "font-size": "clamp(50px, 6.5vw, 72px)"
+        }
+      },
+      {
+        "selector": ".hero--v14 h1",
+        "file": "styles.css",
+        "line": ".hero--v14 h1 { font-size: 44px; line-height: 1.01; }",
+        "props": {
+          "font-size": "44px"
+        }
+      },
+      {
+        "selector": ".hero--v15 h1, .service-hero h1",
+        "file": "styles.css",
+        "line": ".hero--v15 h1, .service-hero h1 { font-size: clamp(41px, 4.2vw, 63px); line-height: 1.06; }",
+        "props": {
+          "font-size": "clamp(41px, 4.2vw, 63px)"
+        }
+      },
+      {
+        "selector": ".hero--v15 h1, .service-hero h1",
+        "file": "styles.css",
+        "line": ".hero--v15 h1, .service-hero h1 { font-size: 33px; }",
+        "props": {
+          "font-size": "33px"
+        }
+      },
+      {
+        "selector": ".hero--v16 h1",
+        "file": "styles.css",
+        "line": ".hero--v16 h1 { font-size: 48px; line-height: 1.08; max-width: 650px; }",
+        "props": {
+          "font-size": "48px"
+        }
+      },
+      {
+        "selector": ".hero--v16 h1",
+        "file": "styles.css",
+        "line": ".hero--v16 h1 { font-size: 40px; }",
+        "props": {
+          "font-size": "40px"
+        }
+      },
+      {
+        "selector": ".hero--v16 h1",
+        "file": "styles.css",
+        "line": ".hero--v16 h1 { font-size: 32px; }",
+        "props": {
+          "font-size": "32px"
+        }
+      },
+      {
+        "selector": ".design-v17 h1",
+        "file": "styles.css",
+        "line": ".design-v17 h1 { font-size: clamp(30px, 3.1vw, 39px); line-height: 1.15; letter-spacing: -0.032em; }",
+        "props": {
+          "font-size": "clamp(30px, 3.1vw, 39px)"
+        }
+      },
+      {
+        "selector": ".design-v17 .hero--v17 h1",
+        "file": "styles.css",
+        "line": ".design-v17 .hero--v17 h1 { font-size: clamp(30px, 3vw, 37px); line-height: 1.15; max-width: 620px; letter-spacing: -0.038em; margin-top: 0px; }",
+        "props": {
+          "font-size": "clamp(30px, 3vw, 37px)",
+          "margin-top": "0px"
+        }
+      },
+      {
+        "selector": ".design-v17 .hero--v17 h1",
+        "file": "styles.css",
+        "line": ".design-v17 .hero--v17 h1 { font-size: 30px; line-height: 1.16; }",
+        "props": {
+          "font-size": "30px"
+        }
+      },
+      {
+        "selector": ".hero--v16 h1",
+        "file": "styles.css",
+        "line": ".hero--v16 h1 { font-size: clamp(32px, 2.85vw, 39px); line-height: 1.12; letter-spacing: -0.032em; }",
+        "props": {
+          "font-size": "clamp(32px, 2.85vw, 39px)"
+        }
+      },
+      {
+        "selector": ".design-v17 .hero--v17 h1",
+        "file": "styles.css",
+        "line": ".design-v17 .hero--v17 h1 { font-size: 35px; }",
+        "props": {
+          "font-size": "35px"
+        }
+      },
+      {
+        "selector": ".design-v17 .hero--v17 h1",
+        "file": "styles.css",
+        "line": ".design-v17 .hero--v17 h1 { font-size: 30px; }",
+        "props": {
+          "font-size": "30px"
+        }
+      },
+      {
+        "selector": ".design-v20 h1",
+        "file": "styles.css",
+        "line": ".design-v20 h1 { font-size: clamp(30px, 3vw, 39px); line-height: 1.14; max-width: 880px; }",
+        "props": {
+          "font-size": "clamp(30px, 3vw, 39px)"
+        }
+      },
+      {
+        "selector": ".design-v20 h1",
+        "file": "styles.css",
+        "line": ".design-v20 h1 { font-size: 30px; }",
+        "props": {
+          "font-size": "30px"
+        }
+      },
+      {
+        "selector": ".home-v25 .hero--v17 h1",
+        "file": "styles.css",
+        "line": ".home-v25 .hero--v17 h1 { font-size: clamp(46px, 4.5vw, 64px); line-height: 1.08; max-width: 720px; letter-spacing: -0.04em; }",
+        "props": {
+          "font-size": "clamp(46px, 4.5vw, 64px)"
+        }
+      },
+      {
+        "selector": ".home-v25 .hero--v17 h1",
+        "file": "styles.css",
+        "line": ".home-v25 .hero--v17 h1 { font-size: 46px; }",
+        "props": {
+          "font-size": "46px"
+        }
+      },
+      {
+        "selector": ".home-v25 .hero--v17 h1",
+        "file": "styles.css",
+        "line": ".home-v25 .hero--v17 h1 { font-size: 36px; line-height: 1.12; }",
+        "props": {
+          "font-size": "36px"
+        }
+      },
+      {
+        "selector": ".fr-premium .fr-section h1",
+        "file": "premium.css",
+        "line": ".fr-premium .fr-section h1 { font: 400 clamp(38px, 4.5vw, 60px) / 1.1 Georgia, serif; letter-spacing: -0.035em; max-width: 960px; margin: 20px 0px 30px; }",
+        "props": {
+          "font": "400 clamp(38px, 4.5vw, 60px) / 1.1 Georgia, serif",
+          "font-size": "clamp(38px, 4.5vw, 60px)",
+          "margin": "20px 0px 30px",
+          "margin-top": "20px",
+          "margin-bottom": "30px"
+        }
+      },
+      {
+        "selector": ".fr-premium.home-v26 .hero--v17 h1",
+        "file": "premium.css",
+        "line": ".fr-premium.home-v26 .hero--v17 h1 { font-size: clamp(44px, 4.5vw, 64px); color: var(--fr-white); margin: 18px 0px 26px; }",
+        "props": {
+          "font-size": "clamp(44px, 4.5vw, 64px)",
+          "margin": "18px 0px 26px",
+          "margin-top": "18px",
+          "margin-bottom": "26px"
+        }
+      },
+      {
+        "selector": ".fr-premium.home-v26 .hero--v17 h1",
+        "file": "premium.css",
+        "line": ".fr-premium.home-v26 .hero--v17 h1 { font-size: 44px; }",
+        "props": {
+          "font-size": "44px"
+        }
+      },
+      {
+        "selector": ".fr-premium .fr-section h1, .fr-premium.fr-case-page .fr-hero h1",
+        "file": "premium.css",
+        "line": ".fr-premium .fr-section h1, .fr-premium.fr-case-page .fr-hero h1 { font-size: 36px; }",
+        "props": {
+          "font-size": "36px"
+        }
+      },
+      {
+        "selector": ".fr-premium.home-v26 .hero--v17 h1",
+        "file": "premium.css",
+        "line": ".fr-premium.home-v26 .hero--v17 h1 { font-size: 37px; }",
+        "props": {
+          "font-size": "37px"
+        }
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "route": "",
+    "selector": "#services h2",
+    "computed": {
+      "size": "31px",
+      "line": "37.2px",
+      "padding": "0px",
+      "margin": "0px 0px 30px"
+    },
+    "candidates": [
+      {
+        "selector": "h1, h2, h3",
+        "file": "styles.css",
+        "line": "h1, h2, h3 { margin: 0px; line-height: 1.02; letter-spacing: -0.045em; }",
+        "props": {
+          "margin": "0px",
+          "margin-top": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      {
+        "selector": "h2",
+        "file": "styles.css",
+        "line": "h2 { font-size: clamp(38px, 4.6vw, 61px); }",
+        "props": {
+          "font-size": "clamp(38px, 4.6vw, 61px)"
+        }
+      },
+      {
+        "selector": "h2",
+        "file": "styles.css",
+        "line": "h2 { font-size: 38px; }",
+        "props": {
+          "font-size": "38px"
+        }
+      },
+      {
+        "selector": "h2",
+        "file": "styles.css",
+        "line": "h2 { font-size: clamp(39px, 4.15vw, 58px); line-height: 1.01; letter-spacing: -0.048em; }",
+        "props": {
+          "font-size": "clamp(39px, 4.15vw, 58px)"
+        }
+      },
+      {
+        "selector": "h2",
+        "file": "styles.css",
+        "line": "h2 { font-size: 38px; }",
+        "props": {
+          "font-size": "38px"
+        }
+      },
+      {
+        "selector": "body:has(.hero--v15) h2, body:has(.service-hero) h2",
+        "file": "styles.css",
+        "line": "body:has(.hero--v15) h2, body:has(.service-hero) h2 { font-size: clamp(30px, 3.15vw, 44px); line-height: 1.1; }",
+        "props": {
+          "font-size": "clamp(30px, 3.15vw, 44px)"
+        }
+      },
+      {
+        "selector": "body:has(.hero--v15) h2, body:has(.service-hero) h2",
+        "file": "styles.css",
+        "line": "body:has(.hero--v15) h2, body:has(.service-hero) h2 { font-size: 29px; }",
+        "props": {
+          "font-size": "29px"
+        }
+      },
+      {
+        "selector": ".design-v17 h2, .design-v17:has(.hero--v15) h2, .design-v17:has(.service-hero) h2",
+        "file": "styles.css",
+        "line": ".design-v17 h2, .design-v17:has(.hero--v15) h2, .design-v17:has(.service-hero) h2 { font-size: clamp(24px, 2.25vw, 31px); line-height: 1.18; letter-spacing: -0.03em; }",
+        "props": {
+          "font-size": "clamp(24px, 2.25vw, 31px)"
+        }
+      },
+      {
+        "selector": "body:has(.hero--v15) h2, h2",
+        "file": "styles.css",
+        "line": "body:has(.hero--v15) h2, h2 { font-size: clamp(27px, 2.45vw, 37px); line-height: 1.13; letter-spacing: -0.03em; }",
+        "props": {
+          "font-size": "clamp(27px, 2.45vw, 37px)"
+        }
+      },
+      {
+        "selector": ".home-v25 .v20-section h2, .home-v25 .cases h2",
+        "file": "styles.css",
+        "line": ".home-v25 .v20-section h2, .home-v25 .cases h2 { font-size: clamp(38px, 3.2vw, 46px); line-height: 1.15; max-width: 870px; letter-spacing: -0.025em; }",
+        "props": {
+          "font-size": "clamp(38px, 3.2vw, 46px)"
+        }
+      },
+      {
+        "selector": ".home-v25 .v20-section h2, .home-v25 .cases h2",
+        "file": "styles.css",
+        "line": ".home-v25 .v20-section h2, .home-v25 .cases h2 { font-size: 32px; line-height: 1.2; }",
+        "props": {
+          "font-size": "32px"
+        }
+      },
+      {
+        "selector": ".fr-premium .fr-section h2",
+        "file": "premium.css",
+        "line": ".fr-premium .fr-section h2 { font: 400 clamp(32px, 3.2vw, 44px) / 1.16 Georgia, serif; letter-spacing: -0.025em; max-width: 850px; margin: 0px 0px 30px; }",
+        "props": {
+          "font": "400 clamp(32px, 3.2vw, 44px) / 1.16 Georgia, serif",
+          "font-size": "clamp(32px, 3.2vw, 44px)",
+          "margin": "0px 0px 30px",
+          "margin-top": "0px",
+          "margin-bottom": "30px"
+        }
+      },
+      {
+        "selector": ".fr-premium .fr-section h2",
+        "file": "premium.css",
+        "line": ".fr-premium .fr-section h2 { font-size: 31px; line-height: 1.2; }",
+        "props": {
+          "font-size": "31px"
+        }
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "route": "",
+    "selector": "#cases h3",
+    "computed": {
+      "size": "30px",
+      "line": "36px",
+      "padding": "0px",
+      "margin": "0px 0px 24px"
+    },
+    "candidates": [
+      {
+        "selector": "h1, h2, h3",
+        "file": "styles.css",
+        "line": "h1, h2, h3 { margin: 0px; line-height: 1.02; letter-spacing: -0.045em; }",
+        "props": {
+          "margin": "0px",
+          "margin-top": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      {
+        "selector": "h3",
+        "file": "styles.css",
+        "line": "h3 { font-size: 27px; letter-spacing: -0.035em; }",
+        "props": {
+          "font-size": "27px"
+        }
+      },
+      {
+        "selector": ".v20-case-cards h3",
+        "file": "styles.css",
+        "line": ".v20-case-cards h3 { font: 400 25px / 1.25 Georgia, \"Times New Roman\", serif; margin: 12px 0px 15px; max-width: min(100%, 540px); text-wrap: balance; }",
+        "props": {
+          "font": "400 25px / 1.25 Georgia, \"Times New Roman\", serif",
+          "font-size": "25px",
+          "margin": "12px 0px 15px",
+          "margin-top": "12px",
+          "margin-bottom": "15px"
+        }
+      },
+      {
+        "selector": ".v20-case-cards h3",
+        "file": "styles.css",
+        "line": ".v20-case-cards h3 { font-size: 23px; }",
+        "props": {
+          "font-size": "23px"
+        }
+      },
+      {
+        "selector": ".home-v24 #cases .v20-case-cards h3",
+        "file": "styles.css",
+        "line": ".home-v24 #cases .v20-case-cards h3 { font-size: 26px; line-height: 1.3; margin-bottom: 22px; }",
+        "props": {
+          "font-size": "26px",
+          "margin-bottom": "22px"
+        }
+      },
+      {
+        "selector": ".home-v25 #cases .v20-case-cards h3",
+        "file": "styles.css",
+        "line": ".home-v25 #cases .v20-case-cards h3 { font-size: 34px; line-height: 1.2; margin: 0px 0px 32px; }",
+        "props": {
+          "font-size": "34px",
+          "margin": "0px 0px 32px",
+          "margin-top": "0px",
+          "margin-bottom": "32px"
+        }
+      },
+      {
+        "selector": ".home-v25 #cases .v20-case-cards h3",
+        "file": "styles.css",
+        "line": ".home-v25 #cases .v20-case-cards h3 { font-size: 30px; margin-bottom: 24px; }",
+        "props": {
+          "font-size": "30px",
+          "margin-bottom": "24px"
+        }
+      },
+      {
+        "selector": ".fr-premium .fr-section h3",
+        "file": "premium.css",
+        "line": ".fr-premium .fr-section h3 { font: 400 27px / 1.25 Georgia, serif; letter-spacing: -0.015em; }",
+        "props": {
+          "font": "400 27px / 1.25 Georgia, serif",
+          "font-size": "27px"
+        }
+      },
+      {
+        "selector": ".fr-premium .fr-section h3",
+        "file": "premium.css",
+        "line": ".fr-premium .fr-section h3 { font-size: 25px; }",
+        "props": {
+          "font-size": "25px"
+        }
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "route": "",
+    "selector": "#system h3",
+    "computed": {
+      "size": "26px",
+      "line": "32.5px",
+      "padding": "0px",
+      "margin": "10px 0px"
+    },
+    "candidates": [
+      {
+        "selector": "h1, h2, h3",
+        "file": "styles.css",
+        "line": "h1, h2, h3 { margin: 0px; line-height: 1.02; letter-spacing: -0.045em; }",
+        "props": {
+          "margin": "0px",
+          "margin-top": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      {
+        "selector": "h3",
+        "file": "styles.css",
+        "line": "h3 { font-size: 27px; letter-spacing: -0.035em; }",
+        "props": {
+          "font-size": "27px"
+        }
+      },
+      {
+        "selector": ".v19-process h3",
+        "file": "styles.css",
+        "line": ".v19-process h3 { font-family: Georgia, \"Times New Roman\", serif; font-weight: 400; font-size: 18px; margin: 8px 0px; }",
+        "props": {
+          "font-size": "18px",
+          "margin": "8px 0px",
+          "margin-top": "8px",
+          "margin-bottom": "8px"
+        }
+      },
+      {
+        "selector": ".home-v25 #system .v19-process h3",
+        "file": "styles.css",
+        "line": ".home-v25 #system .v19-process h3 { font-size: 25px; margin: 24px 0px 16px; }",
+        "props": {
+          "font-size": "25px",
+          "margin": "24px 0px 16px",
+          "margin-top": "24px",
+          "margin-bottom": "16px"
+        }
+      },
+      {
+        "selector": ".home-v25 #system .v19-process h3",
+        "file": "styles.css",
+        "line": ".home-v25 #system .v19-process h3 { font-size: 22px; }",
+        "props": {
+          "font-size": "22px"
+        }
+      },
+      {
+        "selector": ".home-v25 #system .v19-process h3",
+        "file": "styles.css",
+        "line": ".home-v25 #system .v19-process h3 { font-size: 26px; margin: 10px 0px; }",
+        "props": {
+          "font-size": "26px",
+          "margin": "10px 0px",
+          "margin-top": "10px",
+          "margin-bottom": "10px"
+        }
+      },
+      {
+        "selector": ".fr-premium .fr-section h3",
+        "file": "premium.css",
+        "line": ".fr-premium .fr-section h3 { font: 400 27px / 1.25 Georgia, serif; letter-spacing: -0.015em; }",
+        "props": {
+          "font": "400 27px / 1.25 Georgia, serif",
+          "font-size": "27px"
+        }
+      },
+      {
+        "selector": ".fr-premium .fr-section h3",
+        "file": "premium.css",
+        "line": ".fr-premium .fr-section h3 { font-size: 25px; }",
+        "props": {
+          "font-size": "25px"
+        }
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "route": "",
+    "selector": "#system p",
+    "computed": {
+      "size": "11px",
+      "line": "17.6px",
+      "padding": "0px",
+      "margin": "0px 0px 15px"
+    },
+    "candidates": [
+      {
+        "selector": ".eyebrow",
+        "file": "styles.css",
+        "line": ".eyebrow { margin: 0px 0px 15px; text-transform: uppercase; letter-spacing: 0.17em; font-size: 10px; font-weight: 800; color: var(--green); }",
+        "props": {
+          "font-size": "10px",
+          "margin": "0px 0px 15px",
+          "margin-top": "0px",
+          "margin-bottom": "15px"
+        }
+      },
+      {
+        "selector": ".eyebrow",
+        "file": "styles.css",
+        "line": ".eyebrow { font-size: 10px; letter-spacing: 0.2em; }",
+        "props": {
+          "font-size": "10px"
+        }
+      },
+      {
+        "selector": ".eyebrow, .section-no, .case-label, .case-flow div span, .article-meta span, .service-fit small, .home-insights__grid span, .insight-card > span",
+        "file": "styles.css",
+        "line": ".eyebrow, .section-no, .case-label, .case-flow div span, .article-meta span, .service-fit small, .home-insights__grid span, .insight-card > span { font-size: 10px; }",
+        "props": {
+          "font-size": "10px"
+        }
+      },
+      {
+        "selector": ".design-v17 .eyebrow, .design-v17 .section-no, .design-v17 .case-label",
+        "file": "styles.css",
+        "line": ".design-v17 .eyebrow, .design-v17 .section-no, .design-v17 .case-label { font-size: 10px; letter-spacing: 0.1em; }",
+        "props": {
+          "font-size": "10px"
+        }
+      },
+      {
+        "selector": ".home-v25 .eyebrow",
+        "file": "styles.css",
+        "line": ".home-v25 .eyebrow { font-size: 12px; line-height: 1.5; }",
+        "props": {
+          "font-size": "12px"
+        }
+      },
+      {
+        "selector": ".fr-premium .eyebrow",
+        "file": "premium.css",
+        "line": ".fr-premium .eyebrow { font-size: 11px; letter-spacing: 0.12em; font-weight: 600; line-height: 1.6; color: var(--fr-bronze-ink); }",
+        "props": {
+          "font-size": "11px"
+        }
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "route": "services/",
+    "selector": "h1",
+    "computed": {
+      "size": "36px",
+      "line": "39.6px",
+      "padding": "0px",
+      "margin": "20px 0px 30px"
+    },
+    "candidates": [
+      {
+        "selector": "h1, h2, h3",
+        "file": "styles.css",
+        "line": "h1, h2, h3 { margin: 0px; line-height: 1.02; letter-spacing: -0.045em; }",
+        "props": {
+          "margin": "0px",
+          "margin-top": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      {
+        "selector": "h1",
+        "file": "styles.css",
+        "line": "h1 { font-size: clamp(48px, 6vw, 82px); max-width: 880px; }",
+        "props": {
+          "font-size": "clamp(48px, 6vw, 82px)"
+        }
+      },
+      {
+        "selector": "h1",
+        "file": "styles.css",
+        "line": "h1 { font-size: 44px; line-height: 1.01; }",
+        "props": {
+          "font-size": "44px"
+        }
+      },
+      {
+        "selector": "h1",
+        "file": "styles.css",
+        "line": "h1 { font-size: clamp(54px, 5.55vw, 84px); line-height: 0.99; letter-spacing: -0.052em; }",
+        "props": {
+          "font-size": "clamp(54px, 5.55vw, 84px)"
+        }
+      },
+      {
+        "selector": ".v19-page-hero h1, .v19-hub-hero h1, .v19-about-hero h1, .v19-article-hero h1",
+        "file": "styles.css",
+        "line": ".v19-page-hero h1, .v19-hub-hero h1, .v19-about-hero h1, .v19-article-hero h1 { font-family: Georgia, \"Times New Roman\", serif; font-weight: 400; font-size: clamp(33px, 3.2vw, 46px); line-height: 1.08; letter-spacing: -0",
+        "props": {
+          "font-size": "clamp(33px, 3.2vw, 46px)",
+          "margin": "12px 0px 0px",
+          "margin-top": "12px",
+          "margin-bottom": "0px"
+        }
+      },
+      {
+        "selector": ".v19-page-hero h1, .v19-hub-hero h1, .v19-about-hero h1, .v19-article-hero h1",
+        "file": "styles.css",
+        "line": ".v19-page-hero h1, .v19-hub-hero h1, .v19-about-hero h1, .v19-article-hero h1 { font-size: 31px; }",
+        "props": {
+          "font-size": "31px"
+        }
+      },
+      {
+        "selector": ".fr-premium .fr-section h1",
+        "file": "premium.css",
+        "line": ".fr-premium .fr-section h1 { font: 400 clamp(38px, 4.5vw, 60px) / 1.1 Georgia, serif; letter-spacing: -0.035em; max-width: 960px; margin: 20px 0px 30px; }",
+        "props": {
+          "font": "400 clamp(38px, 4.5vw, 60px) / 1.1 Georgia, serif",
+          "font-size": "clamp(38px, 4.5vw, 60px)",
+          "margin": "20px 0px 30px",
+          "margin-top": "20px",
+          "margin-bottom": "30px"
+        }
+      },
+      {
+        "selector": ".fr-premium .fr-section h1, .fr-premium.fr-case-page .fr-hero h1",
+        "file": "premium.css",
+        "line": ".fr-premium .fr-section h1, .fr-premium.fr-case-page .fr-hero h1 { font-size: 36px; }",
+        "props": {
+          "font-size": "36px"
+        }
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "route": "services/",
+    "selector": "h2",
+    "computed": {
+      "size": "31px",
+      "line": "37.2px",
+      "padding": "0px",
+      "margin": "0px 0px 30px"
+    },
+    "candidates": [
+      {
+        "selector": "h1, h2, h3",
+        "file": "styles.css",
+        "line": "h1, h2, h3 { margin: 0px; line-height: 1.02; letter-spacing: -0.045em; }",
+        "props": {
+          "margin": "0px",
+          "margin-top": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      {
+        "selector": "h2",
+        "file": "styles.css",
+        "line": "h2 { font-size: clamp(38px, 4.6vw, 61px); }",
+        "props": {
+          "font-size": "clamp(38px, 4.6vw, 61px)"
+        }
+      },
+      {
+        "selector": "h2",
+        "file": "styles.css",
+        "line": "h2 { font-size: 38px; }",
+        "props": {
+          "font-size": "38px"
+        }
+      },
+      {
+        "selector": "h2",
+        "file": "styles.css",
+        "line": "h2 { font-size: clamp(39px, 4.15vw, 58px); line-height: 1.01; letter-spacing: -0.048em; }",
+        "props": {
+          "font-size": "clamp(39px, 4.15vw, 58px)"
+        }
+      },
+      {
+        "selector": "h2",
+        "file": "styles.css",
+        "line": "h2 { font-size: 38px; }",
+        "props": {
+          "font-size": "38px"
+        }
+      },
+      {
+        "selector": "body:has(.hero--v15) h2, h2",
+        "file": "styles.css",
+        "line": "body:has(.hero--v15) h2, h2 { font-size: clamp(27px, 2.45vw, 37px); line-height: 1.13; letter-spacing: -0.03em; }",
+        "props": {
+          "font-size": "clamp(27px, 2.45vw, 37px)"
+        }
+      },
+      {
+        "selector": ".fr-premium .fr-section h2",
+        "file": "premium.css",
+        "line": ".fr-premium .fr-section h2 { font: 400 clamp(32px, 3.2vw, 44px) / 1.16 Georgia, serif; letter-spacing: -0.025em; max-width: 850px; margin: 0px 0px 30px; }",
+        "props": {
+          "font": "400 clamp(32px, 3.2vw, 44px) / 1.16 Georgia, serif",
+          "font-size": "clamp(32px, 3.2vw, 44px)",
+          "margin": "0px 0px 30px",
+          "margin-top": "0px",
+          "margin-bottom": "30px"
+        }
+      },
+      {
+        "selector": ".fr-premium .fr-section h2",
+        "file": "premium.css",
+        "line": ".fr-premium .fr-section h2 { font-size: 31px; line-height: 1.2; }",
+        "props": {
+          "font-size": "31px"
+        }
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "route": "services/",
+    "selector": ".sp-direction h3",
+    "computed": {
+      "size": "29px",
+      "line": "36.25px",
+      "padding": "0px",
+      "margin": "12px 0px 16px"
+    },
+    "candidates": [
+      {
+        "selector": "h1, h2, h3",
+        "file": "styles.css",
+        "line": "h1, h2, h3 { margin: 0px; line-height: 1.02; letter-spacing: -0.045em; }",
+        "props": {
+          "margin": "0px",
+          "margin-top": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      {
+        "selector": "h3",
+        "file": "styles.css",
+        "line": "h3 { font-size: 27px; letter-spacing: -0.035em; }",
+        "props": {
+          "font-size": "27px"
+        }
+      },
+      {
+        "selector": ".fr-premium .fr-section h3",
+        "file": "premium.css",
+        "line": ".fr-premium .fr-section h3 { font: 400 27px / 1.25 Georgia, serif; letter-spacing: -0.015em; }",
+        "props": {
+          "font": "400 27px / 1.25 Georgia, serif",
+          "font-size": "27px"
+        }
+      },
+      {
+        "selector": ".fr-premium .fr-section h3",
+        "file": "premium.css",
+        "line": ".fr-premium .fr-section h3 { font-size: 25px; }",
+        "props": {
+          "font-size": "25px"
+        }
+      },
+      {
+        "selector": ".fr-premium .sp-direction__intro h3",
+        "file": "packaging.css",
+        "line": ".fr-premium .sp-direction__intro h3 { font-size: 34px; margin: 16px 0px 22px; }",
+        "props": {
+          "font-size": "34px",
+          "margin": "16px 0px 22px",
+          "margin-top": "16px",
+          "margin-bottom": "22px"
+        }
+      },
+      {
+        "selector": ".fr-premium .sp-direction__intro h3",
+        "file": "packaging.css",
+        "line": ".fr-premium .sp-direction__intro h3 { font-size: 30px; }",
+        "props": {
+          "font-size": "30px"
+        }
+      },
+      {
+        "selector": ".fr-premium .sp-direction__intro h3",
+        "file": "packaging.css",
+        "line": ".fr-premium .sp-direction__intro h3 { font-size: 29px; margin: 12px 0px 16px; }",
+        "props": {
+          "font-size": "29px",
+          "margin": "12px 0px 16px",
+          "margin-top": "12px",
+          "margin-bottom": "16px"
+        }
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "route": "services/",
+    "selector": ".sp-direction",
+    "computed": {
+      "size": "16px",
+      "line": "24px",
+      "padding": "28px 20px",
+      "margin": "30px 0px 0px"
+    },
+    "candidates": [
+      {
+        "selector": ".fr-premium .sp-direction",
+        "file": "packaging.css",
+        "line": ".fr-premium .sp-direction { display: grid; grid-template-columns: minmax(0px, 0.85fr) minmax(0px, 1.15fr); gap: 64px; border-bottom: 1px solid var(--fr-line); padding: 52px 0px; scroll-margin-top: 100px; }",
+        "props": {
+          "padding": "52px 0px",
+          "padding-top": "52px",
+          "padding-bottom": "52px",
+          "gap": "64px"
+        }
+      },
+      {
+        "selector": ".fr-premium .sp-direction--flagship",
+        "file": "packaging.css",
+        "line": ".fr-premium .sp-direction--flagship { border-top: 4px solid var(--fr-bronze); background: var(--fr-surface); padding: 38px 32px; margin-top: 40px; box-shadow: rgba(19, 32, 25, 0.03) 0px 12px 30px; }",
+        "props": {
+          "padding": "38px 32px",
+          "padding-top": "38px",
+          "padding-bottom": "38px",
+          "margin-top": "40px"
+        }
+      },
+      {
+        "selector": ".fr-premium .sp-direction, .fr-premium .sp-engagement__list > div",
+        "file": "packaging.css",
+        "line": ".fr-premium .sp-direction, .fr-premium .sp-engagement__list > div { gap: 36px; }",
+        "props": {
+          "gap": "36px"
+        }
+      },
+      {
+        "selector": ".fr-premium .sp-direction--flagship",
+        "file": "packaging.css",
+        "line": ".fr-premium .sp-direction--flagship { padding: 32px 24px; }",
+        "props": {
+          "padding": "32px 24px",
+          "padding-top": "32px",
+          "padding-bottom": "32px"
+        }
+      },
+      {
+        "selector": ".fr-premium .sp-direction",
+        "file": "packaging.css",
+        "line": ".fr-premium .sp-direction { grid-template-columns: 1fr; gap: 24px; padding: 36px 0px; }",
+        "props": {
+          "padding": "36px 0px",
+          "padding-top": "36px",
+          "padding-bottom": "36px",
+          "gap": "24px"
+        }
+      },
+      {
+        "selector": ".fr-premium .sp-direction--flagship",
+        "file": "packaging.css",
+        "line": ".fr-premium .sp-direction--flagship { padding: 28px 20px; margin-top: 30px; }",
+        "props": {
+          "padding": "28px 20px",
+          "padding-top": "28px",
+          "padding-bottom": "28px",
+          "margin-top": "30px"
+        }
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "route": "services/",
+    "selector": ".sp-proof p",
+    "computed": {
+      "size": "11px",
+      "line": "19.25px",
+      "padding": "0px",
+      "margin": "0px"
+    },
+    "candidates": [
+      {
+        "selector": ".eyebrow",
+        "file": "styles.css",
+        "line": ".eyebrow { margin: 0px 0px 15px; text-transform: uppercase; letter-spacing: 0.17em; font-size: 10px; font-weight: 800; color: var(--green); }",
+        "props": {
+          "font-size": "10px",
+          "margin": "0px 0px 15px",
+          "margin-top": "0px",
+          "margin-bottom": "15px"
+        }
+      },
+      {
+        "selector": ".eyebrow",
+        "file": "styles.css",
+        "line": ".eyebrow { font-size: 10px; letter-spacing: 0.2em; }",
+        "props": {
+          "font-size": "10px"
+        }
+      },
+      {
+        "selector": ".eyebrow, .section-no, .case-label, .case-flow div span, .article-meta span, .service-fit small, .home-insights__grid span, .insight-card > span",
+        "file": "styles.css",
+        "line": ".eyebrow, .section-no, .case-label, .case-flow div span, .article-meta span, .service-fit small, .home-insights__grid span, .insight-card > span { font-size: 10px; }",
+        "props": {
+          "font-size": "10px"
+        }
+      },
+      {
+        "selector": ".fr-premium .eyebrow",
+        "file": "premium.css",
+        "line": ".fr-premium .eyebrow { font-size: 11px; letter-spacing: 0.12em; font-weight: 600; line-height: 1.6; color: var(--fr-bronze-ink); }",
+        "props": {
+          "font-size": "11px"
+        }
+      },
+      {
+        "selector": ".fr-premium .sp-formats p, .fr-premium .sp-note p, .fr-premium .sp-proof p",
+        "file": "packaging.css",
+        "line": ".fr-premium .sp-formats p, .fr-premium .sp-note p, .fr-premium .sp-proof p { font-size: 15px; line-height: 1.75; color: var(--fr-muted); margin: 0px; }",
+        "props": {
+          "font-size": "15px",
+          "margin": "0px",
+          "margin-top": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      {
+        "selector": ".fr-premium .sp-proof .eyebrow",
+        "file": "packaging.css",
+        "line": ".fr-premium .sp-proof .eyebrow { font-size: 11px; color: var(--fr-bronze); }",
+        "props": {
+          "font-size": "11px"
+        }
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "route": "case-pharma.html",
+    "selector": "h1",
+    "computed": {
+      "size": "36px",
+      "line": "39.6px",
+      "padding": "0px",
+      "margin": "24px 0px 30px"
+    },
+    "candidates": [
+      {
+        "selector": "h1, h2, h3",
+        "file": "styles.css",
+        "line": "h1, h2, h3 { margin: 0px; line-height: 1.02; letter-spacing: -0.045em; }",
+        "props": {
+          "margin": "0px",
+          "margin-top": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      {
+        "selector": "h1",
+        "file": "styles.css",
+        "line": "h1 { font-size: clamp(48px, 6vw, 82px); max-width: 880px; }",
+        "props": {
+          "font-size": "clamp(48px, 6vw, 82px)"
+        }
+      },
+      {
+        "selector": "h1",
+        "file": "styles.css",
+        "line": "h1 { font-size: 44px; line-height: 1.01; }",
+        "props": {
+          "font-size": "44px"
+        }
+      },
+      {
+        "selector": "h1",
+        "file": "styles.css",
+        "line": "h1 { font-size: clamp(54px, 5.55vw, 84px); line-height: 0.99; letter-spacing: -0.052em; }",
+        "props": {
+          "font-size": "clamp(54px, 5.55vw, 84px)"
+        }
+      },
+      {
+        "selector": ".design-v17 h1",
+        "file": "styles.css",
+        "line": ".design-v17 h1 { font-size: clamp(30px, 3.1vw, 39px); line-height: 1.15; letter-spacing: -0.032em; }",
+        "props": {
+          "font-size": "clamp(30px, 3.1vw, 39px)"
+        }
+      },
+      {
+        "selector": ".design-v20 h1",
+        "file": "styles.css",
+        "line": ".design-v20 h1 { font-size: clamp(30px, 3vw, 39px); line-height: 1.14; max-width: 880px; }",
+        "props": {
+          "font-size": "clamp(30px, 3vw, 39px)"
+        }
+      },
+      {
+        "selector": ".design-v20 h1",
+        "file": "styles.css",
+        "line": ".design-v20 h1 { font-size: 30px; }",
+        "props": {
+          "font-size": "30px"
+        }
+      },
+      {
+        "selector": ".fr-premium .fr-section h1",
+        "file": "premium.css",
+        "line": ".fr-premium .fr-section h1 { font: 400 clamp(38px, 4.5vw, 60px) / 1.1 Georgia, serif; letter-spacing: -0.035em; max-width: 960px; margin: 20px 0px 30px; }",
+        "props": {
+          "font": "400 clamp(38px, 4.5vw, 60px) / 1.1 Georgia, serif",
+          "font-size": "clamp(38px, 4.5vw, 60px)",
+          "margin": "20px 0px 30px",
+          "margin-top": "20px",
+          "margin-bottom": "30px"
+        }
+      },
+      {
+        "selector": ".fr-premium.fr-case-page .fr-hero h1",
+        "file": "premium.css",
+        "line": ".fr-premium.fr-case-page .fr-hero h1 { max-width: 900px; font-size: clamp(42px, 4.7vw, 68px); margin: 24px 0px 30px; }",
+        "props": {
+          "font-size": "clamp(42px, 4.7vw, 68px)",
+          "margin": "24px 0px 30px",
+          "margin-top": "24px",
+          "margin-bottom": "30px"
+        }
+      },
+      {
+        "selector": ".fr-premium .fr-section h1, .fr-premium.fr-case-page .fr-hero h1",
+        "file": "premium.css",
+        "line": ".fr-premium .fr-section h1, .fr-premium.fr-case-page .fr-hero h1 { font-size: 36px; }",
+        "props": {
+          "font-size": "36px"
+        }
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "route": "case-pharma.html",
+    "selector": "h2",
+    "computed": {
+      "size": "31px",
+      "line": "37.2px",
+      "padding": "0px",
+      "margin": "0px 0px 30px"
+    },
+    "candidates": [
+      {
+        "selector": "h1, h2, h3",
+        "file": "styles.css",
+        "line": "h1, h2, h3 { margin: 0px; line-height: 1.02; letter-spacing: -0.045em; }",
+        "props": {
+          "margin": "0px",
+          "margin-top": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      {
+        "selector": "h2",
+        "file": "styles.css",
+        "line": "h2 { font-size: clamp(38px, 4.6vw, 61px); }",
+        "props": {
+          "font-size": "clamp(38px, 4.6vw, 61px)"
+        }
+      },
+      {
+        "selector": "h2",
+        "file": "styles.css",
+        "line": "h2 { font-size: 38px; }",
+        "props": {
+          "font-size": "38px"
+        }
+      },
+      {
+        "selector": "h2",
+        "file": "styles.css",
+        "line": "h2 { font-size: clamp(39px, 4.15vw, 58px); line-height: 1.01; letter-spacing: -0.048em; }",
+        "props": {
+          "font-size": "clamp(39px, 4.15vw, 58px)"
+        }
+      },
+      {
+        "selector": "h2",
+        "file": "styles.css",
+        "line": "h2 { font-size: 38px; }",
+        "props": {
+          "font-size": "38px"
+        }
+      },
+      {
+        "selector": ".design-v17 h2, .design-v17:has(.hero--v15) h2, .design-v17:has(.service-hero) h2",
+        "file": "styles.css",
+        "line": ".design-v17 h2, .design-v17:has(.hero--v15) h2, .design-v17:has(.service-hero) h2 { font-size: clamp(24px, 2.25vw, 31px); line-height: 1.18; letter-spacing: -0.03em; }",
+        "props": {
+          "font-size": "clamp(24px, 2.25vw, 31px)"
+        }
+      },
+      {
+        "selector": "body:has(.hero--v15) h2, h2",
+        "file": "styles.css",
+        "line": "body:has(.hero--v15) h2, h2 { font-size: clamp(27px, 2.45vw, 37px); line-height: 1.13; letter-spacing: -0.03em; }",
+        "props": {
+          "font-size": "clamp(27px, 2.45vw, 37px)"
+        }
+      },
+      {
+        "selector": ".fr-premium .fr-section h2",
+        "file": "premium.css",
+        "line": ".fr-premium .fr-section h2 { font: 400 clamp(32px, 3.2vw, 44px) / 1.16 Georgia, serif; letter-spacing: -0.025em; max-width: 850px; margin: 0px 0px 30px; }",
+        "props": {
+          "font": "400 clamp(32px, 3.2vw, 44px) / 1.16 Georgia, serif",
+          "font-size": "clamp(32px, 3.2vw, 44px)",
+          "margin": "0px 0px 30px",
+          "margin-top": "0px",
+          "margin-bottom": "30px"
+        }
+      },
+      {
+        "selector": ".fr-premium .fr-section h2",
+        "file": "premium.css",
+        "line": ".fr-premium .fr-section h2 { font-size: 31px; line-height: 1.2; }",
+        "props": {
+          "font-size": "31px"
+        }
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "route": "case-pharma.html",
+    "selector": ".fr-metrics strong",
+    "computed": {
+      "size": "42px",
+      "line": "48.72px",
+      "padding": "0px",
+      "margin": "0px"
+    },
+    "candidates": [
+      {
+        "selector": ".v20-metrics strong",
+        "file": "styles.css",
+        "line": ".v20-metrics strong { display: block; font: 400 clamp(22px, 2vw, 28px) / 1.3 Georgia, \"Times New Roman\", serif; letter-spacing: -0.025em; }",
+        "props": {
+          "font": "400 clamp(22px, 2vw, 28px) / 1.3 Georgia, \"Times New Roman\", serif",
+          "font-size": "clamp(22px, 2vw, 28px)"
+        }
+      },
+      {
+        "selector": ".fr-premium .fr-metrics strong, .fr-premium.home-v26 .proof-line strong",
+        "file": "premium.css",
+        "line": ".fr-premium .fr-metrics strong, .fr-premium.home-v26 .proof-line strong { font: 400 clamp(28px, 3.2vw, 44px) / 1.16 Georgia, serif; color: var(--green); letter-spacing: -0.035em; display: block; overflow-wrap: anywhere; ",
+        "props": {
+          "font": "400 clamp(28px, 3.2vw, 44px) / 1.16 Georgia, serif",
+          "font-size": "clamp(28px, 3.2vw, 44px)"
+        }
+      },
+      {
+        "selector": ".fr-premium.fr-case-page .fr-hero .fr-metrics strong",
+        "file": "premium.css",
+        "line": ".fr-premium.fr-case-page .fr-hero .fr-metrics strong { font-size: 50px; }",
+        "props": {
+          "font-size": "50px"
+        }
+      },
+      {
+        "selector": ".fr-premium .fr-metrics strong",
+        "file": "premium.css",
+        "line": ".fr-premium .fr-metrics strong { font-size: 38px; }",
+        "props": {
+          "font-size": "38px"
+        }
+      },
+      {
+        "selector": ".fr-premium.fr-case-page .fr-hero .fr-metrics strong",
+        "file": "premium.css",
+        "line": ".fr-premium.fr-case-page .fr-hero .fr-metrics strong { font-size: 42px; }",
+        "props": {
+          "font-size": "42px"
+        }
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "route": "case-pharma.html",
+    "selector": ".fr-result-pair strong",
+    "computed": {
+      "size": "58px",
+      "line": "63.8px",
+      "padding": "0px",
+      "margin": "0px 0px 16px"
+    },
+    "candidates": [
+      {
+        "selector": ".fr-premium .fr-result-pair strong",
+        "file": "premium.css",
+        "line": ".fr-premium .fr-result-pair strong { display: block; font: 400 68px / 1.1 Georgia, serif; letter-spacing: -0.04em; color: rgb(210, 174, 129); margin-bottom: 16px; }",
+        "props": {
+          "font": "400 68px / 1.1 Georgia, serif",
+          "font-size": "68px",
+          "margin-bottom": "16px"
+        }
+      },
+      {
+        "selector": ".fr-premium .fr-result-pair strong",
+        "file": "premium.css",
+        "line": ".fr-premium .fr-result-pair strong { font-size: 58px; }",
+        "props": {
+          "font-size": "58px"
+        }
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "route": "about/",
+    "selector": "h1",
+    "computed": {
+      "size": "36px",
+      "line": "39.6px",
+      "padding": "0px",
+      "margin": "20px 0px 30px"
+    },
+    "candidates": [
+      {
+        "selector": "h1, h2, h3",
+        "file": "styles.css",
+        "line": "h1, h2, h3 { margin: 0px; line-height: 1.02; letter-spacing: -0.045em; }",
+        "props": {
+          "margin": "0px",
+          "margin-top": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      {
+        "selector": "h1",
+        "file": "styles.css",
+        "line": "h1 { font-size: clamp(48px, 6vw, 82px); max-width: 880px; }",
+        "props": {
+          "font-size": "clamp(48px, 6vw, 82px)"
+        }
+      },
+      {
+        "selector": "h1",
+        "file": "styles.css",
+        "line": "h1 { font-size: 44px; line-height: 1.01; }",
+        "props": {
+          "font-size": "44px"
+        }
+      },
+      {
+        "selector": "h1",
+        "file": "styles.css",
+        "line": "h1 { font-size: clamp(54px, 5.55vw, 84px); line-height: 0.99; letter-spacing: -0.052em; }",
+        "props": {
+          "font-size": "clamp(54px, 5.55vw, 84px)"
+        }
+      },
+      {
+        "selector": ".design-v17 h1",
+        "file": "styles.css",
+        "line": ".design-v17 h1 { font-size: clamp(30px, 3.1vw, 39px); line-height: 1.15; letter-spacing: -0.032em; }",
+        "props": {
+          "font-size": "clamp(30px, 3.1vw, 39px)"
+        }
+      },
+      {
+        "selector": ".design-v20 h1",
+        "file": "styles.css",
+        "line": ".design-v20 h1 { font-size: clamp(30px, 3vw, 39px); line-height: 1.14; max-width: 880px; }",
+        "props": {
+          "font-size": "clamp(30px, 3vw, 39px)"
+        }
+      },
+      {
+        "selector": ".design-v20 h1",
+        "file": "styles.css",
+        "line": ".design-v20 h1 { font-size: 30px; }",
+        "props": {
+          "font-size": "30px"
+        }
+      },
+      {
+        "selector": ".fr-premium .fr-section h1",
+        "file": "premium.css",
+        "line": ".fr-premium .fr-section h1 { font: 400 clamp(38px, 4.5vw, 60px) / 1.1 Georgia, serif; letter-spacing: -0.035em; max-width: 960px; margin: 20px 0px 30px; }",
+        "props": {
+          "font": "400 clamp(38px, 4.5vw, 60px) / 1.1 Georgia, serif",
+          "font-size": "clamp(38px, 4.5vw, 60px)",
+          "margin": "20px 0px 30px",
+          "margin-top": "20px",
+          "margin-bottom": "30px"
+        }
+      },
+      {
+        "selector": ".fr-premium .fr-section h1, .fr-premium.fr-case-page .fr-hero h1",
+        "file": "premium.css",
+        "line": ".fr-premium .fr-section h1, .fr-premium.fr-case-page .fr-hero h1 { font-size: 36px; }",
+        "props": {
+          "font-size": "36px"
+        }
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "route": "about/",
+    "selector": ".hotfix-results-grid p",
+    "computed": {
+      "size": "11px",
+      "line": "17.6px",
+      "padding": "0px",
+      "margin": "0px 0px 15px"
+    },
+    "candidates": [
+      {
+        "selector": ".eyebrow",
+        "file": "styles.css",
+        "line": ".eyebrow { margin: 0px 0px 15px; text-transform: uppercase; letter-spacing: 0.17em; font-size: 10px; font-weight: 800; color: var(--green); }",
+        "props": {
+          "font-size": "10px",
+          "margin": "0px 0px 15px",
+          "margin-top": "0px",
+          "margin-bottom": "15px"
+        }
+      },
+      {
+        "selector": ".eyebrow",
+        "file": "styles.css",
+        "line": ".eyebrow { font-size: 10px; letter-spacing: 0.2em; }",
+        "props": {
+          "font-size": "10px"
+        }
+      },
+      {
+        "selector": ".eyebrow, .section-no, .case-label, .case-flow div span, .article-meta span, .service-fit small, .home-insights__grid span, .insight-card > span",
+        "file": "styles.css",
+        "line": ".eyebrow, .section-no, .case-label, .case-flow div span, .article-meta span, .service-fit small, .home-insights__grid span, .insight-card > span { font-size: 10px; }",
+        "props": {
+          "font-size": "10px"
+        }
+      },
+      {
+        "selector": ".design-v17 .eyebrow, .design-v17 .section-no, .design-v17 .case-label",
+        "file": "styles.css",
+        "line": ".design-v17 .eyebrow, .design-v17 .section-no, .design-v17 .case-label { font-size: 10px; letter-spacing: 0.1em; }",
+        "props": {
+          "font-size": "10px"
+        }
+      },
+      {
+        "selector": ".fr-premium .eyebrow",
+        "file": "premium.css",
+        "line": ".fr-premium .eyebrow { font-size: 11px; letter-spacing: 0.12em; font-weight: 600; line-height: 1.6; color: var(--fr-bronze-ink); }",
+        "props": {
+          "font-size": "11px"
+        }
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "route": "insights/bitrix24-sales-implementation/",
+    "selector": "h1",
+    "computed": {
+      "size": "36px",
+      "line": "39.6px",
+      "padding": "0px",
+      "margin": "20px 0px 30px"
+    },
+    "candidates": [
+      {
+        "selector": "h1, h2, h3",
+        "file": "styles.css",
+        "line": "h1, h2, h3 { margin: 0px; line-height: 1.02; letter-spacing: -0.045em; }",
+        "props": {
+          "margin": "0px",
+          "margin-top": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      {
+        "selector": "h1",
+        "file": "styles.css",
+        "line": "h1 { font-size: clamp(48px, 6vw, 82px); max-width: 880px; }",
+        "props": {
+          "font-size": "clamp(48px, 6vw, 82px)"
+        }
+      },
+      {
+        "selector": "h1",
+        "file": "styles.css",
+        "line": "h1 { font-size: 44px; line-height: 1.01; }",
+        "props": {
+          "font-size": "44px"
+        }
+      },
+      {
+        "selector": "h1",
+        "file": "styles.css",
+        "line": "h1 { font-size: clamp(54px, 5.55vw, 84px); line-height: 0.99; letter-spacing: -0.052em; }",
+        "props": {
+          "font-size": "clamp(54px, 5.55vw, 84px)"
+        }
+      },
+      {
+        "selector": ".v19-page-hero h1, .v19-hub-hero h1, .v19-about-hero h1, .v19-article-hero h1",
+        "file": "styles.css",
+        "line": ".v19-page-hero h1, .v19-hub-hero h1, .v19-about-hero h1, .v19-article-hero h1 { font-family: Georgia, \"Times New Roman\", serif; font-weight: 400; font-size: clamp(33px, 3.2vw, 46px); line-height: 1.08; letter-spacing: -0",
+        "props": {
+          "font-size": "clamp(33px, 3.2vw, 46px)",
+          "margin": "12px 0px 0px",
+          "margin-top": "12px",
+          "margin-bottom": "0px"
+        }
+      },
+      {
+        "selector": ".v19-page-hero h1, .v19-hub-hero h1, .v19-about-hero h1, .v19-article-hero h1",
+        "file": "styles.css",
+        "line": ".v19-page-hero h1, .v19-hub-hero h1, .v19-about-hero h1, .v19-article-hero h1 { font-size: 31px; }",
+        "props": {
+          "font-size": "31px"
+        }
+      },
+      {
+        "selector": ".fr-premium .fr-section h1",
+        "file": "premium.css",
+        "line": ".fr-premium .fr-section h1 { font: 400 clamp(38px, 4.5vw, 60px) / 1.1 Georgia, serif; letter-spacing: -0.035em; max-width: 960px; margin: 20px 0px 30px; }",
+        "props": {
+          "font": "400 clamp(38px, 4.5vw, 60px) / 1.1 Georgia, serif",
+          "font-size": "clamp(38px, 4.5vw, 60px)",
+          "margin": "20px 0px 30px",
+          "margin-top": "20px",
+          "margin-bottom": "30px"
+        }
+      },
+      {
+        "selector": ".fr-premium .fr-section h1, .fr-premium.fr-case-page .fr-hero h1",
+        "file": "premium.css",
+        "line": ".fr-premium .fr-section h1, .fr-premium.fr-case-page .fr-hero h1 { font-size: 36px; }",
+        "props": {
+          "font-size": "36px"
+        }
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "route": "insights/bitrix24-sales-implementation/",
+    "selector": ".article-section h2",
+    "computed": {
+      "size": "28px",
+      "line": "35px",
+      "padding": "0px",
+      "margin": "30px 0px 20px"
+    },
+    "candidates": [
+      {
+        "selector": "h1, h2, h3",
+        "file": "styles.css",
+        "line": "h1, h2, h3 { margin: 0px; line-height: 1.02; letter-spacing: -0.045em; }",
+        "props": {
+          "margin": "0px",
+          "margin-top": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      {
+        "selector": "h2",
+        "file": "styles.css",
+        "line": "h2 { font-size: clamp(38px, 4.6vw, 61px); }",
+        "props": {
+          "font-size": "clamp(38px, 4.6vw, 61px)"
+        }
+      },
+      {
+        "selector": "h2",
+        "file": "styles.css",
+        "line": "h2 { font-size: 38px; }",
+        "props": {
+          "font-size": "38px"
+        }
+      },
+      {
+        "selector": ".article-section h2",
+        "file": "styles.css",
+        "line": ".article-section h2 { font-family: \"Iowan Old Style\", Baskerville, Georgia, serif; font-size: 35px; margin-bottom: 18px; }",
+        "props": {
+          "font-size": "35px",
+          "margin-bottom": "18px"
+        }
+      },
+      {
+        "selector": ".article-section h2",
+        "file": "styles.css",
+        "line": ".article-section h2 { font-size: 30px; }",
+        "props": {
+          "font-size": "30px"
+        }
+      },
+      {
+        "selector": "h2",
+        "file": "styles.css",
+        "line": "h2 { font-size: clamp(39px, 4.15vw, 58px); line-height: 1.01; letter-spacing: -0.048em; }",
+        "props": {
+          "font-size": "clamp(39px, 4.15vw, 58px)"
+        }
+      },
+      {
+        "selector": "h2",
+        "file": "styles.css",
+        "line": "h2 { font-size: 38px; }",
+        "props": {
+          "font-size": "38px"
+        }
+      },
+      {
+        "selector": "body:has(.hero--v15) h2, h2",
+        "file": "styles.css",
+        "line": "body:has(.hero--v15) h2, h2 { font-size: clamp(27px, 2.45vw, 37px); line-height: 1.13; letter-spacing: -0.03em; }",
+        "props": {
+          "font-size": "clamp(27px, 2.45vw, 37px)"
+        }
+      },
+      {
+        "selector": ".fr-premium .article-section h2, .fr-premium .v19-article-content h2",
+        "file": "premium.css",
+        "line": ".fr-premium .article-section h2, .fr-premium .v19-article-content h2 { font-size: 32px; line-height: 1.25; margin: 30px 0px 20px; }",
+        "props": {
+          "font-size": "32px",
+          "margin": "30px 0px 20px",
+          "margin-top": "30px",
+          "margin-bottom": "20px"
+        }
+      },
+      {
+        "selector": ".fr-premium .article-section h2",
+        "file": "premium.css",
+        "line": ".fr-premium .article-section h2 { font-size: 28px; }",
+        "props": {
+          "font-size": "28px"
+        }
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "route": "insights/bitrix24-sales-implementation/",
+    "selector": ".article-section p",
+    "computed": {
+      "size": "17px",
+      "line": "30.6px",
+      "padding": "0px",
+      "margin": "0px"
+    },
+    "candidates": [
+      {
+        "selector": ".article-section p",
+        "file": "styles.css",
+        "line": ".article-section p { font-size: 17px; line-height: 1.76; color: rgb(69, 75, 71); margin: 0px; }",
+        "props": {
+          "font-size": "17px",
+          "margin": "0px",
+          "margin-top": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      {
+        "selector": ".article-section p",
+        "file": "styles.css",
+        "line": ".article-section p { font-size: 16px; }",
+        "props": {
+          "font-size": "16px"
+        }
+      },
+      {
+        "selector": ".fr-premium .article-section p, .fr-premium .v19-article-content p, .fr-premium .legal-copy p",
+        "file": "premium.css",
+        "line": ".fr-premium .article-section p, .fr-premium .v19-article-content p, .fr-premium .legal-copy p { font-size: 17px; line-height: 1.8; color: var(--fr-muted); }",
+        "props": {
+          "font-size": "17px"
+        }
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "route": "",
+    "selector": "h1",
+    "computed": {
+      "size": "64px",
+      "line": "70.4px",
+      "padding": "0px",
+      "margin": "18px 0px 26px"
+    },
+    "candidates": [
+      {
+        "selector": "h1, h2, h3",
+        "file": "styles.css",
+        "line": "h1, h2, h3 { margin: 0px; line-height: 1.02; letter-spacing: -0.045em; }",
+        "props": {
+          "margin": "0px",
+          "margin-top": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      {
+        "selector": "h1",
+        "file": "styles.css",
+        "line": "h1 { font-size: clamp(48px, 6vw, 82px); max-width: 880px; }",
+        "props": {
+          "font-size": "clamp(48px, 6vw, 82px)"
+        }
+      },
+      {
+        "selector": "h1",
+        "file": "styles.css",
+        "line": "h1 { font-size: clamp(54px, 5.55vw, 84px); line-height: 0.99; letter-spacing: -0.052em; }",
+        "props": {
+          "font-size": "clamp(54px, 5.55vw, 84px)"
+        }
+      },
+      {
+        "selector": ".hero--v15 h1, .service-hero h1",
+        "file": "styles.css",
+        "line": ".hero--v15 h1, .service-hero h1 { font-size: clamp(41px, 4.2vw, 63px); line-height: 1.06; }",
+        "props": {
+          "font-size": "clamp(41px, 4.2vw, 63px)"
+        }
+      },
+      {
+        "selector": ".hero--v16 h1",
+        "file": "styles.css",
+        "line": ".hero--v16 h1 { font-size: 48px; line-height: 1.08; max-width: 650px; }",
+        "props": {
+          "font-size": "48px"
+        }
+      },
+      {
+        "selector": ".design-v17 h1",
+        "file": "styles.css",
+        "line": ".design-v17 h1 { font-size: clamp(30px, 3.1vw, 39px); line-height: 1.15; letter-spacing: -0.032em; }",
+        "props": {
+          "font-size": "clamp(30px, 3.1vw, 39px)"
+        }
+      },
+      {
+        "selector": ".design-v17 .hero--v17 h1",
+        "file": "styles.css",
+        "line": ".design-v17 .hero--v17 h1 { font-size: clamp(30px, 3vw, 37px); line-height: 1.15; max-width: 620px; letter-spacing: -0.038em; margin-top: 0px; }",
+        "props": {
+          "font-size": "clamp(30px, 3vw, 37px)",
+          "margin-top": "0px"
+        }
+      },
+      {
+        "selector": ".hero--v16 h1",
+        "file": "styles.css",
+        "line": ".hero--v16 h1 { font-size: clamp(32px, 2.85vw, 39px); line-height: 1.12; letter-spacing: -0.032em; }",
+        "props": {
+          "font-size": "clamp(32px, 2.85vw, 39px)"
+        }
+      },
+      {
+        "selector": ".design-v17 .hero--v17 h1",
+        "file": "styles.css",
+        "line": ".design-v17 .hero--v17 h1 { font-size: 35px; }",
+        "props": {
+          "font-size": "35px"
+        }
+      },
+      {
+        "selector": ".design-v20 h1",
+        "file": "styles.css",
+        "line": ".design-v20 h1 { font-size: clamp(30px, 3vw, 39px); line-height: 1.14; max-width: 880px; }",
+        "props": {
+          "font-size": "clamp(30px, 3vw, 39px)"
+        }
+      },
+      {
+        "selector": ".home-v25 .hero--v17 h1",
+        "file": "styles.css",
+        "line": ".home-v25 .hero--v17 h1 { font-size: clamp(46px, 4.5vw, 64px); line-height: 1.08; max-width: 720px; letter-spacing: -0.04em; }",
+        "props": {
+          "font-size": "clamp(46px, 4.5vw, 64px)"
+        }
+      },
+      {
+        "selector": ".fr-premium .fr-section h1",
+        "file": "premium.css",
+        "line": ".fr-premium .fr-section h1 { font: 400 clamp(38px, 4.5vw, 60px) / 1.1 Georgia, serif; letter-spacing: -0.035em; max-width: 960px; margin: 20px 0px 30px; }",
+        "props": {
+          "font": "400 clamp(38px, 4.5vw, 60px) / 1.1 Georgia, serif",
+          "font-size": "clamp(38px, 4.5vw, 60px)",
+          "margin": "20px 0px 30px",
+          "margin-top": "20px",
+          "margin-bottom": "30px"
+        }
+      },
+      {
+        "selector": ".fr-premium.home-v26 .hero--v17 h1",
+        "file": "premium.css",
+        "line": ".fr-premium.home-v26 .hero--v17 h1 { font-size: clamp(44px, 4.5vw, 64px); color: var(--fr-white); margin: 18px 0px 26px; }",
+        "props": {
+          "font-size": "clamp(44px, 4.5vw, 64px)",
+          "margin": "18px 0px 26px",
+          "margin-top": "18px",
+          "margin-bottom": "26px"
+        }
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "route": "",
+    "selector": "#services h2",
+    "computed": {
+      "size": "44px",
+      "line": "51.04px",
+      "padding": "0px",
+      "margin": "0px 0px 30px"
+    },
+    "candidates": [
+      {
+        "selector": "h1, h2, h3",
+        "file": "styles.css",
+        "line": "h1, h2, h3 { margin: 0px; line-height: 1.02; letter-spacing: -0.045em; }",
+        "props": {
+          "margin": "0px",
+          "margin-top": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      {
+        "selector": "h2",
+        "file": "styles.css",
+        "line": "h2 { font-size: clamp(38px, 4.6vw, 61px); }",
+        "props": {
+          "font-size": "clamp(38px, 4.6vw, 61px)"
+        }
+      },
+      {
+        "selector": "h2",
+        "file": "styles.css",
+        "line": "h2 { font-size: clamp(39px, 4.15vw, 58px); line-height: 1.01; letter-spacing: -0.048em; }",
+        "props": {
+          "font-size": "clamp(39px, 4.15vw, 58px)"
+        }
+      },
+      {
+        "selector": "body:has(.hero--v15) h2, body:has(.service-hero) h2",
+        "file": "styles.css",
+        "line": "body:has(.hero--v15) h2, body:has(.service-hero) h2 { font-size: clamp(30px, 3.15vw, 44px); line-height: 1.1; }",
+        "props": {
+          "font-size": "clamp(30px, 3.15vw, 44px)"
+        }
+      },
+      {
+        "selector": ".design-v17 h2, .design-v17:has(.hero--v15) h2, .design-v17:has(.service-hero) h2",
+        "file": "styles.css",
+        "line": ".design-v17 h2, .design-v17:has(.hero--v15) h2, .design-v17:has(.service-hero) h2 { font-size: clamp(24px, 2.25vw, 31px); line-height: 1.18; letter-spacing: -0.03em; }",
+        "props": {
+          "font-size": "clamp(24px, 2.25vw, 31px)"
+        }
+      },
+      {
+        "selector": "body:has(.hero--v15) h2, h2",
+        "file": "styles.css",
+        "line": "body:has(.hero--v15) h2, h2 { font-size: clamp(27px, 2.45vw, 37px); line-height: 1.13; letter-spacing: -0.03em; }",
+        "props": {
+          "font-size": "clamp(27px, 2.45vw, 37px)"
+        }
+      },
+      {
+        "selector": ".home-v25 .v20-section h2, .home-v25 .cases h2",
+        "file": "styles.css",
+        "line": ".home-v25 .v20-section h2, .home-v25 .cases h2 { font-size: clamp(38px, 3.2vw, 46px); line-height: 1.15; max-width: 870px; letter-spacing: -0.025em; }",
+        "props": {
+          "font-size": "clamp(38px, 3.2vw, 46px)"
+        }
+      },
+      {
+        "selector": ".fr-premium .fr-section h2",
+        "file": "premium.css",
+        "line": ".fr-premium .fr-section h2 { font: 400 clamp(32px, 3.2vw, 44px) / 1.16 Georgia, serif; letter-spacing: -0.025em; max-width: 850px; margin: 0px 0px 30px; }",
+        "props": {
+          "font": "400 clamp(32px, 3.2vw, 44px) / 1.16 Georgia, serif",
+          "font-size": "clamp(32px, 3.2vw, 44px)",
+          "margin": "0px 0px 30px",
+          "margin-top": "0px",
+          "margin-bottom": "30px"
+        }
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "route": "",
+    "selector": "#cases h3",
+    "computed": {
+      "size": "34px",
+      "line": "40.8px",
+      "padding": "0px",
+      "margin": "0px 0px 32px"
+    },
+    "candidates": [
+      {
+        "selector": "h1, h2, h3",
+        "file": "styles.css",
+        "line": "h1, h2, h3 { margin: 0px; line-height: 1.02; letter-spacing: -0.045em; }",
+        "props": {
+          "margin": "0px",
+          "margin-top": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      {
+        "selector": "h3",
+        "file": "styles.css",
+        "line": "h3 { font-size: 27px; letter-spacing: -0.035em; }",
+        "props": {
+          "font-size": "27px"
+        }
+      },
+      {
+        "selector": ".v20-case-cards h3",
+        "file": "styles.css",
+        "line": ".v20-case-cards h3 { font: 400 25px / 1.25 Georgia, \"Times New Roman\", serif; margin: 12px 0px 15px; max-width: min(100%, 540px); text-wrap: balance; }",
+        "props": {
+          "font": "400 25px / 1.25 Georgia, \"Times New Roman\", serif",
+          "font-size": "25px",
+          "margin": "12px 0px 15px",
+          "margin-top": "12px",
+          "margin-bottom": "15px"
+        }
+      },
+      {
+        "selector": ".home-v24 #cases .v20-case-cards h3",
+        "file": "styles.css",
+        "line": ".home-v24 #cases .v20-case-cards h3 { font-size: 26px; line-height: 1.3; margin-bottom: 22px; }",
+        "props": {
+          "font-size": "26px",
+          "margin-bottom": "22px"
+        }
+      },
+      {
+        "selector": ".home-v25 #cases .v20-case-cards h3",
+        "file": "styles.css",
+        "line": ".home-v25 #cases .v20-case-cards h3 { font-size: 34px; line-height: 1.2; margin: 0px 0px 32px; }",
+        "props": {
+          "font-size": "34px",
+          "margin": "0px 0px 32px",
+          "margin-top": "0px",
+          "margin-bottom": "32px"
+        }
+      },
+      {
+        "selector": ".fr-premium .fr-section h3",
+        "file": "premium.css",
+        "line": ".fr-premium .fr-section h3 { font: 400 27px / 1.25 Georgia, serif; letter-spacing: -0.015em; }",
+        "props": {
+          "font": "400 27px / 1.25 Georgia, serif",
+          "font-size": "27px"
+        }
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "route": "",
+    "selector": "#system h3",
+    "computed": {
+      "size": "25px",
+      "line": "31.25px",
+      "padding": "0px",
+      "margin": "24px 0px 16px"
+    },
+    "candidates": [
+      {
+        "selector": "h1, h2, h3",
+        "file": "styles.css",
+        "line": "h1, h2, h3 { margin: 0px; line-height: 1.02; letter-spacing: -0.045em; }",
+        "props": {
+          "margin": "0px",
+          "margin-top": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      {
+        "selector": "h3",
+        "file": "styles.css",
+        "line": "h3 { font-size: 27px; letter-spacing: -0.035em; }",
+        "props": {
+          "font-size": "27px"
+        }
+      },
+      {
+        "selector": ".v19-process h3",
+        "file": "styles.css",
+        "line": ".v19-process h3 { font-family: Georgia, \"Times New Roman\", serif; font-weight: 400; font-size: 18px; margin: 8px 0px; }",
+        "props": {
+          "font-size": "18px",
+          "margin": "8px 0px",
+          "margin-top": "8px",
+          "margin-bottom": "8px"
+        }
+      },
+      {
+        "selector": ".home-v25 #system .v19-process h3",
+        "file": "styles.css",
+        "line": ".home-v25 #system .v19-process h3 { font-size: 25px; margin: 24px 0px 16px; }",
+        "props": {
+          "font-size": "25px",
+          "margin": "24px 0px 16px",
+          "margin-top": "24px",
+          "margin-bottom": "16px"
+        }
+      },
+      {
+        "selector": ".fr-premium .fr-section h3",
+        "file": "premium.css",
+        "line": ".fr-premium .fr-section h3 { font: 400 27px / 1.25 Georgia, serif; letter-spacing: -0.015em; }",
+        "props": {
+          "font": "400 27px / 1.25 Georgia, serif",
+          "font-size": "27px"
+        }
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "route": "",
+    "selector": "#system p",
+    "computed": {
+      "size": "11px",
+      "line": "17.6px",
+      "padding": "0px",
+      "margin": "0px 0px 15px"
+    },
+    "candidates": [
+      {
+        "selector": ".eyebrow",
+        "file": "styles.css",
+        "line": ".eyebrow { margin: 0px 0px 15px; text-transform: uppercase; letter-spacing: 0.17em; font-size: 10px; font-weight: 800; color: var(--green); }",
+        "props": {
+          "font-size": "10px",
+          "margin": "0px 0px 15px",
+          "margin-top": "0px",
+          "margin-bottom": "15px"
+        }
+      },
+      {
+        "selector": ".eyebrow",
+        "file": "styles.css",
+        "line": ".eyebrow { font-size: 10px; letter-spacing: 0.2em; }",
+        "props": {
+          "font-size": "10px"
+        }
+      },
+      {
+        "selector": ".eyebrow, .section-no, .case-label, .case-flow div span, .article-meta span, .service-fit small, .home-insights__grid span, .insight-card > span",
+        "file": "styles.css",
+        "line": ".eyebrow, .section-no, .case-label, .case-flow div span, .article-meta span, .service-fit small, .home-insights__grid span, .insight-card > span { font-size: 10px; }",
+        "props": {
+          "font-size": "10px"
+        }
+      },
+      {
+        "selector": ".design-v17 .eyebrow, .design-v17 .section-no, .design-v17 .case-label",
+        "file": "styles.css",
+        "line": ".design-v17 .eyebrow, .design-v17 .section-no, .design-v17 .case-label { font-size: 10px; letter-spacing: 0.1em; }",
+        "props": {
+          "font-size": "10px"
+        }
+      },
+      {
+        "selector": ".home-v25 .eyebrow",
+        "file": "styles.css",
+        "line": ".home-v25 .eyebrow { font-size: 12px; line-height: 1.5; }",
+        "props": {
+          "font-size": "12px"
+        }
+      },
+      {
+        "selector": ".fr-premium .eyebrow",
+        "file": "premium.css",
+        "line": ".fr-premium .eyebrow { font-size: 11px; letter-spacing: 0.12em; font-weight: 600; line-height: 1.6; color: var(--fr-bronze-ink); }",
+        "props": {
+          "font-size": "11px"
+        }
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "route": "services/",
+    "selector": "h1",
+    "computed": {
+      "size": "60px",
+      "line": "66px",
+      "padding": "0px",
+      "margin": "20px 0px 30px"
+    },
+    "candidates": [
+      {
+        "selector": "h1, h2, h3",
+        "file": "styles.css",
+        "line": "h1, h2, h3 { margin: 0px; line-height: 1.02; letter-spacing: -0.045em; }",
+        "props": {
+          "margin": "0px",
+          "margin-top": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      {
+        "selector": "h1",
+        "file": "styles.css",
+        "line": "h1 { font-size: clamp(48px, 6vw, 82px); max-width: 880px; }",
+        "props": {
+          "font-size": "clamp(48px, 6vw, 82px)"
+        }
+      },
+      {
+        "selector": "h1",
+        "file": "styles.css",
+        "line": "h1 { font-size: clamp(54px, 5.55vw, 84px); line-height: 0.99; letter-spacing: -0.052em; }",
+        "props": {
+          "font-size": "clamp(54px, 5.55vw, 84px)"
+        }
+      },
+      {
+        "selector": ".v19-page-hero h1, .v19-hub-hero h1, .v19-about-hero h1, .v19-article-hero h1",
+        "file": "styles.css",
+        "line": ".v19-page-hero h1, .v19-hub-hero h1, .v19-about-hero h1, .v19-article-hero h1 { font-family: Georgia, \"Times New Roman\", serif; font-weight: 400; font-size: clamp(33px, 3.2vw, 46px); line-height: 1.08; letter-spacing: -0",
+        "props": {
+          "font-size": "clamp(33px, 3.2vw, 46px)",
+          "margin": "12px 0px 0px",
+          "margin-top": "12px",
+          "margin-bottom": "0px"
+        }
+      },
+      {
+        "selector": ".fr-premium .fr-section h1",
+        "file": "premium.css",
+        "line": ".fr-premium .fr-section h1 { font: 400 clamp(38px, 4.5vw, 60px) / 1.1 Georgia, serif; letter-spacing: -0.035em; max-width: 960px; margin: 20px 0px 30px; }",
+        "props": {
+          "font": "400 clamp(38px, 4.5vw, 60px) / 1.1 Georgia, serif",
+          "font-size": "clamp(38px, 4.5vw, 60px)",
+          "margin": "20px 0px 30px",
+          "margin-top": "20px",
+          "margin-bottom": "30px"
+        }
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "route": "services/",
+    "selector": "h2",
+    "computed": {
+      "size": "44px",
+      "line": "51.04px",
+      "padding": "0px",
+      "margin": "0px 0px 30px"
+    },
+    "candidates": [
+      {
+        "selector": "h1, h2, h3",
+        "file": "styles.css",
+        "line": "h1, h2, h3 { margin: 0px; line-height: 1.02; letter-spacing: -0.045em; }",
+        "props": {
+          "margin": "0px",
+          "margin-top": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      {
+        "selector": "h2",
+        "file": "styles.css",
+        "line": "h2 { font-size: clamp(38px, 4.6vw, 61px); }",
+        "props": {
+          "font-size": "clamp(38px, 4.6vw, 61px)"
+        }
+      },
+      {
+        "selector": "h2",
+        "file": "styles.css",
+        "line": "h2 { font-size: clamp(39px, 4.15vw, 58px); line-height: 1.01; letter-spacing: -0.048em; }",
+        "props": {
+          "font-size": "clamp(39px, 4.15vw, 58px)"
+        }
+      },
+      {
+        "selector": "body:has(.hero--v15) h2, h2",
+        "file": "styles.css",
+        "line": "body:has(.hero--v15) h2, h2 { font-size: clamp(27px, 2.45vw, 37px); line-height: 1.13; letter-spacing: -0.03em; }",
+        "props": {
+          "font-size": "clamp(27px, 2.45vw, 37px)"
+        }
+      },
+      {
+        "selector": ".fr-premium .fr-section h2",
+        "file": "premium.css",
+        "line": ".fr-premium .fr-section h2 { font: 400 clamp(32px, 3.2vw, 44px) / 1.16 Georgia, serif; letter-spacing: -0.025em; max-width: 850px; margin: 0px 0px 30px; }",
+        "props": {
+          "font": "400 clamp(32px, 3.2vw, 44px) / 1.16 Georgia, serif",
+          "font-size": "clamp(32px, 3.2vw, 44px)",
+          "margin": "0px 0px 30px",
+          "margin-top": "0px",
+          "margin-bottom": "30px"
+        }
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "route": "services/",
+    "selector": ".sp-direction h3",
+    "computed": {
+      "size": "34px",
+      "line": "42.5px",
+      "padding": "0px",
+      "margin": "16px 0px 22px"
+    },
+    "candidates": [
+      {
+        "selector": "h1, h2, h3",
+        "file": "styles.css",
+        "line": "h1, h2, h3 { margin: 0px; line-height: 1.02; letter-spacing: -0.045em; }",
+        "props": {
+          "margin": "0px",
+          "margin-top": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      {
+        "selector": "h3",
+        "file": "styles.css",
+        "line": "h3 { font-size: 27px; letter-spacing: -0.035em; }",
+        "props": {
+          "font-size": "27px"
+        }
+      },
+      {
+        "selector": ".fr-premium .fr-section h3",
+        "file": "premium.css",
+        "line": ".fr-premium .fr-section h3 { font: 400 27px / 1.25 Georgia, serif; letter-spacing: -0.015em; }",
+        "props": {
+          "font": "400 27px / 1.25 Georgia, serif",
+          "font-size": "27px"
+        }
+      },
+      {
+        "selector": ".fr-premium .sp-direction__intro h3",
+        "file": "packaging.css",
+        "line": ".fr-premium .sp-direction__intro h3 { font-size: 34px; margin: 16px 0px 22px; }",
+        "props": {
+          "font-size": "34px",
+          "margin": "16px 0px 22px",
+          "margin-top": "16px",
+          "margin-bottom": "22px"
+        }
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "route": "services/",
+    "selector": ".sp-direction",
+    "computed": {
+      "size": "16px",
+      "line": "24px",
+      "padding": "38px 32px",
+      "margin": "40px 0px 0px"
+    },
+    "candidates": [
+      {
+        "selector": ".fr-premium .sp-direction",
+        "file": "packaging.css",
+        "line": ".fr-premium .sp-direction { display: grid; grid-template-columns: minmax(0px, 0.85fr) minmax(0px, 1.15fr); gap: 64px; border-bottom: 1px solid var(--fr-line); padding: 52px 0px; scroll-margin-top: 100px; }",
+        "props": {
+          "padding": "52px 0px",
+          "padding-top": "52px",
+          "padding-bottom": "52px",
+          "gap": "64px"
+        }
+      },
+      {
+        "selector": ".fr-premium .sp-direction--flagship",
+        "file": "packaging.css",
+        "line": ".fr-premium .sp-direction--flagship { border-top: 4px solid var(--fr-bronze); background: var(--fr-surface); padding: 38px 32px; margin-top: 40px; box-shadow: rgba(19, 32, 25, 0.03) 0px 12px 30px; }",
+        "props": {
+          "padding": "38px 32px",
+          "padding-top": "38px",
+          "padding-bottom": "38px",
+          "margin-top": "40px"
+        }
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "route": "services/",
+    "selector": ".sp-proof p",
+    "computed": {
+      "size": "11px",
+      "line": "19.25px",
+      "padding": "0px",
+      "margin": "0px"
+    },
+    "candidates": [
+      {
+        "selector": ".eyebrow",
+        "file": "styles.css",
+        "line": ".eyebrow { margin: 0px 0px 15px; text-transform: uppercase; letter-spacing: 0.17em; font-size: 10px; font-weight: 800; color: var(--green); }",
+        "props": {
+          "font-size": "10px",
+          "margin": "0px 0px 15px",
+          "margin-top": "0px",
+          "margin-bottom": "15px"
+        }
+      },
+      {
+        "selector": ".eyebrow",
+        "file": "styles.css",
+        "line": ".eyebrow { font-size: 10px; letter-spacing: 0.2em; }",
+        "props": {
+          "font-size": "10px"
+        }
+      },
+      {
+        "selector": ".eyebrow, .section-no, .case-label, .case-flow div span, .article-meta span, .service-fit small, .home-insights__grid span, .insight-card > span",
+        "file": "styles.css",
+        "line": ".eyebrow, .section-no, .case-label, .case-flow div span, .article-meta span, .service-fit small, .home-insights__grid span, .insight-card > span { font-size: 10px; }",
+        "props": {
+          "font-size": "10px"
+        }
+      },
+      {
+        "selector": ".fr-premium .eyebrow",
+        "file": "premium.css",
+        "line": ".fr-premium .eyebrow { font-size: 11px; letter-spacing: 0.12em; font-weight: 600; line-height: 1.6; color: var(--fr-bronze-ink); }",
+        "props": {
+          "font-size": "11px"
+        }
+      },
+      {
+        "selector": ".fr-premium .sp-formats p, .fr-premium .sp-note p, .fr-premium .sp-proof p",
+        "file": "packaging.css",
+        "line": ".fr-premium .sp-formats p, .fr-premium .sp-note p, .fr-premium .sp-proof p { font-size: 15px; line-height: 1.75; color: var(--fr-muted); margin: 0px; }",
+        "props": {
+          "font-size": "15px",
+          "margin": "0px",
+          "margin-top": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      {
+        "selector": ".fr-premium .sp-proof .eyebrow",
+        "file": "packaging.css",
+        "line": ".fr-premium .sp-proof .eyebrow { font-size: 11px; color: var(--fr-bronze); }",
+        "props": {
+          "font-size": "11px"
+        }
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "route": "case-pharma.html",
+    "selector": "h1",
+    "computed": {
+      "size": "67.68px",
+      "line": "74.448px",
+      "padding": "0px",
+      "margin": "24px 0px 30px"
+    },
+    "candidates": [
+      {
+        "selector": "h1, h2, h3",
+        "file": "styles.css",
+        "line": "h1, h2, h3 { margin: 0px; line-height: 1.02; letter-spacing: -0.045em; }",
+        "props": {
+          "margin": "0px",
+          "margin-top": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      {
+        "selector": "h1",
+        "file": "styles.css",
+        "line": "h1 { font-size: clamp(48px, 6vw, 82px); max-width: 880px; }",
+        "props": {
+          "font-size": "clamp(48px, 6vw, 82px)"
+        }
+      },
+      {
+        "selector": "h1",
+        "file": "styles.css",
+        "line": "h1 { font-size: clamp(54px, 5.55vw, 84px); line-height: 0.99; letter-spacing: -0.052em; }",
+        "props": {
+          "font-size": "clamp(54px, 5.55vw, 84px)"
+        }
+      },
+      {
+        "selector": ".design-v17 h1",
+        "file": "styles.css",
+        "line": ".design-v17 h1 { font-size: clamp(30px, 3.1vw, 39px); line-height: 1.15; letter-spacing: -0.032em; }",
+        "props": {
+          "font-size": "clamp(30px, 3.1vw, 39px)"
+        }
+      },
+      {
+        "selector": ".design-v20 h1",
+        "file": "styles.css",
+        "line": ".design-v20 h1 { font-size: clamp(30px, 3vw, 39px); line-height: 1.14; max-width: 880px; }",
+        "props": {
+          "font-size": "clamp(30px, 3vw, 39px)"
+        }
+      },
+      {
+        "selector": ".fr-premium .fr-section h1",
+        "file": "premium.css",
+        "line": ".fr-premium .fr-section h1 { font: 400 clamp(38px, 4.5vw, 60px) / 1.1 Georgia, serif; letter-spacing: -0.035em; max-width: 960px; margin: 20px 0px 30px; }",
+        "props": {
+          "font": "400 clamp(38px, 4.5vw, 60px) / 1.1 Georgia, serif",
+          "font-size": "clamp(38px, 4.5vw, 60px)",
+          "margin": "20px 0px 30px",
+          "margin-top": "20px",
+          "margin-bottom": "30px"
+        }
+      },
+      {
+        "selector": ".fr-premium.fr-case-page .fr-hero h1",
+        "file": "premium.css",
+        "line": ".fr-premium.fr-case-page .fr-hero h1 { max-width: 900px; font-size: clamp(42px, 4.7vw, 68px); margin: 24px 0px 30px; }",
+        "props": {
+          "font-size": "clamp(42px, 4.7vw, 68px)",
+          "margin": "24px 0px 30px",
+          "margin-top": "24px",
+          "margin-bottom": "30px"
+        }
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "route": "case-pharma.html",
+    "selector": "h2",
+    "computed": {
+      "size": "44px",
+      "line": "51.04px",
+      "padding": "0px",
+      "margin": "0px 0px 30px"
+    },
+    "candidates": [
+      {
+        "selector": "h1, h2, h3",
+        "file": "styles.css",
+        "line": "h1, h2, h3 { margin: 0px; line-height: 1.02; letter-spacing: -0.045em; }",
+        "props": {
+          "margin": "0px",
+          "margin-top": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      {
+        "selector": "h2",
+        "file": "styles.css",
+        "line": "h2 { font-size: clamp(38px, 4.6vw, 61px); }",
+        "props": {
+          "font-size": "clamp(38px, 4.6vw, 61px)"
+        }
+      },
+      {
+        "selector": "h2",
+        "file": "styles.css",
+        "line": "h2 { font-size: clamp(39px, 4.15vw, 58px); line-height: 1.01; letter-spacing: -0.048em; }",
+        "props": {
+          "font-size": "clamp(39px, 4.15vw, 58px)"
+        }
+      },
+      {
+        "selector": ".design-v17 h2, .design-v17:has(.hero--v15) h2, .design-v17:has(.service-hero) h2",
+        "file": "styles.css",
+        "line": ".design-v17 h2, .design-v17:has(.hero--v15) h2, .design-v17:has(.service-hero) h2 { font-size: clamp(24px, 2.25vw, 31px); line-height: 1.18; letter-spacing: -0.03em; }",
+        "props": {
+          "font-size": "clamp(24px, 2.25vw, 31px)"
+        }
+      },
+      {
+        "selector": "body:has(.hero--v15) h2, h2",
+        "file": "styles.css",
+        "line": "body:has(.hero--v15) h2, h2 { font-size: clamp(27px, 2.45vw, 37px); line-height: 1.13; letter-spacing: -0.03em; }",
+        "props": {
+          "font-size": "clamp(27px, 2.45vw, 37px)"
+        }
+      },
+      {
+        "selector": ".fr-premium .fr-section h2",
+        "file": "premium.css",
+        "line": ".fr-premium .fr-section h2 { font: 400 clamp(32px, 3.2vw, 44px) / 1.16 Georgia, serif; letter-spacing: -0.025em; max-width: 850px; margin: 0px 0px 30px; }",
+        "props": {
+          "font": "400 clamp(32px, 3.2vw, 44px) / 1.16 Georgia, serif",
+          "font-size": "clamp(32px, 3.2vw, 44px)",
+          "margin": "0px 0px 30px",
+          "margin-top": "0px",
+          "margin-bottom": "30px"
+        }
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "route": "case-pharma.html",
+    "selector": ".fr-metrics strong",
+    "computed": {
+      "size": "50px",
+      "line": "58px",
+      "padding": "0px",
+      "margin": "0px"
+    },
+    "candidates": [
+      {
+        "selector": ".v20-metrics strong",
+        "file": "styles.css",
+        "line": ".v20-metrics strong { display: block; font: 400 clamp(22px, 2vw, 28px) / 1.3 Georgia, \"Times New Roman\", serif; letter-spacing: -0.025em; }",
+        "props": {
+          "font": "400 clamp(22px, 2vw, 28px) / 1.3 Georgia, \"Times New Roman\", serif",
+          "font-size": "clamp(22px, 2vw, 28px)"
+        }
+      },
+      {
+        "selector": ".fr-premium .fr-metrics strong, .fr-premium.home-v26 .proof-line strong",
+        "file": "premium.css",
+        "line": ".fr-premium .fr-metrics strong, .fr-premium.home-v26 .proof-line strong { font: 400 clamp(28px, 3.2vw, 44px) / 1.16 Georgia, serif; color: var(--green); letter-spacing: -0.035em; display: block; overflow-wrap: anywhere; ",
+        "props": {
+          "font": "400 clamp(28px, 3.2vw, 44px) / 1.16 Georgia, serif",
+          "font-size": "clamp(28px, 3.2vw, 44px)"
+        }
+      },
+      {
+        "selector": ".fr-premium.fr-case-page .fr-hero .fr-metrics strong",
+        "file": "premium.css",
+        "line": ".fr-premium.fr-case-page .fr-hero .fr-metrics strong { font-size: 50px; }",
+        "props": {
+          "font-size": "50px"
+        }
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "route": "case-pharma.html",
+    "selector": ".fr-result-pair strong",
+    "computed": {
+      "size": "68px",
+      "line": "74.8px",
+      "padding": "0px",
+      "margin": "0px 0px 16px"
+    },
+    "candidates": [
+      {
+        "selector": ".fr-premium .fr-result-pair strong",
+        "file": "premium.css",
+        "line": ".fr-premium .fr-result-pair strong { display: block; font: 400 68px / 1.1 Georgia, serif; letter-spacing: -0.04em; color: rgb(210, 174, 129); margin-bottom: 16px; }",
+        "props": {
+          "font": "400 68px / 1.1 Georgia, serif",
+          "font-size": "68px",
+          "margin-bottom": "16px"
+        }
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "route": "about/",
+    "selector": "h1",
+    "computed": {
+      "size": "60px",
+      "line": "66px",
+      "padding": "0px",
+      "margin": "20px 0px 30px"
+    },
+    "candidates": [
+      {
+        "selector": "h1, h2, h3",
+        "file": "styles.css",
+        "line": "h1, h2, h3 { margin: 0px; line-height: 1.02; letter-spacing: -0.045em; }",
+        "props": {
+          "margin": "0px",
+          "margin-top": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      {
+        "selector": "h1",
+        "file": "styles.css",
+        "line": "h1 { font-size: clamp(48px, 6vw, 82px); max-width: 880px; }",
+        "props": {
+          "font-size": "clamp(48px, 6vw, 82px)"
+        }
+      },
+      {
+        "selector": "h1",
+        "file": "styles.css",
+        "line": "h1 { font-size: clamp(54px, 5.55vw, 84px); line-height: 0.99; letter-spacing: -0.052em; }",
+        "props": {
+          "font-size": "clamp(54px, 5.55vw, 84px)"
+        }
+      },
+      {
+        "selector": ".design-v17 h1",
+        "file": "styles.css",
+        "line": ".design-v17 h1 { font-size: clamp(30px, 3.1vw, 39px); line-height: 1.15; letter-spacing: -0.032em; }",
+        "props": {
+          "font-size": "clamp(30px, 3.1vw, 39px)"
+        }
+      },
+      {
+        "selector": ".design-v20 h1",
+        "file": "styles.css",
+        "line": ".design-v20 h1 { font-size: clamp(30px, 3vw, 39px); line-height: 1.14; max-width: 880px; }",
+        "props": {
+          "font-size": "clamp(30px, 3vw, 39px)"
+        }
+      },
+      {
+        "selector": ".fr-premium .fr-section h1",
+        "file": "premium.css",
+        "line": ".fr-premium .fr-section h1 { font: 400 clamp(38px, 4.5vw, 60px) / 1.1 Georgia, serif; letter-spacing: -0.035em; max-width: 960px; margin: 20px 0px 30px; }",
+        "props": {
+          "font": "400 clamp(38px, 4.5vw, 60px) / 1.1 Georgia, serif",
+          "font-size": "clamp(38px, 4.5vw, 60px)",
+          "margin": "20px 0px 30px",
+          "margin-top": "20px",
+          "margin-bottom": "30px"
+        }
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "route": "about/",
+    "selector": ".hotfix-results-grid p",
+    "computed": {
+      "size": "11px",
+      "line": "17.6px",
+      "padding": "0px",
+      "margin": "0px 0px 15px"
+    },
+    "candidates": [
+      {
+        "selector": ".eyebrow",
+        "file": "styles.css",
+        "line": ".eyebrow { margin: 0px 0px 15px; text-transform: uppercase; letter-spacing: 0.17em; font-size: 10px; font-weight: 800; color: var(--green); }",
+        "props": {
+          "font-size": "10px",
+          "margin": "0px 0px 15px",
+          "margin-top": "0px",
+          "margin-bottom": "15px"
+        }
+      },
+      {
+        "selector": ".eyebrow",
+        "file": "styles.css",
+        "line": ".eyebrow { font-size: 10px; letter-spacing: 0.2em; }",
+        "props": {
+          "font-size": "10px"
+        }
+      },
+      {
+        "selector": ".eyebrow, .section-no, .case-label, .case-flow div span, .article-meta span, .service-fit small, .home-insights__grid span, .insight-card > span",
+        "file": "styles.css",
+        "line": ".eyebrow, .section-no, .case-label, .case-flow div span, .article-meta span, .service-fit small, .home-insights__grid span, .insight-card > span { font-size: 10px; }",
+        "props": {
+          "font-size": "10px"
+        }
+      },
+      {
+        "selector": ".design-v17 .eyebrow, .design-v17 .section-no, .design-v17 .case-label",
+        "file": "styles.css",
+        "line": ".design-v17 .eyebrow, .design-v17 .section-no, .design-v17 .case-label { font-size: 10px; letter-spacing: 0.1em; }",
+        "props": {
+          "font-size": "10px"
+        }
+      },
+      {
+        "selector": ".fr-premium .eyebrow",
+        "file": "premium.css",
+        "line": ".fr-premium .eyebrow { font-size: 11px; letter-spacing: 0.12em; font-weight: 600; line-height: 1.6; color: var(--fr-bronze-ink); }",
+        "props": {
+          "font-size": "11px"
+        }
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "route": "insights/bitrix24-sales-implementation/",
+    "selector": "h1",
+    "computed": {
+      "size": "60px",
+      "line": "66px",
+      "padding": "0px",
+      "margin": "20px 0px 30px"
+    },
+    "candidates": [
+      {
+        "selector": "h1, h2, h3",
+        "file": "styles.css",
+        "line": "h1, h2, h3 { margin: 0px; line-height: 1.02; letter-spacing: -0.045em; }",
+        "props": {
+          "margin": "0px",
+          "margin-top": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      {
+        "selector": "h1",
+        "file": "styles.css",
+        "line": "h1 { font-size: clamp(48px, 6vw, 82px); max-width: 880px; }",
+        "props": {
+          "font-size": "clamp(48px, 6vw, 82px)"
+        }
+      },
+      {
+        "selector": "h1",
+        "file": "styles.css",
+        "line": "h1 { font-size: clamp(54px, 5.55vw, 84px); line-height: 0.99; letter-spacing: -0.052em; }",
+        "props": {
+          "font-size": "clamp(54px, 5.55vw, 84px)"
+        }
+      },
+      {
+        "selector": ".v19-page-hero h1, .v19-hub-hero h1, .v19-about-hero h1, .v19-article-hero h1",
+        "file": "styles.css",
+        "line": ".v19-page-hero h1, .v19-hub-hero h1, .v19-about-hero h1, .v19-article-hero h1 { font-family: Georgia, \"Times New Roman\", serif; font-weight: 400; font-size: clamp(33px, 3.2vw, 46px); line-height: 1.08; letter-spacing: -0",
+        "props": {
+          "font-size": "clamp(33px, 3.2vw, 46px)",
+          "margin": "12px 0px 0px",
+          "margin-top": "12px",
+          "margin-bottom": "0px"
+        }
+      },
+      {
+        "selector": ".fr-premium .fr-section h1",
+        "file": "premium.css",
+        "line": ".fr-premium .fr-section h1 { font: 400 clamp(38px, 4.5vw, 60px) / 1.1 Georgia, serif; letter-spacing: -0.035em; max-width: 960px; margin: 20px 0px 30px; }",
+        "props": {
+          "font": "400 clamp(38px, 4.5vw, 60px) / 1.1 Georgia, serif",
+          "font-size": "clamp(38px, 4.5vw, 60px)",
+          "margin": "20px 0px 30px",
+          "margin-top": "20px",
+          "margin-bottom": "30px"
+        }
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "route": "insights/bitrix24-sales-implementation/",
+    "selector": ".article-section h2",
+    "computed": {
+      "size": "32px",
+      "line": "40px",
+      "padding": "0px",
+      "margin": "30px 0px 20px"
+    },
+    "candidates": [
+      {
+        "selector": "h1, h2, h3",
+        "file": "styles.css",
+        "line": "h1, h2, h3 { margin: 0px; line-height: 1.02; letter-spacing: -0.045em; }",
+        "props": {
+          "margin": "0px",
+          "margin-top": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      {
+        "selector": "h2",
+        "file": "styles.css",
+        "line": "h2 { font-size: clamp(38px, 4.6vw, 61px); }",
+        "props": {
+          "font-size": "clamp(38px, 4.6vw, 61px)"
+        }
+      },
+      {
+        "selector": ".article-section h2",
+        "file": "styles.css",
+        "line": ".article-section h2 { font-family: \"Iowan Old Style\", Baskerville, Georgia, serif; font-size: 35px; margin-bottom: 18px; }",
+        "props": {
+          "font-size": "35px",
+          "margin-bottom": "18px"
+        }
+      },
+      {
+        "selector": "h2",
+        "file": "styles.css",
+        "line": "h2 { font-size: clamp(39px, 4.15vw, 58px); line-height: 1.01; letter-spacing: -0.048em; }",
+        "props": {
+          "font-size": "clamp(39px, 4.15vw, 58px)"
+        }
+      },
+      {
+        "selector": "body:has(.hero--v15) h2, h2",
+        "file": "styles.css",
+        "line": "body:has(.hero--v15) h2, h2 { font-size: clamp(27px, 2.45vw, 37px); line-height: 1.13; letter-spacing: -0.03em; }",
+        "props": {
+          "font-size": "clamp(27px, 2.45vw, 37px)"
+        }
+      },
+      {
+        "selector": ".fr-premium .article-section h2, .fr-premium .v19-article-content h2",
+        "file": "premium.css",
+        "line": ".fr-premium .article-section h2, .fr-premium .v19-article-content h2 { font-size: 32px; line-height: 1.25; margin: 30px 0px 20px; }",
+        "props": {
+          "font-size": "32px",
+          "margin": "30px 0px 20px",
+          "margin-top": "30px",
+          "margin-bottom": "20px"
+        }
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "route": "insights/bitrix24-sales-implementation/",
+    "selector": ".article-section p",
+    "computed": {
+      "size": "17px",
+      "line": "30.6px",
+      "padding": "0px",
+      "margin": "0px"
+    },
+    "candidates": [
+      {
+        "selector": ".article-section p",
+        "file": "styles.css",
+        "line": ".article-section p { font-size: 17px; line-height: 1.76; color: rgb(69, 75, 71); margin: 0px; }",
+        "props": {
+          "font-size": "17px",
+          "margin": "0px",
+          "margin-top": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      {
+        "selector": ".fr-premium .article-section p, .fr-premium .v19-article-content p, .fr-premium .legal-copy p",
+        "file": "premium.css",
+        "line": ".fr-premium .article-section p, .fr-premium .v19-article-content p, .fr-premium .legal-copy p { font-size: 17px; line-height: 1.8; color: var(--fr-muted); }",
+        "props": {
+          "font-size": "17px"
+        }
+      }
+    ]
+  }
+]

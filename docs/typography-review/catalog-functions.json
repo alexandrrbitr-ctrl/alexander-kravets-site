@@ -1,0 +1,13 @@
+{
+  "catalog_widths": [
+    360,
+    390,
+    430,
+    768,
+    1440
+  ],
+  "scenario_and_directory_anchor_checks": 50,
+  "keyboard_cta_checks": 22,
+  "catalog_link_http_checks": 23,
+  "errors": []
+}
