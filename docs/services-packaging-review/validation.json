@@ -1,0 +1,66 @@
+{
+  "base_commit": "0789417374d1a5f665297abc32160cc9b657b91f",
+  "branch": "feature-services-packaging",
+  "static": {
+    "html_pages": 57,
+    "sitemap_urls": 54,
+    "internal_links_resources": 1713,
+    "jsonld_blocks": 59,
+    "faq_schema_synchronized": [
+      "crm-commercial-audit/index.html",
+      "remote-sales-department/index.html",
+      "sales-department-from-scratch/index.html",
+      "sales-kpi-motivation/index.html"
+    ],
+    "head_metadata_h1_preserved": true,
+    "homepage_only_services_changed": true,
+    "cases_assets_contacts_architecture_unchanged": true,
+    "all_15_service_urls_linked": true,
+    "confidential_names_found": 0,
+    "visible_personal_identifiers": 0,
+    "new_html_pages": 0,
+    "errors": []
+  },
+  "pages_browser": {
+    "pages": 57,
+    "checks": 285,
+    "widths": [
+      360,
+      390,
+      430,
+      768,
+      1440
+    ],
+    "errors": []
+  },
+  "menu_disclosures": {
+    "menuChecks": 54,
+    "faqChecks": 67,
+    "maxGuardScenarios": 6,
+    "errors": []
+  },
+  "catalog_functional": {
+    "catalog_widths": [
+      360,
+      390,
+      430,
+      768,
+      1440
+    ],
+    "scenario_anchor_checks": 15,
+    "keyboard_cta_checks": 12,
+    "catalog_link_http_checks": 23,
+    "errors": []
+  },
+  "node_check_site_js": "passed: exit 0",
+  "git_diff_check": "passed: exit 0",
+  "visual_inspection": [
+    "services desktop first screen",
+    "services mobile first screen",
+    "flagship desktop / mobile composition",
+    "AI service mobile composition",
+    "complete homepage services mobile screenshot"
+  ],
+  "screenshot_notes": "Full services pages at 1440 and 390 px. Homepage images are complete section crops; fixed header, hidden skip-link and floating control were excluded from these two crops only, without changing site files.",
+  "publication": "Review branch only. Not merged into main. Browser checks used local preview, not a published preview of this feature."
+}
