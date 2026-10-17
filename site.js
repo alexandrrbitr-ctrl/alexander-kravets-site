@@ -245,14 +245,34 @@
     revealItems.forEach(el => el.classList.add("in-view"));
   }
 
-  // Privacy-first free analytics loader. IDs are intentionally empty in the prototype.
+  // Optional analytics. Production configuration remains disabled until IDs are explicitly provided.
   const scriptTag = document.currentScript;
   const rootPath = scriptTag?.dataset?.root || "";
   const cfg = window.KRAVETS_ANALYTICS || {};
   const consentKey = "kravets_analytics_consent_v1";
 
-  function currentConsent() { try { return localStorage.getItem(consentKey); } catch(e) { return null; } }
-  function saveConsent(v) { try { localStorage.setItem(consentKey, v); } catch(e) {} }
+  let memoryConsent = null;
+  function currentConsent() {
+    if (memoryConsent) return memoryConsent;
+    try {
+      const stored = localStorage.getItem(consentKey);
+      return stored === "analytics" || stored === "necessary" ? stored : memoryConsent;
+    } catch(e) { return memoryConsent; }
+  }
+  function saveConsent(v) {
+    memoryConsent = v;
+    try { localStorage.setItem(consentKey, v); return localStorage.getItem(consentKey) === v; }
+    catch(e) { return false; }
+  }
+  function stopYandex(reloadPage) {
+    if (!window.__kravetsYmLoaded) return;
+    if (typeof window.ym === "function") {
+      try { window.ym(Number(cfg.yandexMetricaId), "destruct"); } catch(e) {}
+    }
+    window.__kravetsYmLoaded = false;
+    // Reload only after the refusal was persisted; otherwise keep the refusal in memory.
+    if (reloadPage) window.location.reload();
+  }
 
   function loadCloudflare() {
     if (!cfg.cloudflareToken || document.querySelector("script[data-cf-beacon]")) return;
@@ -291,7 +311,7 @@
     consentBox.hidden = true;
     consentBox.setAttribute("role","dialog");
     consentBox.setAttribute("aria-label","Настройки аналитики");
-    consentBox.innerHTML = `<div><strong>Аналитика и cookies</strong><p>Необходимые настройки работают без аналитики. Яндекс Метрика включается только с вашего согласия. <a href="${rootPath}cookies.html">Подробнее</a></p></div><div class="cookie-consent__actions"><button type="button" data-consent="necessary">Только необходимые</button><button type="button" class="primary" data-consent="analytics">Разрешить аналитику</button></div>`;
+    consentBox.innerHTML = `<div><strong>Аналитика и cookies</strong><p>Необходимые настройки работают без аналитики. Яндекс Метрика включается только с вашего согласия. <a href="${rootPath}privacy.html#cookies">Подробнее</a></p></div><div class="cookie-consent__actions"><button type="button" data-consent="necessary">Только необходимые</button><button type="button" class="primary" data-consent="analytics">Разрешить аналитику</button></div>`;
     document.body.appendChild(consentBox);
 
     document.querySelectorAll(".cookie-settings").forEach(btn => {
@@ -303,13 +323,24 @@
     if (c === "analytics") loadYandex();
     if (!c) openConsent();
 
+    // A withdrawal in another tab must also stop this page's counter.
+    window.addEventListener("storage", (event) => {
+      if (event.key !== consentKey && event.key !== null) return;
+      memoryConsent = null;
+      const updated = currentConsent();
+      if (updated !== "analytics") stopYandex(updated === "necessary");
+      if (!updated) openConsent();
+      else consentBox.hidden = true;
+    });
+
     consentBox.addEventListener("click", (e) => {
       const btn = e.target.closest("[data-consent]");
       if (!btn) return;
       const v = btn.dataset.consent;
-      saveConsent(v);
+      const persisted = saveConsent(v);
       consentBox.hidden = true;
       if (v === "analytics") loadYandex();
+      else stopYandex(persisted);
     });
   }
 

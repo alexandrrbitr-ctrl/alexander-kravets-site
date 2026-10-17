@@ -1,0 +1,367 @@
+{
+  "htmlPages": 57,
+  "renders": 285,
+  "widths": [
+    360,
+    390,
+    1280,
+    1440,
+    1920
+  ],
+  "policyLinkHttpChecks": 285,
+  "defaultExternalRequests": [],
+  "redirectWithAndWithoutJavaScript": true,
+  "measurements": [
+    {
+      "width": 360,
+      "h1": {
+        "size": 28,
+        "line": 37.8
+      },
+      "h2": [
+        {
+          "size": 20,
+          "line": 27
+        },
+        {
+          "size": 20,
+          "line": 27
+        },
+        {
+          "size": 20,
+          "line": 27
+        },
+        {
+          "size": 20,
+          "line": 27
+        }
+      ],
+      "p": [
+        {
+          "size": 16,
+          "line": 26.4
+        },
+        {
+          "size": 16,
+          "line": 26.4
+        },
+        {
+          "size": 16,
+          "line": 26.4
+        },
+        {
+          "size": 16,
+          "line": 26.4
+        },
+        {
+          "size": 16,
+          "line": 26.4
+        },
+        {
+          "size": 16,
+          "line": 26.4
+        },
+        {
+          "size": 16,
+          "line": 26.4
+        },
+        {
+          "size": 16,
+          "line": 26.4
+        },
+        {
+          "size": 16,
+          "line": 26.4
+        },
+        {
+          "size": 16,
+          "line": 26.4
+        }
+      ],
+      "columnWidth": 324,
+      "height": 2633,
+      "hero": false
+    },
+    {
+      "width": 390,
+      "h1": {
+        "size": 28,
+        "line": 37.8
+      },
+      "h2": [
+        {
+          "size": 20,
+          "line": 27
+        },
+        {
+          "size": 20,
+          "line": 27
+        },
+        {
+          "size": 20,
+          "line": 27
+        },
+        {
+          "size": 20,
+          "line": 27
+        }
+      ],
+      "p": [
+        {
+          "size": 16,
+          "line": 26.4
+        },
+        {
+          "size": 16,
+          "line": 26.4
+        },
+        {
+          "size": 16,
+          "line": 26.4
+        },
+        {
+          "size": 16,
+          "line": 26.4
+        },
+        {
+          "size": 16,
+          "line": 26.4
+        },
+        {
+          "size": 16,
+          "line": 26.4
+        },
+        {
+          "size": 16,
+          "line": 26.4
+        },
+        {
+          "size": 16,
+          "line": 26.4
+        },
+        {
+          "size": 16,
+          "line": 26.4
+        },
+        {
+          "size": 16,
+          "line": 26.4
+        }
+      ],
+      "columnWidth": 354,
+      "height": 2395,
+      "hero": false
+    },
+    {
+      "width": 1280,
+      "h1": {
+        "size": 28,
+        "line": 37.8
+      },
+      "h2": [
+        {
+          "size": 20,
+          "line": 27
+        },
+        {
+          "size": 20,
+          "line": 27
+        },
+        {
+          "size": 20,
+          "line": 27
+        },
+        {
+          "size": 20,
+          "line": 27
+        }
+      ],
+      "p": [
+        {
+          "size": 16,
+          "line": 26.4
+        },
+        {
+          "size": 16,
+          "line": 26.4
+        },
+        {
+          "size": 16,
+          "line": 26.4
+        },
+        {
+          "size": 16,
+          "line": 26.4
+        },
+        {
+          "size": 16,
+          "line": 26.4
+        },
+        {
+          "size": 16,
+          "line": 26.4
+        },
+        {
+          "size": 16,
+          "line": 26.4
+        },
+        {
+          "size": 16,
+          "line": 26.4
+        },
+        {
+          "size": 16,
+          "line": 26.4
+        },
+        {
+          "size": 16,
+          "line": 26.4
+        }
+      ],
+      "columnWidth": 621,
+      "height": 1672,
+      "hero": false
+    },
+    {
+      "width": 1440,
+      "h1": {
+        "size": 28,
+        "line": 37.8
+      },
+      "h2": [
+        {
+          "size": 20,
+          "line": 27
+        },
+        {
+          "size": 20,
+          "line": 27
+        },
+        {
+          "size": 20,
+          "line": 27
+        },
+        {
+          "size": 20,
+          "line": 27
+        }
+      ],
+      "p": [
+        {
+          "size": 16,
+          "line": 26.4
+        },
+        {
+          "size": 16,
+          "line": 26.4
+        },
+        {
+          "size": 16,
+          "line": 26.4
+        },
+        {
+          "size": 16,
+          "line": 26.4
+        },
+        {
+          "size": 16,
+          "line": 26.4
+        },
+        {
+          "size": 16,
+          "line": 26.4
+        },
+        {
+          "size": 16,
+          "line": 26.4
+        },
+        {
+          "size": 16,
+          "line": 26.4
+        },
+        {
+          "size": 16,
+          "line": 26.4
+        },
+        {
+          "size": 16,
+          "line": 26.4
+        }
+      ],
+      "columnWidth": 621,
+      "height": 1672,
+      "hero": false
+    },
+    {
+      "width": 1920,
+      "h1": {
+        "size": 28,
+        "line": 37.8
+      },
+      "h2": [
+        {
+          "size": 20,
+          "line": 27
+        },
+        {
+          "size": 20,
+          "line": 27
+        },
+        {
+          "size": 20,
+          "line": 27
+        },
+        {
+          "size": 20,
+          "line": 27
+        }
+      ],
+      "p": [
+        {
+          "size": 16,
+          "line": 26.4
+        },
+        {
+          "size": 16,
+          "line": 26.4
+        },
+        {
+          "size": 16,
+          "line": 26.4
+        },
+        {
+          "size": 16,
+          "line": 26.4
+        },
+        {
+          "size": 16,
+          "line": 26.4
+        },
+        {
+          "size": 16,
+          "line": 26.4
+        },
+        {
+          "size": 16,
+          "line": 26.4
+        },
+        {
+          "size": 16,
+          "line": 26.4
+        },
+        {
+          "size": 16,
+          "line": 26.4
+        },
+        {
+          "size": 16,
+          "line": 26.4
+        }
+      ],
+      "columnWidth": 621,
+      "height": 1672,
+      "hero": false
+    }
+  ],
+  "errors": []
+}

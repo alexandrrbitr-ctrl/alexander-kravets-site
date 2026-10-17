@@ -1,0 +1,14 @@
+{
+  "cases": [
+    "disabled",
+    "necessary and reload",
+    "accept then withdraw",
+    "stored acceptance",
+    "invalid choice",
+    "storage blocked",
+    "withdrawal in another tab"
+  ],
+  "realCountersConfigured": false,
+  "externalRequestsIntercepted": true,
+  "errors": []
+}
