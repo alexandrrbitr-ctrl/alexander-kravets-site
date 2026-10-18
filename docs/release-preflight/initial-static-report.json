@@ -1,0 +1,16 @@
+{
+  "base": "https://alexandrrbitr-ctrl.github.io/alexander-kravets-site/",
+  "pages": 59,
+  "indexablePages": 56,
+  "sitemapUrls": 56,
+  "jsonLdBlocks": 59,
+  "ipFooterPages": 59,
+  "localReferencesChecked": 1623,
+  "cookieRedirectPresent": true,
+  "errors": [
+    "cookies.html: Некорректный canonical: https://alexandrrbitr-ctrl.github.io/alexander-kravets-site/privacy.html"
+  ],
+  "warnings": [
+    "robots.txt внутри каталога GitHub Pages не является robots.txt корня хоста; sitemap следует отправить через Search Console (после запуска и подтверждения права)."
+  ]
+}

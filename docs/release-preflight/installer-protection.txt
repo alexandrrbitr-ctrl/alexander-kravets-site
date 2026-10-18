@@ -1,0 +1,4 @@
+usage: apply_preflight.py [-h] [--check] repo
+apply_preflight.py: error: Existing file differs, will not overwrite: scripts/check-site.mjs
+
+Exit code 2 is expected: original installer protected the corrected checker; no files changed.
