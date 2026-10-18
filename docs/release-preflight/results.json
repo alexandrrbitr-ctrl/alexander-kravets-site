@@ -1,0 +1,153 @@
+{
+  "base": "c9773be229118e97a6aca3e398e822bae79b16a0",
+  "localNodeVersion": "v24.19.0",
+  "checks": [
+    {
+      "command": [
+        "node",
+        "scripts/check-site.mjs"
+      ],
+      "exitCode": 0
+    },
+    {
+      "command": [
+        "node",
+        "tests/test-preflight.mjs"
+      ],
+      "exitCode": 0
+    },
+    {
+      "command": [
+        "node",
+        "docs/case-calculator-review/test-engine.mjs"
+      ],
+      "exitCode": 0
+    },
+    {
+      "command": [
+        "node",
+        "--check",
+        "site.js"
+      ],
+      "exitCode": 0
+    },
+    {
+      "command": [
+        "node",
+        "--check",
+        "tools/sales-economics/engine.mjs"
+      ],
+      "exitCode": 0
+    },
+    {
+      "command": [
+        "node",
+        "--check",
+        "tools/sales-economics/ui.mjs"
+      ],
+      "exitCode": 0
+    },
+    {
+      "command": [
+        "node",
+        "--check",
+        "scripts/check-site.mjs"
+      ],
+      "exitCode": 0
+    },
+    {
+      "command": [
+        "node",
+        "--check",
+        "scripts/check-live.mjs"
+      ],
+      "exitCode": 0
+    },
+    {
+      "command": [
+        "node",
+        "--check",
+        "tests/test-preflight.mjs"
+      ],
+      "exitCode": 0
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "exitCode": 0
+    }
+  ],
+  "checkerTests": {
+    "passed": 22,
+    "failed": 0
+  },
+  "calculatorTests": "Package tests and 150 independent models passed; engine unchanged",
+  "sitemapXmlParser": {
+    "valid": true,
+    "urlCount": 56
+  },
+  "existingTrackedSiteFilesUnchanged": true,
+  "criticalNormalizedSha256": {
+    "tools/sales-economics/engine.mjs": "d59717083227cdcd019e7594af7a49b4068299bfe0782b7e2f9e82907e65701a",
+    "tools/sales-economics/ui.mjs": "fd8c2995fcb4eb73231537766d36f40767864c0ec264e6126f455ed18cc11fcf",
+    "case-pharma.html": "c1ad666d421b2e372393d99e52148586e133567f5e664cbf0bef68e473c8d569",
+    "case-remote-sales.html": "8526dae553cce605ec9dcc42a30e2df537edb778df75a1faf16d89dbecda6fcb",
+    "case-contact-center.html": "34f5059246f71e335081b72d8ea82e3121db3d4347b952e2ae21da9b8cfb82bc",
+    "case-lead-generation.html": "866ecbfab3b31c7a11afe400f6671fbce7246c48a9c599bf24e399a661b287b0",
+    "case-legal-contact-center-sales.html": "c95731b1fc0916f27e12650f98955703fba2a6bc7a6c067b9aab2becbf055208",
+    "site.js": "f563276090d0fd8d56f106cc79c3d8017a83a4f4a0ff98f130aff2ccbc533f25",
+    "analytics-config.js": "9a4dc8257aacb1f888a1beffdf15bfe5d2002375e1be2356c4f12cfeda9c5256",
+    "styles.css": "da34b3c878e1aca3850e50615bbc8447892de600aa8ccfa61bf3e2e728375340",
+    "premium.css": "81026795590c186a7ce5c786596a1686e547c6306646d753bc537b98fc8c4fd7",
+    "privacy.html": "b5a70d6baa4e5fabb3b0f99ee2ea6fa7bf62ce340a2733e70cf727079695e0bb",
+    "index.html": "0ac288e4c49c0979c17abe9d272eec0736a7e335454beb5df55464ebc3e54e86",
+    "services/index.html": "743c39a0e9297403af5ba375250d3b3fab9c0db1f4a30b2d9bf7a7b239df8d1c",
+    "sitemap.xml": "0d1d5c807c1db9a28772891943f5cbacaae2f1b030f36da85fbde886d7c5f821"
+  },
+  "workflow": {
+    "triggers": [
+      "pull_request to main",
+      "workflow_dispatch"
+    ],
+    "permissions": {
+      "contents": "read"
+    },
+    "uses": [
+      "actions/checkout@v4",
+      "actions/setup-node@v4"
+    ],
+    "commands": [
+      "node scripts/check-site.mjs",
+      "node tests/test-preflight.mjs",
+      "node docs/case-calculator-review/test-engine.mjs",
+      "node --check site.js",
+      "node --check tools/sales-economics/engine.mjs",
+      "node --check tools/sales-economics/ui.mjs"
+    ],
+    "deploymentCommands": false,
+    "remoteRun": "not_requested_or_run"
+  },
+  "installerRepeatBeforeCorrections": {
+    "added": 0,
+    "checkExitCode": 0
+  },
+  "installerRepeatAfterCorrections": {
+    "exitCode": 2,
+    "expectedProtection": true,
+    "filesChanged": 0
+  },
+  "liveCheck": {
+    "status": "not_run",
+    "reason": "This branch is not published; live script is opt-in after approved deployment"
+  },
+  "browserChecks": {
+    "status": "not_repeated",
+    "previousReports": [
+      "docs/calculator-discovery-review/README.md",
+      "docs/case-calculator-review/README.md"
+    ]
+  }
+}

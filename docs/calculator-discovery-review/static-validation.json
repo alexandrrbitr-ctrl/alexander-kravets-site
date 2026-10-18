@@ -1,0 +1,16 @@
+{
+  "base": "ccdb624ad831fc6841591bc657671e29f8b308e0",
+  "sourceFiles": [
+    "index.html",
+    "services/index.html",
+    "tools-promo.css"
+  ],
+  "htmlPages": 59,
+  "internalLinksAndResources": 1717,
+  "jsonldBlocks": 59,
+  "sitemapUrls": 56,
+  "onlyTwoPromoBlocksAndStylesheetLinksAdded": true,
+  "previousContentSeoNavigationFooterAndContactsUnchanged": true,
+  "existingCalculatorChartsAnalyticsAndSharedCssJsUnchanged": true,
+  "errors": []
+}

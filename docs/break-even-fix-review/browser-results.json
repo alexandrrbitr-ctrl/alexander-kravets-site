@@ -1,0 +1,87 @@
+{
+  "testedAt": "2026-10-18T20:49:51.034Z",
+  "browser": "155.0.4283.62",
+  "checks": 178,
+  "results": [
+    {
+      "width": 360,
+      "height": 844,
+      "thresholds": [
+        {
+          "leads": 125,
+          "profit": -1000
+        },
+        {
+          "leads": 126,
+          "profit": 1952
+        }
+      ],
+      "defaultProfit": 220400,
+      "breakEvenDeals": 16,
+      "breakEvenLeads": 126,
+      "errors": [],
+      "httpErrors": [],
+      "copy": true,
+      "reset": true,
+      "conversion": true,
+      "noOverflow": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "thresholds": [
+        {
+          "leads": 125,
+          "profit": -1000
+        },
+        {
+          "leads": 126,
+          "profit": 1952
+        }
+      ],
+      "defaultProfit": 220400,
+      "breakEvenDeals": 16,
+      "breakEvenLeads": 126,
+      "errors": [],
+      "httpErrors": [],
+      "copy": true,
+      "reset": true,
+      "conversion": true,
+      "noOverflow": true
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "thresholds": [
+        {
+          "leads": 125,
+          "profit": -1000
+        },
+        {
+          "leads": 126,
+          "profit": 1952
+        }
+      ],
+      "defaultProfit": 220400,
+      "breakEvenDeals": 16,
+      "breakEvenLeads": 126,
+      "errors": [],
+      "httpErrors": [],
+      "copy": true,
+      "reset": true,
+      "conversion": true,
+      "noOverflow": true
+    }
+  ],
+  "externalRequests": [],
+  "screenshots": [
+    "390-default-full.png",
+    "390-default-results.png",
+    "390-125-leads-results.png",
+    "390-126-leads-results.png",
+    "1440-default-full.png",
+    "1440-default-results.png",
+    "1440-125-leads-results.png",
+    "1440-126-leads-results.png"
+  ]
+}

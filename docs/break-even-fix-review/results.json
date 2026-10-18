@@ -1,0 +1,67 @@
+{
+  "base": "01dab668e5cdb6cd138ae20208968e0a5203110d",
+  "nodeVersion": "v24.19.0",
+  "checks": [
+    {
+      "command": [
+        "node",
+        "docs/case-calculator-review/test-engine.mjs"
+      ],
+      "exitCode": 0
+    },
+    {
+      "command": [
+        "node",
+        "tests/test-preflight.mjs"
+      ],
+      "exitCode": 0
+    },
+    {
+      "command": [
+        "node",
+        "scripts/check-site.mjs"
+      ],
+      "exitCode": 0
+    },
+    {
+      "command": [
+        "node",
+        "--check",
+        "site.js"
+      ],
+      "exitCode": 0
+    },
+    {
+      "command": [
+        "node",
+        "--check",
+        "tools/sales-economics/engine.mjs"
+      ],
+      "exitCode": 0
+    },
+    {
+      "command": [
+        "node",
+        "--check",
+        "tools/sales-economics/ui.mjs"
+      ],
+      "exitCode": 0
+    },
+    {
+      "command": [
+        "node",
+        "--check",
+        "docs/break-even-fix-review/check-browser.cjs"
+      ],
+      "exitCode": 0
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "exitCode": 0
+    }
+  ]
+}

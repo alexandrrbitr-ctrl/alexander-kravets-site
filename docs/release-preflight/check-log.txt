@@ -1,0 +1,85 @@
+$ node scripts/check-site.mjs
+{
+  "base": "https://alexandrrbitr-ctrl.github.io/alexander-kravets-site/",
+  "pages": 59,
+  "indexablePages": 56,
+  "sitemapUrls": 56,
+  "jsonLdBlocks": 59,
+  "ipFooterPages": 59,
+  "localReferencesChecked": 1715,
+  "cookieRedirectPresent": true,
+  "errors": [],
+  "warnings": [
+    "robots.txt внутри каталога GitHub Pages не является robots.txt корня хоста; sitemap следует отправить через Search Console (после запуска и подтверждения права)."
+  ]
+}
+
+exitCode=0
+
+$ node tests/test-preflight.mjs
+✔ valid metadata, routes and sitemap (10.8078ms)
+✔ missing asset and calculator discovery link (5.8761ms)
+✔ missing H1 (5.6552ms)
+✔ missing indexable page in sitemap (11.5183ms)
+✔ invalid JSON-LD (8.1645ms)
+✔ intentional cookies redirect canonical points to privacy (6.8697ms)
+✔ broken legacy cookies redirect is not accepted (6.9298ms)
+✔ cookies canonical must point to privacy without fragment (7.8943ms)
+✔ duplicate canonical (5.3775ms)
+✔ duplicate meta description (6.3231ms)
+✔ duplicate title and robots (5.016ms)
+✔ commercial noindex is detected with uppercase meta name (5.6771ms)
+✔ valid local and cross-page anchors (5.9525ms)
+✔ missing local fragment (5.2002ms)
+✔ duplicate IDs (6.2714ms)
+✔ sitemap order does not redefine the project base (5.7737ms)
+✔ invalid base returns diagnostics instead of throwing (4.8958ms)
+✔ duplicate and unexpected sitemap URLs (13.5724ms)
+✔ duplicate sole proprietor footer (13.3429ms)
+✔ missing calculation engine (4.9816ms)
+✔ cookies redirect target section must exist (6.5592ms)
+✔ missing canonical reports an error without a crash (5.5585ms)
+ℹ tests 22
+ℹ suites 0
+ℹ pass 22
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 165.2447
+
+exitCode=0
+
+$ node docs/case-calculator-review/test-engine.mjs
+OK 37+ проверок формул, валидации и пограничных сценариев
+Additional boundaries and 150 independent break-even/profit checks: OK
+
+exitCode=0
+
+$ node --check site.js
+
+exitCode=0
+
+$ node --check tools/sales-economics/engine.mjs
+
+exitCode=0
+
+$ node --check tools/sales-economics/ui.mjs
+
+exitCode=0
+
+$ node --check scripts/check-site.mjs
+
+exitCode=0
+
+$ node --check scripts/check-live.mjs
+
+exitCode=0
+
+$ node --check tests/test-preflight.mjs
+
+exitCode=0
+
+$ git diff --check
+
+exitCode=0

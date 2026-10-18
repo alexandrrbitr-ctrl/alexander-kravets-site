@@ -1835,3 +1835,8 @@ main{padding-top:var(--header-flow-offset)}
 .home-v26 .v26-faq p{font-size:var(--fr-body,17px);line-height:1.7;margin:0 0 28px;max-width:800px}
 @media(max-width:860px){.home-v26 .v26-services article{gap:32px}.home-v26 .v26-problems{gap:30px}.home-v26 .v26-comparisons article{grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}.home-v26 .v26-comparisons h3{grid-column:1/-1}}
 @media(max-width:680px){.home-v26 .v26-problems{grid-template-columns:minmax(0,1fr);gap:26px;margin-top:32px}.home-v26 .v26-problems h3{font-size:25px}.home-v26 .v26-services article{grid-template-columns:minmax(0,1fr);gap:10px;padding:28px 0}.home-v26 .v26-services h3{font-size:28px}.home-v26 .v26-comparisons article{grid-template-columns:minmax(0,1fr);gap:22px;padding:30px 0}.home-v26 .v26-comparisons h3{grid-column:auto;font-size:25px}.home-v26 .v26-after{padding-left:16px}.home-v26 .v26-faq summary{font-size:18px;gap:16px}.home-v26 .v26-faq p{font-size:var(--fr-body,16px)}}
+
+/* BEGIN minimal IP legal footer */
+.footer__ip{margin-top:7px;color:#9ca9a1;font-size:11px;line-height:1.55;font-weight:400;letter-spacing:0}
+.footer__ip small{display:block;font-size:inherit;line-height:inherit;font-weight:inherit;overflow-wrap:anywhere}
+/* END minimal IP legal footer */

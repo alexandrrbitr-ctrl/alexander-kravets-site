@@ -1,0 +1,13 @@
+/* Compact standalone entry point to the existing free calculator. */
+.fr-tools-promo{padding:33px 0;background:#eef1e9;color:#1b2b22;border-top:1px solid #d5dcd3;border-bottom:1px solid #d5dcd3}
+.fr-tools-promo__inner{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:28px}
+.fr-premium main .fr-tools-promo__eyebrow{font:600 13px/1.5 Inter,"Segoe UI",Arial,sans-serif;letter-spacing:.11em;text-transform:uppercase;color:#486251;margin:0 0 9px}
+.fr-premium main .fr-tools-promo h2{font:400 clamp(23px,2.4vw,32px)/1.2 Georgia,"Times New Roman",serif;letter-spacing:-.015em;margin:0 0 9px;max-width:650px;color:#193025}
+.fr-tools-promo p:not(.fr-tools-promo__eyebrow){margin:0;max-width:710px;font:400 14px/1.6 Inter,"Segoe UI",Arial,sans-serif;color:#395249}
+.fr-tools-promo__actions{display:flex;align-items:center;gap:12px;flex-wrap:wrap;justify-content:flex-end}
+.fr-tools-promo__cta{display:inline-flex;align-items:center;justify-content:center;gap:14px;min-height:44px;padding:11px 17px;background:#193527;color:#fff!important;text-decoration:none;border-radius:4px;font:600 13px/1.5 Inter,"Segoe UI",Arial,sans-serif;white-space:nowrap}
+.fr-tools-promo__cta:hover{background:#2b503a}
+.fr-tools-promo__all{display:inline-flex;align-items:center;min-height:44px;color:#244b34!important;text-decoration:underline;text-underline-offset:3px;font:500 13px/1.5 Inter,"Segoe UI",Arial,sans-serif}
+.fr-tools-promo a:focus-visible{outline:3px solid #a36b2a;outline-offset:3px}
+@media(max-width:960px){.fr-tools-promo__inner{grid-template-columns:minmax(0,1fr)}.fr-tools-promo__actions{justify-content:flex-start}}
+@media(max-width:560px){.fr-tools-promo{padding:25px 0}.fr-tools-promo__inner{gap:17px}.fr-premium main .fr-tools-promo h2{font-size:24px}.fr-tools-promo__actions{align-items:stretch;flex-direction:column}.fr-tools-promo__cta{white-space:normal;text-align:center;width:100%;max-width:320px}.fr-tools-promo__all{padding:6px 0}}

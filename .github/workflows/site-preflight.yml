@@ -1,0 +1,28 @@
+name: Site preflight (no deploy)
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Node 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check static site routes and metadata
+        run: node scripts/check-site.mjs
+      - name: Self-test static checker
+        run: node tests/test-preflight.mjs
+      - name: Check calculator formula tests
+        run: node docs/case-calculator-review/test-engine.mjs
+      - name: Check JavaScript syntax
+        run: |
+          node --check site.js
+          node --check tools/sales-economics/engine.mjs
+          node --check tools/sales-economics/ui.mjs

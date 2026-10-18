@@ -1,0 +1,30 @@
+/* Accessible, zero-dependency charts based on published case metrics. */
+.fr-premium .case-viz{padding-block:clamp(32px,4.5vw,56px)}
+.case-viz__figure{max-width:1080px;margin:0 auto;padding:clamp(20px,3.2vw,36px);border:1px solid #d9ded8;background:#fff;color:#1e2722;box-shadow:0 14px 40px rgba(18,44,33,.04)}
+.case-viz__heading{max-width:800px;margin-bottom:28px}
+.case-viz__heading h2{font-size:clamp(24px,3vw,34px);line-height:1.16;letter-spacing:-.035em;margin:8px 0 12px}
+.case-viz__heading p:last-child{max-width:720px;margin:0;color:#505e56;font-size:16px;line-height:1.55}
+.case-viz__groups{display:grid;gap:24px}
+.case-viz__group+.case-viz__group{padding-top:20px;border-top:1px solid #e5e9e3}
+.case-viz__group h3{font-size:17px;letter-spacing:-.01em;margin:0 0 16px;line-height:1.35}
+.case-viz__rows{display:grid;gap:13px}
+.case-viz__row{display:grid;grid-template-columns:minmax(150px,1fr) minmax(160px,2.1fr) 76px;gap:18px;align-items:center;min-width:0}
+.case-viz__label{font-size:14px;line-height:1.35;color:#4a564d}
+.case-viz__track{position:relative;height:14px;border-radius:3px;background:#e8eeea;overflow:visible}
+.case-viz__track--target:after{content:"";position:absolute;left:62.5%;top:-3px;bottom:-3px;width:2px;background:#a5742d}
+.case-viz__bar{display:block;height:100%;border-radius:3px 2px 2px 3px;max-width:100%}
+.case-viz__bar--before{background:#89968e}
+.case-viz__bar--after{background:#277252}
+.case-viz__value{font-size:16px;color:#1b3125;white-space:nowrap;text-align:right;font-variant-numeric:tabular-nums}
+.case-viz__scale{font-size:12px;line-height:1.5;color:#59655e;margin:18px 0 0}
+.case-viz__note{font-size:13px;line-height:1.6;color:#4b5751;background:#f3f5f2;border-left:2px solid #688575;padding:12px 15px;margin:16px 0 0}
+@media(max-width:700px){
+ .case-viz__heading{margin-bottom:24px}
+ .case-viz__row{grid-template-columns:minmax(0,1fr) auto;gap:7px 12px}
+ .case-viz__label{grid-column:1;grid-row:1}
+ .case-viz__value{grid-column:2;grid-row:1;font-size:15px}
+ .case-viz__track{grid-column:1/-1;grid-row:2;height:13px}
+ .case-viz__rows{gap:17px}
+ .case-viz__group h3{font-size:16px}
+ .case-viz__heading p:last-child{font-size:15px}
+}
