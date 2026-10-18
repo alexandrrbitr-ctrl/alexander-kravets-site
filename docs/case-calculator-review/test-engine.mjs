@@ -8,7 +8,15 @@ assert.equal(r.commissions,57600);
 assert.equal(r.fixedCost,370000);
 assert.equal(r.profit,220400);
 assert.equal(r.breakEvenDeals,16);
-assert.equal(r.breakEvenLeads,134);
+assert.equal(r.breakEvenLeads,126);
+// Whole actual deals and leads in an *expected* fractional-conversion model
+// are separate thresholds. 125 leads lose money, 126 leads break even.
+assert.ok(calculate({...defaults,leads:125}).profit < 0);
+assert.ok(calculate({...defaults,leads:126}).profit >= 0);
+assert.equal(calculate({...defaults,leads:125}).profit,-1000);
+assert.equal(calculate({...defaults,leads:126}).profit,1952);
+assert.equal(calculate({...defaults,conversion:100}).breakEvenLeads,16);
+assert.equal(calculate({...defaults,conversion:0}).breakEvenLeads,null);
 const v=scenarios(defaults);
 assert.equal(v[0].conversion,10);assert.equal(v[1].conversion,12);assert.equal(v[2].conversion,14);
 assert.equal(v[0].profit,122000);assert.equal(v[1].profit,220400);assert.equal(v[2].profit,318800);
@@ -46,5 +54,8 @@ for(let i=1;i<=150;i++){
  const q=m.breakEvenDeals;
  assert.ok(q*m.contributionPerDeal-m.fixedCost>=-1e-6);
  if(q>0)assert.ok((q-1)*m.contributionPerDeal-m.fixedCost<0);
+ const leads=m.breakEvenLeads;
+ assert.ok(calculate({...inputs,leads}).profit>=-1e-6);
+ if(leads>0)assert.ok(calculate({...inputs,leads:leads-1}).profit<0);
 }
 console.log('Additional boundaries and 150 independent break-even/profit checks: OK');

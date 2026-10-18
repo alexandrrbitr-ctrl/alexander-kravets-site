@@ -40,7 +40,9 @@ export function calculate(raw) {
   // Avoid an extra deal caused only by binary floating-point at an exact threshold.
   const ceilPositive = value => Math.max(1, Math.ceil(value - Number.EPSILON * Math.abs(value) * 4));
   const breakEvenDeals = fixedCost===0?0:contributionPerDeal>0?ceilPositive(fixedCost/contributionPerDeal):null;
-  const breakEvenLeads = breakEvenDeals===0?0:breakEvenDeals===null||v.conversion===0?null:ceilPositive(breakEvenDeals*100/v.conversion);
+  // Leads are evaluated through the continuous expected-conversion model.
+  // Rounding whole signed deals first would inflate the minimum lead count.
+  const breakEvenLeads = fixedCost===0?0:contributionPerDeal<=0||v.conversion===0?null:ceilPositive(fixedCost*100/(contributionPerDeal*v.conversion));
   const result = {inputs:v,deals,revenue,productCost,grossProfit,commissions,payroll,fixedCost,profit,
     contributionPerDeal,breakEvenDeals,breakEvenLeads};
   if(!Object.values(result).filter(x=>typeof x==='number').every(Number.isFinite))

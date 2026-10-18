@@ -1,0 +1,30 @@
+✔ valid metadata, routes and sitemap (10.5909ms)
+✔ missing asset and calculator discovery link (5.7372ms)
+✔ missing H1 (5.6723ms)
+✔ missing indexable page in sitemap (6.7235ms)
+✔ invalid JSON-LD (11.8248ms)
+✔ intentional cookies redirect canonical points to privacy (10.2179ms)
+✔ broken legacy cookies redirect is not accepted (6.5614ms)
+✔ cookies canonical must point to privacy without fragment (8.106ms)
+✔ duplicate canonical (5.1087ms)
+✔ duplicate meta description (5.828ms)
+✔ duplicate title and robots (5.5874ms)
+✔ commercial noindex is detected with uppercase meta name (5.6733ms)
+✔ valid local and cross-page anchors (5.6552ms)
+✔ missing local fragment (5.2474ms)
+✔ duplicate IDs (5.0139ms)
+✔ sitemap order does not redefine the project base (11.7024ms)
+✔ invalid base returns diagnostics instead of throwing (4.9913ms)
+✔ duplicate and unexpected sitemap URLs (8.0371ms)
+✔ duplicate sole proprietor footer (5.992ms)
+✔ missing calculation engine (4.8134ms)
+✔ cookies redirect target section must exist (7.4867ms)
+✔ missing canonical reports an error without a crash (5.1489ms)
+ℹ tests 22
+ℹ suites 0
+ℹ pass 22
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 158.7998
