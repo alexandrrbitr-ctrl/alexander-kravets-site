@@ -245,111 +245,147 @@
     revealItems.forEach(el => el.classList.add("in-view"));
   }
 
-  // Optional analytics. Production configuration remains disabled until IDs are explicitly provided.
+  // Optional audience measurement: no SDK, pageview or goal before an explicit choice.
   const scriptTag = document.currentScript;
   const rootPath = scriptTag?.dataset?.root || "";
   const cfg = window.KRAVETS_ANALYTICS || {};
-  const consentKey = "kravets_analytics_consent_v1";
-
+  const consentKey = "kravets_analytics_consent_v2";
+  const consentVersion = "2026-10-20";
+  const consentLifetime = 180 * 24 * 60 * 60 * 1000;
+  const yandexId = String(cfg.yandexMetricaId || "").trim();
   let memoryConsent = null;
-  function currentConsent() {
-    if (memoryConsent) return memoryConsent;
-    try {
-      const stored = localStorage.getItem(consentKey);
-      return stored === "analytics" || stored === "necessary" ? stored : memoryConsent;
-    } catch(e) { return memoryConsent; }
+  let consentBox = null;
+  let consentTrigger = null;
+  let expiryTimer;
+
+  function validConsent(record) {
+    return record && record.version === consentVersion &&
+      ["analytics", "necessary"].includes(record.choice) &&
+      Number.isFinite(record.savedAt) && Number.isFinite(record.expiresAt) &&
+      record.savedAt <= Date.now() && record.expiresAt > Date.now() &&
+      record.expiresAt - record.savedAt === consentLifetime;
   }
-  function saveConsent(v) {
-    memoryConsent = v;
-    try { localStorage.setItem(consentKey, v); return localStorage.getItem(consentKey) === v; }
-    catch(e) { return false; }
+  function consentRecord() {
+    if (validConsent(memoryConsent)) return memoryConsent;
+    memoryConsent = null;
+    try {
+      const record = JSON.parse(localStorage.getItem(consentKey));
+      return validConsent(record) ? record : null;
+    } catch(e) { return null; }
+  }
+  function currentConsent() { return consentRecord()?.choice || null; }
+  function saveConsent(choice) {
+    const savedAt = Date.now();
+    memoryConsent = {choice, version: consentVersion, savedAt, expiresAt: savedAt + consentLifetime};
+    try {
+      localStorage.setItem(consentKey, JSON.stringify(memoryConsent));
+      return localStorage.getItem(consentKey) === JSON.stringify(memoryConsent);
+    } catch(e) { return false; }
   }
   function stopYandex(reloadPage) {
     if (!window.__kravetsYmLoaded) return;
     if (typeof window.ym === "function") {
-      try { window.ym(Number(cfg.yandexMetricaId), "destruct"); } catch(e) {}
+      try { window.ym(Number(yandexId), "destruct"); } catch(e) {}
     }
     window.__kravetsYmLoaded = false;
-    // Reload only after the refusal was persisted; otherwise keep the refusal in memory.
+    // A persisted refusal survives the reload, including in other open tabs.
     if (reloadPage) window.location.reload();
   }
-
-  function loadCloudflare() {
-    if (!cfg.cloudflareToken || document.querySelector("script[data-cf-beacon]")) return;
-    const s = document.createElement("script");
-    s.defer = true;
-    s.src = "https://static.cloudflareinsights.com/beacon.min.js";
-    s.setAttribute("data-cf-beacon", JSON.stringify({ token: cfg.cloudflareToken }));
-    document.head.appendChild(s);
-  }
-
   function loadYandex() {
-    const id = String(cfg.yandexMetricaId || "").trim();
-    if (!id || window.__kravetsYmLoaded) return;
+    if (!/^\d+$/.test(yandexId) || currentConsent() !== "analytics" || window.__kravetsYmLoaded) return;
     window.__kravetsYmLoaded = true;
     (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};m[i].l=1*new Date();
       for (let j=0;j<document.scripts.length;j++){if(document.scripts[j].src===r){return;}}
       k=e.createElement(t);a=e.getElementsByTagName(t)[0];k.async=1;k.src=r;a.parentNode.insertBefore(k,a);
     })(window,document,"script","https://mc.yandex.ru/metrika/tag.js","ym");
-    window.ym(Number(id),"init",{defer:true,clickmap:true,trackLinks:true,accurateTrackBounce:true,webvisor:true});
+    // This is a multi-page site: init sends ONE automatic pageview after consent.
+    // No session replay, input recording, clickmap, link harvesting or tag manager.
+    window.ym(Number(yandexId), "init", {
+      defer: false, clickmap: false, trackLinks: false,
+      accurateTrackBounce: true, webvisor: false, disableYtm: true
+    });
   }
-
-  loadCloudflare();
-
-  const yandexId = String(cfg.yandexMetricaId || "").trim();
-  let consentBox = null;
-
-  function openConsent() {
+  function openConsent(moveFocus = false) {
     if (!consentBox) return;
     consentBox.hidden = false;
-    consentBox.querySelector("button")?.focus();
+    if (moveFocus) {
+      consentTrigger = document.activeElement;
+      consentBox.querySelector("button")?.focus();
+    }
+  }
+  function hideConsent() {
+    if (!consentBox) return;
+    consentBox.hidden = true;
+    if (consentTrigger?.isConnected && consentTrigger.getClientRects().length) consentTrigger.focus();
+    consentTrigger = null;
+  }
+  function scheduleConsentExpiry() {
+    clearTimeout(expiryTimer);
+    const record = consentRecord();
+    if (!record) return;
+    expiryTimer = setTimeout(() => {
+      if (consentRecord()) { scheduleConsentExpiry(); return; }
+      memoryConsent = null;
+      stopYandex(false);
+      openConsent();
+    }, Math.min(record.expiresAt - Date.now() + 1, 2147483647));
+  }
+  function syncConsent() {
+    memoryConsent = null;
+    const choice = currentConsent();
+    if (choice === "analytics") loadYandex();
+    else stopYandex(false);
+    if (choice) hideConsent(); else openConsent();
+    scheduleConsentExpiry();
   }
 
-  if (yandexId) {
-    consentBox = document.createElement("div");
+  if (/^\d+$/.test(yandexId)) {
+    consentBox = document.createElement("section");
     consentBox.className = "cookie-consent";
     consentBox.hidden = true;
-    consentBox.setAttribute("role","dialog");
-    consentBox.setAttribute("aria-label","Настройки аналитики");
-    consentBox.innerHTML = `<div><strong>Аналитика и cookies</strong><p>Необходимые настройки работают без аналитики. Яндекс Метрика включается только с вашего согласия. <a href="${rootPath}privacy.html#cookies">Подробнее</a></p></div><div class="cookie-consent__actions"><button type="button" data-consent="necessary">Только необходимые</button><button type="button" class="primary" data-consent="analytics">Разрешить аналитику</button></div>`;
+    consentBox.setAttribute("aria-label", "Настройки аналитики");
+    consentBox.innerHTML = `<p>Яндекс Метрика: просмотры и клики после согласия. <a href="${rootPath}privacy.html#cookies">Подробнее</a></p><div class="cookie-consent__actions"><button type="button" data-consent="necessary">Отказаться</button><button type="button" data-consent="analytics">Разрешить</button></div>`;
     document.body.appendChild(consentBox);
-
     document.querySelectorAll(".cookie-settings").forEach(btn => {
       btn.hidden = false;
-      btn.addEventListener("click", openConsent);
+      btn.addEventListener("click", () => openConsent(true));
     });
-
-    const c = currentConsent();
-    if (c === "analytics") loadYandex();
-    if (!c) openConsent();
-
-    // A withdrawal in another tab must also stop this page's counter.
-    window.addEventListener("storage", (event) => {
-      if (event.key !== consentKey && event.key !== null) return;
-      memoryConsent = null;
-      const updated = currentConsent();
-      if (updated !== "analytics") stopYandex(updated === "necessary");
-      if (!updated) openConsent();
-      else consentBox.hidden = true;
+    // Older v1 choices predate this policy; do not silently interpret them as fresh consent.
+    try { localStorage.removeItem("kravets_analytics_consent_v1"); } catch(e) {}
+    syncConsent();
+    window.addEventListener("storage", event => {
+      if (event.key === consentKey || event.key === null) syncConsent();
     });
-
-    consentBox.addEventListener("click", (e) => {
-      const btn = e.target.closest("[data-consent]");
-      if (!btn) return;
-      const v = btn.dataset.consent;
-      const persisted = saveConsent(v);
-      consentBox.hidden = true;
-      if (v === "analytics") loadYandex();
+    window.addEventListener("pageshow", event => {
+      if (!event.persisted) return;
+      const wasLoaded = window.__kravetsYmLoaded;
+      syncConsent();
+      // A back/forward-cache restore is a new view, not a second initialization.
+      if (wasLoaded && window.__kravetsYmLoaded && currentConsent() === "analytics") {
+        window.ym(Number(yandexId), "hit", location.href);
+      }
+    });
+    consentBox.addEventListener("click", event => {
+      const btn = event.target.closest("button[data-consent]");
+      if (!btn || !["analytics", "necessary"].includes(btn.dataset.consent)) return;
+      const persisted = saveConsent(btn.dataset.consent);
+      hideConsent();
+      scheduleConsentExpiry();
+      if (btn.dataset.consent === "analytics") loadYandex();
       else stopYandex(persisted);
     });
   }
 
-  document.addEventListener("click", (e) => {
-    const el = e.target.closest("[data-goal]");
-    if (!el) return;
-    if (yandexId && currentConsent() === "analytics" && typeof window.ym === "function") {
-      window.ym(Number(yandexId), "reachGoal", el.dataset.goal);
+  document.addEventListener("click", event => {
+    const el = event.target.closest("[data-goal], a[href]");
+    if (!el || !yandexId || currentConsent() !== "analytics" || !window.__kravetsYmLoaded || typeof window.ym !== "function") return;
+    let goal = el.dataset.goal;
+    if (!goal && el.tagName === "A") {
+      if (el.href === personalTelegramUrl) goal = "telegram_contact";
+      else if (el.href === whatsappUrl) goal = "whatsapp_contact";
+      else if (el.href === maxChannelUrl) goal = "max_channel_open";
     }
+    if (goal) window.ym(Number(yandexId), "reachGoal", goal);
   });
 
   // Current-section navigation shared by desktop and body-level mobile menu.

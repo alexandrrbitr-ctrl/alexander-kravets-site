@@ -1,0 +1,51 @@
+{
+  "url": "https://alexandrrbitr-ctrl.github.io/alexander-kravets-site/",
+  "id": "113697096",
+  "beforeConsent": {
+    "tags": 0,
+    "requests": 0,
+    "ymCalls": 0
+  },
+  "afterConsent": {
+    "sdk": [
+      {
+        "url": "https://mc.yandex.ru/metrika/tag.js",
+        "status": 200
+      }
+    ],
+    "init": [
+      [
+        113697096,
+        "init",
+        {
+          "defer": true,
+          "clickmap": true,
+          "trackLinks": true,
+          "accurateTrackBounce": true,
+          "webvisor": true
+        }
+      ]
+    ],
+    "attemptedAnalyticsRequests": [
+      {
+        "host": "mc.yandex.ru",
+        "path": "/metrika/advert.gif",
+        "browserInfoFlags": [],
+        "isPageview": false
+      },
+      {
+        "host": "mc.yandex.ru",
+        "path": "/watch/113697096",
+        "browserInfoFlags": [
+          "pv",
+          "1"
+        ],
+        "isPageview": true
+      }
+    ],
+    "pageviews": 1,
+    "errors": []
+  },
+  "telemetry": "all requests except SDK download intercepted, not sent to Yandex",
+  "dashboardAccess": false
+}

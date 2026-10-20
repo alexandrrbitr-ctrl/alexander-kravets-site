@@ -1,0 +1,62 @@
+{
+  "checks": 224,
+  "browser": "155.0.4283.62",
+  "counter": 113697096,
+  "realSdk": true,
+  "telemetry": "intercepted locally, not delivered to Yandex",
+  "results": [
+    {
+      "width": 360,
+      "scenario": "first/allow/refuse/revisit/navigation/calculator",
+      "views": 4,
+      "inits": 4,
+      "errors": []
+    },
+    {
+      "width": 390,
+      "scenario": "first/allow/refuse/revisit/navigation/calculator",
+      "views": 4,
+      "inits": 4,
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "scenario": "first/allow/refuse/revisit/navigation/calculator",
+      "views": 4,
+      "inits": 4,
+      "errors": []
+    },
+    {
+      "scenario": "legacy",
+      "views": 0,
+      "errors": []
+    },
+    {
+      "scenario": "expired",
+      "views": 0,
+      "errors": []
+    },
+    {
+      "scenario": "tampered",
+      "views": 0,
+      "errors": []
+    },
+    {
+      "scenario": "blocked",
+      "views": 1,
+      "errors": []
+    },
+    {
+      "scenario": "near-expiry",
+      "views": 1,
+      "errors": []
+    },
+    {
+      "scenario": "all-public-UI-pages",
+      "pages": 58,
+      "views": 58,
+      "inits": 58,
+      "errors": []
+    }
+  ]
+}
