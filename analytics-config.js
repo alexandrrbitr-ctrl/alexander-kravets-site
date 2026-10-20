@@ -1,4 +1,4 @@
 window.KRAVETS_ANALYTICS = {
   cloudflareToken: "",
-  yandexMetricaId: ""
+  yandexMetricaId: "113697096"
 };
