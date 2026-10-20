@@ -1,0 +1,16 @@
+{
+  "base": "54575d41826ac1a433455891f79fb1f97337b241",
+  "html_files": 60,
+  "unchanged_html": 59,
+  "privacy_only_button_labels_changed": true,
+  "site_js_logic_unchanged_outside_template": true,
+  "protected_files_unchanged": [
+    "analytics-config.js",
+    "premium.css",
+    "sitemap.xml",
+    "robots.txt",
+    "google702c29dfb69c29e5.html"
+  ],
+  "consent_lifetime_days": 180,
+  "counter": "113697096"
+}
