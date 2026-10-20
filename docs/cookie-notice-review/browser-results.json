@@ -1,0 +1,305 @@
+{
+  "checks": 335,
+  "browser": "155.0.4283.62",
+  "counter": 113697096,
+  "realSdk": true,
+  "telemetry": "intercepted locally, not delivered to Yandex",
+  "results": [
+    {
+      "scenario": "light-notice-layout",
+      "width": 328,
+      "height": 111.6875,
+      "x": 16,
+      "y": 720.3125,
+      "background": "rgb(244, 241, 233)",
+      "color": "rgb(34, 42, 37)",
+      "fontSize": "13px",
+      "buttons": [
+        {
+          "label": "Только необходимые",
+          "width": 147,
+          "height": 44,
+          "fits": true
+        },
+        {
+          "label": "Принять",
+          "width": 147,
+          "height": 44,
+          "fits": true
+        }
+      ],
+      "overflow": false,
+      "contrast": 13.048014414774268,
+      "viewportWidth": 360
+    },
+    {
+      "scenario": "light-notice-layout",
+      "width": 358,
+      "height": 111.6875,
+      "x": 16,
+      "y": 720.3125,
+      "background": "rgb(244, 241, 233)",
+      "color": "rgb(34, 42, 37)",
+      "fontSize": "13px",
+      "buttons": [
+        {
+          "label": "Только необходимые",
+          "width": 162,
+          "height": 44,
+          "fits": true
+        },
+        {
+          "label": "Принять",
+          "width": 162,
+          "height": 44,
+          "fits": true
+        }
+      ],
+      "overflow": false,
+      "contrast": 13.048014414774268,
+      "viewportWidth": 390
+    },
+    {
+      "scenario": "light-notice-layout",
+      "width": 398,
+      "height": 111.6875,
+      "x": 16,
+      "y": 720.3125,
+      "background": "rgb(244, 241, 233)",
+      "color": "rgb(34, 42, 37)",
+      "fontSize": "13px",
+      "buttons": [
+        {
+          "label": "Только необходимые",
+          "width": 182,
+          "height": 44,
+          "fits": true
+        },
+        {
+          "label": "Принять",
+          "width": 182,
+          "height": 44,
+          "fits": true
+        }
+      ],
+      "overflow": false,
+      "contrast": 13.048014414774268,
+      "viewportWidth": 430
+    },
+    {
+      "scenario": "light-notice-layout",
+      "width": 648,
+      "height": 92.84375,
+      "x": 16,
+      "y": 739.15625,
+      "background": "rgb(244, 241, 233)",
+      "color": "rgb(34, 42, 37)",
+      "fontSize": "13px",
+      "buttons": [
+        {
+          "label": "Только необходимые",
+          "width": 307,
+          "height": 44,
+          "fits": true
+        },
+        {
+          "label": "Принять",
+          "width": 307,
+          "height": 44,
+          "fits": true
+        }
+      ],
+      "overflow": false,
+      "contrast": 13.048014414774268,
+      "viewportWidth": 680
+    },
+    {
+      "scenario": "light-notice-layout",
+      "width": 649,
+      "height": 62,
+      "x": 16,
+      "y": 770,
+      "background": "rgb(244, 241, 233)",
+      "color": "rgb(34, 42, 37)",
+      "fontSize": "13px",
+      "buttons": [
+        {
+          "label": "Только необходимые",
+          "width": 153.59375,
+          "height": 40,
+          "fits": true
+        },
+        {
+          "label": "Принять",
+          "width": 74.328125,
+          "height": 40,
+          "fits": true
+        }
+      ],
+      "overflow": false,
+      "contrast": 13.048014414774268,
+      "viewportWidth": 681
+    },
+    {
+      "scenario": "light-notice-layout",
+      "width": 736,
+      "height": 62,
+      "x": 16,
+      "y": 926,
+      "background": "rgb(244, 241, 233)",
+      "color": "rgb(34, 42, 37)",
+      "fontSize": "13px",
+      "buttons": [
+        {
+          "label": "Только необходимые",
+          "width": 153.59375,
+          "height": 40,
+          "fits": true
+        },
+        {
+          "label": "Принять",
+          "width": 74.328125,
+          "height": 40,
+          "fits": true
+        }
+      ],
+      "overflow": false,
+      "contrast": 13.048014414774268,
+      "viewportWidth": 768
+    },
+    {
+      "scenario": "light-notice-layout",
+      "width": 1100,
+      "height": 62,
+      "x": 16,
+      "y": 926,
+      "background": "rgb(244, 241, 233)",
+      "color": "rgb(34, 42, 37)",
+      "fontSize": "13px",
+      "buttons": [
+        {
+          "label": "Только необходимые",
+          "width": 153.59375,
+          "height": 40,
+          "fits": true
+        },
+        {
+          "label": "Принять",
+          "width": 74.328125,
+          "height": 40,
+          "fits": true
+        }
+      ],
+      "overflow": false,
+      "contrast": 13.048014414774268,
+      "viewportWidth": 1280
+    },
+    {
+      "scenario": "light-notice-layout",
+      "width": 1100,
+      "height": 62,
+      "x": 16,
+      "y": 926,
+      "background": "rgb(244, 241, 233)",
+      "color": "rgb(34, 42, 37)",
+      "fontSize": "13px",
+      "buttons": [
+        {
+          "label": "Только необходимые",
+          "width": 153.59375,
+          "height": 40,
+          "fits": true
+        },
+        {
+          "label": "Принять",
+          "width": 74.328125,
+          "height": 40,
+          "fits": true
+        }
+      ],
+      "overflow": false,
+      "contrast": 13.048014414774268,
+      "viewportWidth": 1440
+    },
+    {
+      "scenario": "light-notice-layout",
+      "width": 1100,
+      "height": 62,
+      "x": 16,
+      "y": 926,
+      "background": "rgb(244, 241, 233)",
+      "color": "rgb(34, 42, 37)",
+      "fontSize": "13px",
+      "buttons": [
+        {
+          "label": "Только необходимые",
+          "width": 153.59375,
+          "height": 40,
+          "fits": true
+        },
+        {
+          "label": "Принять",
+          "width": 74.328125,
+          "height": 40,
+          "fits": true
+        }
+      ],
+      "overflow": false,
+      "contrast": 13.048014414774268,
+      "viewportWidth": 1920
+    },
+    {
+      "width": 360,
+      "scenario": "first/allow/refuse/revisit/navigation/calculator",
+      "views": 4,
+      "inits": 4,
+      "errors": []
+    },
+    {
+      "width": 390,
+      "scenario": "first/allow/refuse/revisit/navigation/calculator",
+      "views": 4,
+      "inits": 4,
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "scenario": "first/allow/refuse/revisit/navigation/calculator",
+      "views": 4,
+      "inits": 4,
+      "errors": []
+    },
+    {
+      "scenario": "legacy",
+      "views": 0,
+      "errors": []
+    },
+    {
+      "scenario": "expired",
+      "views": 0,
+      "errors": []
+    },
+    {
+      "scenario": "tampered",
+      "views": 0,
+      "errors": []
+    },
+    {
+      "scenario": "blocked",
+      "views": 1,
+      "errors": []
+    },
+    {
+      "scenario": "near-expiry",
+      "views": 1,
+      "errors": []
+    },
+    {
+      "scenario": "all-public-UI-pages",
+      "pages": 58,
+      "views": 58,
+      "inits": 58,
+      "errors": []
+    }
+  ]
+}

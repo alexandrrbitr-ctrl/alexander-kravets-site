@@ -344,7 +344,7 @@
     consentBox.className = "cookie-consent";
     consentBox.hidden = true;
     consentBox.setAttribute("aria-label", "Настройки аналитики");
-    consentBox.innerHTML = `<p>Яндекс Метрика: просмотры и клики после согласия. <a href="${rootPath}privacy.html#cookies">Подробнее</a></p><div class="cookie-consent__actions"><button type="button" data-consent="necessary">Отказаться</button><button type="button" data-consent="analytics">Разрешить</button></div>`;
+    consentBox.innerHTML = `<p>Мы используем cookie для улучшения работы сайта и анализа посещаемости. <a href="${rootPath}privacy.html#cookies">Подробнее</a></p><div class="cookie-consent__actions"><button type="button" data-consent="necessary">Только необходимые</button><button type="button" data-consent="analytics">Принять</button></div>`;
     document.body.appendChild(consentBox);
     document.querySelectorAll(".cookie-settings").forEach(btn => {
       btn.hidden = false;

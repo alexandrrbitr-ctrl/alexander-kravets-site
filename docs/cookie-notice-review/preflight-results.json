@@ -1,0 +1,23 @@
+{
+  "root": "D:\\Моя\\Консалтинг\\сайт",
+  "base": "https://alexandrrbitr-ctrl.github.io/alexander-kravets-site/",
+  "pages": 60,
+  "indexablePages": 57,
+  "sitemapUrls": 56,
+  "jsonLdBlocks": 59,
+  "ipFooterPages": 59,
+  "localReferencesChecked": 1717,
+  "cookieRedirectPresent": true,
+  "errors": [
+    "google702c29dfb69c29e5.html: Отсутствует title",
+    "google702c29dfb69c29e5.html: Заголовков H1: 0 вместо 1",
+    "google702c29dfb69c29e5.html: Canonical: 0 вместо 1",
+    "google702c29dfb69c29e5.html: Meta description: 0 вместо 1",
+    "google702c29dfb69c29e5.html: Нет meta description",
+    "google702c29dfb69c29e5.html: Блок реквизитов ИП встречается 0 раз",
+    "sitemap.xml: Нет indexable страницы: google702c29dfb69c29e5.html (https://alexandrrbitr-ctrl.github.io/alexander-kravets-site/google702c29dfb69c29e5.html)"
+  ],
+  "warnings": [
+    "robots.txt внутри каталога GitHub Pages не является robots.txt корня хоста; sitemap следует отправить через Search Console (после запуска и подтверждения права)."
+  ]
+}
