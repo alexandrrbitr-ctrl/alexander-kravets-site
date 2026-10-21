@@ -72,6 +72,8 @@ export function checkSite(rootDir, opts = {}) {
   let ipFooterPages = 0;
   for (const p of files) {
     const html = read(p);
+    // Only exact, root-level Search Console verification files are exempt from page SEO.
+    if (/^google[0-9a-fA-F]+\.html$/.test(p) && html === `google-site-verification: ${p}`) continue;
     if(new Set(ids.get(p)).size!==ids.get(p).length)addError(p,'Повторяющиеся id');
     if(tags(html,'title').length>1)addError(p,'Несколько title');
     const title = html.match(/<title\b[^>]*>([\s\S]*?)<\/title>/i)?.[1]?.trim();
