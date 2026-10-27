@@ -1,0 +1,1242 @@
+{
+  "checks": 130,
+  "browser": "156.0.4314.42",
+  "results": [
+    {
+      "width": 360,
+      "scenario": "cookie/contact screenshots, keyboard, sampled contrast and goals",
+      "contrasts": [
+        {
+          "selector": "h1",
+          "foreground": "rgb(22, 35, 51)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "ratio": 15.88,
+          "fontSize": "30px",
+          "required": 3
+        },
+        {
+          "selector": "h1 span",
+          "foreground": "rgb(36, 89, 180)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "ratio": 6.64,
+          "fontSize": "30px",
+          "required": 3
+        },
+        {
+          "selector": ".fc-kicker",
+          "foreground": "rgb(36, 89, 180)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "ratio": 6.64,
+          "fontSize": "11px",
+          "required": 4.5
+        },
+        {
+          "selector": ".fc-lead",
+          "foreground": "rgb(83, 98, 116)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "ratio": 6.24,
+          "fontSize": "16px",
+          "required": 4.5
+        },
+        {
+          "selector": ".fc-difference",
+          "foreground": "rgb(22, 35, 51)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "ratio": 15.88,
+          "fontSize": "14px",
+          "required": 4.5
+        },
+        {
+          "selector": ".fc-primary",
+          "foreground": "rgb(255, 255, 255)",
+          "background": [
+            36,
+            94,
+            233
+          ],
+          "ratio": 5.45,
+          "fontSize": "14px",
+          "required": 4.5
+        },
+        {
+          "selector": ".fc-secondary",
+          "foreground": "rgb(22, 35, 51)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "ratio": 15.88,
+          "fontSize": "14px",
+          "required": 4.5
+        },
+        {
+          "selector": ".fc-problem-grid p",
+          "foreground": "rgb(83, 98, 116)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "ratio": 6.24,
+          "fontSize": "15px",
+          "required": 4.5
+        },
+        {
+          "selector": ".fc-service-copy p",
+          "foreground": "rgb(83, 98, 116)",
+          "background": [
+            245,
+            247,
+            250
+          ],
+          "ratio": 5.81,
+          "fontSize": "16px",
+          "required": 4.5
+        },
+        {
+          "selector": ".fc-discuss",
+          "foreground": "rgb(36, 89, 180)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "ratio": 6.64,
+          "fontSize": "13px",
+          "required": 4.5
+        },
+        {
+          "selector": ".fc-case-results dt",
+          "foreground": "rgb(255, 255, 255)",
+          "background": [
+            36,
+            61,
+            87
+          ],
+          "ratio": 11.17,
+          "fontSize": "32px",
+          "required": 3
+        },
+        {
+          "selector": ".fc-case-results dd",
+          "foreground": "rgb(213, 225, 237)",
+          "background": [
+            36,
+            61,
+            87
+          ],
+          "ratio": 8.42,
+          "fontSize": "14px",
+          "required": 4.5
+        },
+        {
+          "selector": ".fc-case-results>p",
+          "foreground": "rgb(213, 225, 237)",
+          "background": [
+            36,
+            61,
+            87
+          ],
+          "ratio": 8.42,
+          "fontSize": "13px",
+          "required": 4.5
+        },
+        {
+          "selector": ".fc-case-story p",
+          "foreground": "rgb(36, 89, 180)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "ratio": 6.64,
+          "fontSize": "12px",
+          "required": 4.5
+        },
+        {
+          "selector": ".fc-cases .fc-section-heading>p:not(.fc-kicker)",
+          "foreground": "rgb(213, 225, 237)",
+          "background": [
+            20,
+            36,
+            56
+          ],
+          "ratio": 11.81,
+          "fontSize": "17px",
+          "required": 4.5
+        },
+        {
+          "selector": ".fc-role-note",
+          "foreground": "rgb(83, 98, 116)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "ratio": 6.24,
+          "fontSize": "17px",
+          "required": 4.5
+        },
+        {
+          "selector": ".fc-final p:not(.fc-kicker)",
+          "foreground": "rgb(213, 225, 237)",
+          "background": [
+            20,
+            36,
+            56
+          ],
+          "ratio": 11.81,
+          "fontSize": "17px",
+          "required": 4.5
+        },
+        {
+          "selector": ".footer__ip",
+          "foreground": "rgb(156, 169, 161)",
+          "background": [
+            16,
+            28,
+            43
+          ],
+          "ratio": 7.03,
+          "fontSize": "11px",
+          "required": 4.5
+        },
+        {
+          "selector": ".cookie-consent p",
+          "foreground": "rgb(22, 35, 51)",
+          "background": [
+            245,
+            247,
+            250
+          ],
+          "ratio": 14.8,
+          "fontSize": "12px",
+          "required": 4.5
+        },
+        {
+          "selector": ".cookie-consent [data-consent=\"analytics\"]",
+          "foreground": "rgb(255, 255, 255)",
+          "background": [
+            28,
+            60,
+            48
+          ],
+          "ratio": 12.08,
+          "fontSize": "13px",
+          "required": 4.5
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "scenario": "cookie/contact screenshots, keyboard, sampled contrast and goals",
+      "contrasts": [
+        {
+          "selector": "h1",
+          "foreground": "rgb(22, 35, 51)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "ratio": 15.88,
+          "fontSize": "30px",
+          "required": 3
+        },
+        {
+          "selector": "h1 span",
+          "foreground": "rgb(36, 89, 180)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "ratio": 6.64,
+          "fontSize": "30px",
+          "required": 3
+        },
+        {
+          "selector": ".fc-kicker",
+          "foreground": "rgb(36, 89, 180)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "ratio": 6.64,
+          "fontSize": "11px",
+          "required": 4.5
+        },
+        {
+          "selector": ".fc-lead",
+          "foreground": "rgb(83, 98, 116)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "ratio": 6.24,
+          "fontSize": "16px",
+          "required": 4.5
+        },
+        {
+          "selector": ".fc-difference",
+          "foreground": "rgb(22, 35, 51)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "ratio": 15.88,
+          "fontSize": "14px",
+          "required": 4.5
+        },
+        {
+          "selector": ".fc-primary",
+          "foreground": "rgb(255, 255, 255)",
+          "background": [
+            36,
+            94,
+            233
+          ],
+          "ratio": 5.45,
+          "fontSize": "14px",
+          "required": 4.5
+        },
+        {
+          "selector": ".fc-secondary",
+          "foreground": "rgb(22, 35, 51)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "ratio": 15.88,
+          "fontSize": "14px",
+          "required": 4.5
+        },
+        {
+          "selector": ".fc-problem-grid p",
+          "foreground": "rgb(83, 98, 116)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "ratio": 6.24,
+          "fontSize": "15px",
+          "required": 4.5
+        },
+        {
+          "selector": ".fc-service-copy p",
+          "foreground": "rgb(83, 98, 116)",
+          "background": [
+            245,
+            247,
+            250
+          ],
+          "ratio": 5.81,
+          "fontSize": "16px",
+          "required": 4.5
+        },
+        {
+          "selector": ".fc-discuss",
+          "foreground": "rgb(36, 89, 180)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "ratio": 6.64,
+          "fontSize": "13px",
+          "required": 4.5
+        },
+        {
+          "selector": ".fc-case-results dt",
+          "foreground": "rgb(255, 255, 255)",
+          "background": [
+            36,
+            61,
+            87
+          ],
+          "ratio": 11.17,
+          "fontSize": "32px",
+          "required": 3
+        },
+        {
+          "selector": ".fc-case-results dd",
+          "foreground": "rgb(213, 225, 237)",
+          "background": [
+            36,
+            61,
+            87
+          ],
+          "ratio": 8.42,
+          "fontSize": "14px",
+          "required": 4.5
+        },
+        {
+          "selector": ".fc-case-results>p",
+          "foreground": "rgb(213, 225, 237)",
+          "background": [
+            36,
+            61,
+            87
+          ],
+          "ratio": 8.42,
+          "fontSize": "13px",
+          "required": 4.5
+        },
+        {
+          "selector": ".fc-case-story p",
+          "foreground": "rgb(36, 89, 180)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "ratio": 6.64,
+          "fontSize": "12px",
+          "required": 4.5
+        },
+        {
+          "selector": ".fc-cases .fc-section-heading>p:not(.fc-kicker)",
+          "foreground": "rgb(213, 225, 237)",
+          "background": [
+            20,
+            36,
+            56
+          ],
+          "ratio": 11.81,
+          "fontSize": "17px",
+          "required": 4.5
+        },
+        {
+          "selector": ".fc-role-note",
+          "foreground": "rgb(83, 98, 116)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "ratio": 6.24,
+          "fontSize": "17px",
+          "required": 4.5
+        },
+        {
+          "selector": ".fc-final p:not(.fc-kicker)",
+          "foreground": "rgb(213, 225, 237)",
+          "background": [
+            20,
+            36,
+            56
+          ],
+          "ratio": 11.81,
+          "fontSize": "17px",
+          "required": 4.5
+        },
+        {
+          "selector": ".footer__ip",
+          "foreground": "rgb(156, 169, 161)",
+          "background": [
+            16,
+            28,
+            43
+          ],
+          "ratio": 7.03,
+          "fontSize": "11px",
+          "required": 4.5
+        },
+        {
+          "selector": ".cookie-consent p",
+          "foreground": "rgb(22, 35, 51)",
+          "background": [
+            245,
+            247,
+            250
+          ],
+          "ratio": 14.8,
+          "fontSize": "12px",
+          "required": 4.5
+        },
+        {
+          "selector": ".cookie-consent [data-consent=\"analytics\"]",
+          "foreground": "rgb(255, 255, 255)",
+          "background": [
+            28,
+            60,
+            48
+          ],
+          "ratio": 12.08,
+          "fontSize": "13px",
+          "required": 4.5
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "scenario": "cookie/contact screenshots, keyboard, sampled contrast and goals",
+      "contrasts": [
+        {
+          "selector": "h1",
+          "foreground": "rgb(22, 35, 51)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "ratio": 15.88,
+          "fontSize": "40px",
+          "required": 3
+        },
+        {
+          "selector": "h1 span",
+          "foreground": "rgb(36, 89, 180)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "ratio": 6.64,
+          "fontSize": "40px",
+          "required": 3
+        },
+        {
+          "selector": ".fc-kicker",
+          "foreground": "rgb(36, 89, 180)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "ratio": 6.64,
+          "fontSize": "12px",
+          "required": 4.5
+        },
+        {
+          "selector": ".fc-lead",
+          "foreground": "rgb(83, 98, 116)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "ratio": 6.24,
+          "fontSize": "18px",
+          "required": 4.5
+        },
+        {
+          "selector": ".fc-difference",
+          "foreground": "rgb(22, 35, 51)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "ratio": 15.88,
+          "fontSize": "15px",
+          "required": 4.5
+        },
+        {
+          "selector": ".fc-primary",
+          "foreground": "rgb(255, 255, 255)",
+          "background": [
+            36,
+            94,
+            233
+          ],
+          "ratio": 5.45,
+          "fontSize": "14px",
+          "required": 4.5
+        },
+        {
+          "selector": ".fc-secondary",
+          "foreground": "rgb(22, 35, 51)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "ratio": 15.88,
+          "fontSize": "14px",
+          "required": 4.5
+        },
+        {
+          "selector": ".fc-problem-grid p",
+          "foreground": "rgb(83, 98, 116)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "ratio": 6.24,
+          "fontSize": "15px",
+          "required": 4.5
+        },
+        {
+          "selector": ".fc-service-copy p",
+          "foreground": "rgb(83, 98, 116)",
+          "background": [
+            245,
+            247,
+            250
+          ],
+          "ratio": 5.81,
+          "fontSize": "16px",
+          "required": 4.5
+        },
+        {
+          "selector": ".fc-discuss",
+          "foreground": "rgb(36, 89, 180)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "ratio": 6.64,
+          "fontSize": "13px",
+          "required": 4.5
+        },
+        {
+          "selector": ".fc-case-results dt",
+          "foreground": "rgb(255, 255, 255)",
+          "background": [
+            36,
+            61,
+            87
+          ],
+          "ratio": 11.17,
+          "fontSize": "32px",
+          "required": 3
+        },
+        {
+          "selector": ".fc-case-results dd",
+          "foreground": "rgb(213, 225, 237)",
+          "background": [
+            36,
+            61,
+            87
+          ],
+          "ratio": 8.42,
+          "fontSize": "14px",
+          "required": 4.5
+        },
+        {
+          "selector": ".fc-case-results>p",
+          "foreground": "rgb(213, 225, 237)",
+          "background": [
+            36,
+            61,
+            87
+          ],
+          "ratio": 8.42,
+          "fontSize": "13px",
+          "required": 4.5
+        },
+        {
+          "selector": ".fc-case-story p",
+          "foreground": "rgb(36, 89, 180)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "ratio": 6.64,
+          "fontSize": "12px",
+          "required": 4.5
+        },
+        {
+          "selector": ".fc-cases .fc-section-heading>p:not(.fc-kicker)",
+          "foreground": "rgb(213, 225, 237)",
+          "background": [
+            20,
+            36,
+            56
+          ],
+          "ratio": 11.81,
+          "fontSize": "17px",
+          "required": 4.5
+        },
+        {
+          "selector": ".fc-role-note",
+          "foreground": "rgb(83, 98, 116)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "ratio": 6.24,
+          "fontSize": "17px",
+          "required": 4.5
+        },
+        {
+          "selector": ".fc-final p:not(.fc-kicker)",
+          "foreground": "rgb(213, 225, 237)",
+          "background": [
+            20,
+            36,
+            56
+          ],
+          "ratio": 11.81,
+          "fontSize": "17px",
+          "required": 4.5
+        },
+        {
+          "selector": ".footer__ip",
+          "foreground": "rgb(156, 169, 161)",
+          "background": [
+            16,
+            28,
+            43
+          ],
+          "ratio": 7.03,
+          "fontSize": "11px",
+          "required": 4.5
+        },
+        {
+          "selector": ".cookie-consent p",
+          "foreground": "rgb(22, 35, 51)",
+          "background": [
+            245,
+            247,
+            250
+          ],
+          "ratio": 14.8,
+          "fontSize": "12px",
+          "required": 4.5
+        },
+        {
+          "selector": ".cookie-consent [data-consent=\"analytics\"]",
+          "foreground": "rgb(255, 255, 255)",
+          "background": [
+            28,
+            60,
+            48
+          ],
+          "ratio": 12.08,
+          "fontSize": "13px",
+          "required": 4.5
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "scenario": "cookie/contact screenshots, keyboard, sampled contrast and goals",
+      "contrasts": [
+        {
+          "selector": "h1",
+          "foreground": "rgb(22, 35, 51)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "ratio": 15.88,
+          "fontSize": "40px",
+          "required": 3
+        },
+        {
+          "selector": "h1 span",
+          "foreground": "rgb(36, 89, 180)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "ratio": 6.64,
+          "fontSize": "40px",
+          "required": 3
+        },
+        {
+          "selector": ".fc-kicker",
+          "foreground": "rgb(36, 89, 180)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "ratio": 6.64,
+          "fontSize": "12px",
+          "required": 4.5
+        },
+        {
+          "selector": ".fc-lead",
+          "foreground": "rgb(83, 98, 116)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "ratio": 6.24,
+          "fontSize": "18px",
+          "required": 4.5
+        },
+        {
+          "selector": ".fc-difference",
+          "foreground": "rgb(22, 35, 51)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "ratio": 15.88,
+          "fontSize": "15px",
+          "required": 4.5
+        },
+        {
+          "selector": ".fc-primary",
+          "foreground": "rgb(255, 255, 255)",
+          "background": [
+            36,
+            94,
+            233
+          ],
+          "ratio": 5.45,
+          "fontSize": "14px",
+          "required": 4.5
+        },
+        {
+          "selector": ".fc-secondary",
+          "foreground": "rgb(22, 35, 51)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "ratio": 15.88,
+          "fontSize": "14px",
+          "required": 4.5
+        },
+        {
+          "selector": ".fc-problem-grid p",
+          "foreground": "rgb(83, 98, 116)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "ratio": 6.24,
+          "fontSize": "15px",
+          "required": 4.5
+        },
+        {
+          "selector": ".fc-service-copy p",
+          "foreground": "rgb(83, 98, 116)",
+          "background": [
+            245,
+            247,
+            250
+          ],
+          "ratio": 5.81,
+          "fontSize": "16px",
+          "required": 4.5
+        },
+        {
+          "selector": ".fc-discuss",
+          "foreground": "rgb(36, 89, 180)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "ratio": 6.64,
+          "fontSize": "13px",
+          "required": 4.5
+        },
+        {
+          "selector": ".fc-case-results dt",
+          "foreground": "rgb(255, 255, 255)",
+          "background": [
+            36,
+            61,
+            87
+          ],
+          "ratio": 11.17,
+          "fontSize": "38px",
+          "required": 3
+        },
+        {
+          "selector": ".fc-case-results dd",
+          "foreground": "rgb(213, 225, 237)",
+          "background": [
+            36,
+            61,
+            87
+          ],
+          "ratio": 8.42,
+          "fontSize": "14px",
+          "required": 4.5
+        },
+        {
+          "selector": ".fc-case-results>p",
+          "foreground": "rgb(213, 225, 237)",
+          "background": [
+            36,
+            61,
+            87
+          ],
+          "ratio": 8.42,
+          "fontSize": "13px",
+          "required": 4.5
+        },
+        {
+          "selector": ".fc-case-story p",
+          "foreground": "rgb(36, 89, 180)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "ratio": 6.64,
+          "fontSize": "12px",
+          "required": 4.5
+        },
+        {
+          "selector": ".fc-cases .fc-section-heading>p:not(.fc-kicker)",
+          "foreground": "rgb(213, 225, 237)",
+          "background": [
+            20,
+            36,
+            56
+          ],
+          "ratio": 11.81,
+          "fontSize": "17px",
+          "required": 4.5
+        },
+        {
+          "selector": ".fc-role-note",
+          "foreground": "rgb(83, 98, 116)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "ratio": 6.24,
+          "fontSize": "17px",
+          "required": 4.5
+        },
+        {
+          "selector": ".fc-final p:not(.fc-kicker)",
+          "foreground": "rgb(213, 225, 237)",
+          "background": [
+            20,
+            36,
+            56
+          ],
+          "ratio": 11.81,
+          "fontSize": "17px",
+          "required": 4.5
+        },
+        {
+          "selector": ".footer__ip",
+          "foreground": "rgb(156, 169, 161)",
+          "background": [
+            16,
+            28,
+            43
+          ],
+          "ratio": 7.03,
+          "fontSize": "11px",
+          "required": 4.5
+        },
+        {
+          "selector": ".cookie-consent p",
+          "foreground": "rgb(22, 35, 51)",
+          "background": [
+            245,
+            247,
+            250
+          ],
+          "ratio": 14.8,
+          "fontSize": "12px",
+          "required": 4.5
+        },
+        {
+          "selector": ".cookie-consent [data-consent=\"analytics\"]",
+          "foreground": "rgb(255, 255, 255)",
+          "background": [
+            28,
+            60,
+            48
+          ],
+          "ratio": 12.08,
+          "fontSize": "13px",
+          "required": 4.5
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "scenario": "cookie/contact screenshots, keyboard, sampled contrast and goals",
+      "contrasts": [
+        {
+          "selector": "h1",
+          "foreground": "rgb(22, 35, 51)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "ratio": 15.88,
+          "fontSize": "46px",
+          "required": 3
+        },
+        {
+          "selector": "h1 span",
+          "foreground": "rgb(36, 89, 180)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "ratio": 6.64,
+          "fontSize": "46px",
+          "required": 3
+        },
+        {
+          "selector": ".fc-kicker",
+          "foreground": "rgb(36, 89, 180)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "ratio": 6.64,
+          "fontSize": "12px",
+          "required": 4.5
+        },
+        {
+          "selector": ".fc-lead",
+          "foreground": "rgb(83, 98, 116)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "ratio": 6.24,
+          "fontSize": "18px",
+          "required": 4.5
+        },
+        {
+          "selector": ".fc-difference",
+          "foreground": "rgb(22, 35, 51)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "ratio": 15.88,
+          "fontSize": "15px",
+          "required": 4.5
+        },
+        {
+          "selector": ".fc-primary",
+          "foreground": "rgb(255, 255, 255)",
+          "background": [
+            36,
+            94,
+            233
+          ],
+          "ratio": 5.45,
+          "fontSize": "14px",
+          "required": 4.5
+        },
+        {
+          "selector": ".fc-secondary",
+          "foreground": "rgb(22, 35, 51)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "ratio": 15.88,
+          "fontSize": "14px",
+          "required": 4.5
+        },
+        {
+          "selector": ".fc-problem-grid p",
+          "foreground": "rgb(83, 98, 116)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "ratio": 6.24,
+          "fontSize": "15px",
+          "required": 4.5
+        },
+        {
+          "selector": ".fc-service-copy p",
+          "foreground": "rgb(83, 98, 116)",
+          "background": [
+            245,
+            247,
+            250
+          ],
+          "ratio": 5.81,
+          "fontSize": "16px",
+          "required": 4.5
+        },
+        {
+          "selector": ".fc-discuss",
+          "foreground": "rgb(36, 89, 180)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "ratio": 6.64,
+          "fontSize": "13px",
+          "required": 4.5
+        },
+        {
+          "selector": ".fc-case-results dt",
+          "foreground": "rgb(255, 255, 255)",
+          "background": [
+            36,
+            61,
+            87
+          ],
+          "ratio": 11.17,
+          "fontSize": "38px",
+          "required": 3
+        },
+        {
+          "selector": ".fc-case-results dd",
+          "foreground": "rgb(213, 225, 237)",
+          "background": [
+            36,
+            61,
+            87
+          ],
+          "ratio": 8.42,
+          "fontSize": "14px",
+          "required": 4.5
+        },
+        {
+          "selector": ".fc-case-results>p",
+          "foreground": "rgb(213, 225, 237)",
+          "background": [
+            36,
+            61,
+            87
+          ],
+          "ratio": 8.42,
+          "fontSize": "13px",
+          "required": 4.5
+        },
+        {
+          "selector": ".fc-case-story p",
+          "foreground": "rgb(36, 89, 180)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "ratio": 6.64,
+          "fontSize": "12px",
+          "required": 4.5
+        },
+        {
+          "selector": ".fc-cases .fc-section-heading>p:not(.fc-kicker)",
+          "foreground": "rgb(213, 225, 237)",
+          "background": [
+            20,
+            36,
+            56
+          ],
+          "ratio": 11.81,
+          "fontSize": "17px",
+          "required": 4.5
+        },
+        {
+          "selector": ".fc-role-note",
+          "foreground": "rgb(83, 98, 116)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "ratio": 6.24,
+          "fontSize": "17px",
+          "required": 4.5
+        },
+        {
+          "selector": ".fc-final p:not(.fc-kicker)",
+          "foreground": "rgb(213, 225, 237)",
+          "background": [
+            20,
+            36,
+            56
+          ],
+          "ratio": 11.81,
+          "fontSize": "17px",
+          "required": 4.5
+        },
+        {
+          "selector": ".footer__ip",
+          "foreground": "rgb(156, 169, 161)",
+          "background": [
+            16,
+            28,
+            43
+          ],
+          "ratio": 7.03,
+          "fontSize": "11px",
+          "required": 4.5
+        },
+        {
+          "selector": ".cookie-consent p",
+          "foreground": "rgb(22, 35, 51)",
+          "background": [
+            245,
+            247,
+            250
+          ],
+          "ratio": 14.8,
+          "fontSize": "12px",
+          "required": 4.5
+        },
+        {
+          "selector": ".cookie-consent [data-consent=\"analytics\"]",
+          "foreground": "rgb(255, 255, 255)",
+          "background": [
+            28,
+            60,
+            48
+          ],
+          "ratio": 12.08,
+          "fontSize": "13px",
+          "required": 4.5
+        }
+      ]
+    },
+    {
+      "scenario": "visible phone/nickname scan",
+      "pages": 59,
+      "issues": 0
+    }
+  ],
+  "telemetry": "All external SDK requests intercepted locally."
+}

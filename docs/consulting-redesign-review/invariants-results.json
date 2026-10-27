@@ -1,0 +1,46 @@
+{
+  "changedProductionFiles": [
+    "index.html",
+    "premium.css",
+    "sitemap.xml"
+  ],
+  "headerAndFooterUnchanged": true,
+  "canonicalAndRoutesUnchanged": true,
+  "changedMetadata": [
+    "twitter:title",
+    "og:title",
+    "theme-color",
+    "og:description",
+    "twitter:description",
+    "description"
+  ],
+  "personAndBreadcrumbUnchanged": true,
+  "sitemapUrls": 57,
+  "changedSitemapDates": [
+    "https://alexandrrbitr-ctrl.github.io/alexander-kravets-site/"
+  ],
+  "protectedFilesUnchanged": [
+    "site.js",
+    "analytics-config.js",
+    "styles.css",
+    "privacy.html",
+    "cookies.html",
+    "google702c29dfb69c29e5.html",
+    "case-pharma.html",
+    "case-contact-center.html",
+    "case-remote-sales.html",
+    "case-lead-generation.html",
+    "tools/sales-economics/engine.mjs",
+    "tools/sales-economics/ui.mjs"
+  ],
+  "htmlNestingErrors": [],
+  "homepageAssets": {
+    "styles.css": 119471,
+    "premium.css": 49355,
+    "site.js": 22918,
+    "analytics-config.js": 86,
+    "assets/alexander-kravets.webp": 61066,
+    "assets/fr-emblem-silver.webp": 27520
+  },
+  "performanceNotes": "Local sizes only; no new dependency or remote font; portrait preloaded with explicit dimensions; two unused stylesheet requests removed from homepage. Not a field performance measurement."
+}
