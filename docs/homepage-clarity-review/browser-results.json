@@ -1,0 +1,51 @@
+{
+  "checks": 280,
+  "browser": "156.0.4314.42",
+  "results": [
+    {
+      "scenario": "homepage",
+      "width": 360,
+      "height": 7112,
+      "internalLinks": 19,
+      "errors": [],
+      "failed": []
+    },
+    {
+      "scenario": "homepage",
+      "width": 390,
+      "height": 6916,
+      "internalLinks": 19,
+      "errors": [],
+      "failed": []
+    },
+    {
+      "scenario": "homepage",
+      "width": 768,
+      "height": 5709,
+      "internalLinks": 19,
+      "errors": [],
+      "failed": []
+    },
+    {
+      "scenario": "homepage",
+      "width": 1440,
+      "height": 3585,
+      "internalLinks": 19,
+      "errors": [],
+      "failed": []
+    },
+    {
+      "scenario": "other-template-style-comparison",
+      "width": 390,
+      "pages": 7,
+      "identical": true
+    },
+    {
+      "scenario": "other-template-style-comparison",
+      "width": 1440,
+      "pages": 7,
+      "identical": true
+    }
+  ],
+  "telemetry": "intercepted locally; no test data sent to Yandex"
+}
