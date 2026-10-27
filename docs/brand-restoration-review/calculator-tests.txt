@@ -1,0 +1,2 @@
+OK 37+ проверок формул, валидации и пограничных сценариев
+Additional boundaries and 150 independent break-even/profit checks: OK

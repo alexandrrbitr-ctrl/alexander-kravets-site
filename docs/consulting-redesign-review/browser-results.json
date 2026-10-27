@@ -1,0 +1,2195 @@
+{
+  "checks": 2129,
+  "browser": "156.0.4314.42",
+  "htmlPages": 61,
+  "uiPages": 59,
+  "results": [
+    {
+      "scenario": "home/links/FAQ/menu/consent/goals",
+      "width": 360,
+      "primaryInitiallyVisible": true,
+      "height": 12712,
+      "h1": "30px",
+      "h2": "27px",
+      "h3": "20px",
+      "lead": "16px",
+      "sectionPadding": "40px",
+      "heroPadding": "24px",
+      "errors": [],
+      "failed": [],
+      "watchRequests": 2
+    },
+    {
+      "scenario": "home/links/FAQ/menu/consent/goals",
+      "width": 390,
+      "primaryInitiallyVisible": true,
+      "height": 12228,
+      "h1": "30px",
+      "h2": "27px",
+      "h3": "20px",
+      "lead": "16px",
+      "sectionPadding": "40px",
+      "heroPadding": "24px",
+      "errors": [],
+      "failed": [],
+      "watchRequests": 2
+    },
+    {
+      "scenario": "home/links/FAQ/menu/consent/goals",
+      "width": 768,
+      "primaryInitiallyVisible": true,
+      "height": 9462,
+      "h1": "40px",
+      "h2": "32px",
+      "h3": "20px",
+      "lead": "18px",
+      "sectionPadding": "64px",
+      "heroPadding": "48px",
+      "errors": [],
+      "failed": [],
+      "watchRequests": 2
+    },
+    {
+      "scenario": "home/links/FAQ/menu/consent/goals",
+      "width": 1024,
+      "primaryInitiallyVisible": true,
+      "height": 7410,
+      "h1": "40px",
+      "h2": "32px",
+      "h3": "20px",
+      "lead": "18px",
+      "sectionPadding": "64px",
+      "heroPadding": "48px",
+      "errors": [],
+      "failed": [],
+      "watchRequests": 2
+    },
+    {
+      "scenario": "home/links/FAQ/menu/consent/goals",
+      "width": 1440,
+      "primaryInitiallyVisible": true,
+      "height": 6591,
+      "h1": "46px",
+      "h2": "32px",
+      "h3": "20px",
+      "lead": "18px",
+      "sectionPadding": "64px",
+      "heroPadding": "48px",
+      "errors": [],
+      "failed": [],
+      "watchRequests": 2
+    },
+    {
+      "scenario": "all public UI pages",
+      "width": 360,
+      "pages": [
+        {
+          "file": "404.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "about/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "case-contact-center.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "case-lead-generation.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "case-legal-contact-center-sales.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "case-pharma.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "case-remote-sales.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "cases.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "commercial-analytics/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "commercial-control/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "commercial-management/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "contact-center-management/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "crm-bitrix24/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "crm-commercial-audit/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "customer-base-reactivation/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "industries/b2b-sales/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "industries/clinic-sales/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "industries/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "industries/legal-sales/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "industries/medicine-pharma/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "industries/pharma-sales/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "industries/supplements-sales/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/abc-rfm-b2b/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/abc-rfm-health/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/before-hiring-head-of-sales/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/bitrix24-sales-implementation/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/build-sales-department-guide/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/client-base-reactivation/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/clinic-funnel/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/clinic-sales-audit/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/commercial-analytics-plan-fact/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/contact-center-metrics/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/crm-audit-checklist/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/crm-management-questions/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/external-rop-when-needed/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/leads-but-no-sales/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/pharma-sales-management/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/problem-not-salespeople/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/remote-sales-control/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/sales-audit-checklist/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/sales-forecast/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/sales-kpi-guide/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/sales-manager-assessment/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/sales-plan-early-warning/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "privacy.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "remote-sales-department/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "sales-audit/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "sales-call-audit/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "sales-data-analysis/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "sales-department-from-scratch/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "sales-kpi-motivation/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "sales-team-assessment/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "sales-team-recruitment/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "services/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "site-map.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "tools/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "tools/sales-economics/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        }
+      ],
+      "errors": [],
+      "failed": []
+    },
+    {
+      "scenario": "all public UI pages",
+      "width": 390,
+      "pages": [
+        {
+          "file": "404.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "about/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "case-contact-center.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "case-lead-generation.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "case-legal-contact-center-sales.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "case-pharma.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "case-remote-sales.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "cases.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "commercial-analytics/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "commercial-control/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "commercial-management/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "contact-center-management/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "crm-bitrix24/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "crm-commercial-audit/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "customer-base-reactivation/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "industries/b2b-sales/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "industries/clinic-sales/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "industries/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "industries/legal-sales/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "industries/medicine-pharma/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "industries/pharma-sales/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "industries/supplements-sales/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/abc-rfm-b2b/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/abc-rfm-health/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/before-hiring-head-of-sales/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/bitrix24-sales-implementation/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/build-sales-department-guide/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/client-base-reactivation/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/clinic-funnel/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/clinic-sales-audit/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/commercial-analytics-plan-fact/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/contact-center-metrics/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/crm-audit-checklist/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/crm-management-questions/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/external-rop-when-needed/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/leads-but-no-sales/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/pharma-sales-management/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/problem-not-salespeople/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/remote-sales-control/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/sales-audit-checklist/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/sales-forecast/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/sales-kpi-guide/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/sales-manager-assessment/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/sales-plan-early-warning/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "privacy.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "remote-sales-department/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "sales-audit/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "sales-call-audit/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "sales-data-analysis/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "sales-department-from-scratch/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "sales-kpi-motivation/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "sales-team-assessment/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "sales-team-recruitment/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "services/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "site-map.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "tools/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "tools/sales-economics/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        }
+      ],
+      "errors": [],
+      "failed": []
+    },
+    {
+      "scenario": "all public UI pages",
+      "width": 768,
+      "pages": [
+        {
+          "file": "404.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "about/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "case-contact-center.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "case-lead-generation.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "case-legal-contact-center-sales.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "case-pharma.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "case-remote-sales.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "cases.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "commercial-analytics/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "commercial-control/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "commercial-management/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "contact-center-management/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "crm-bitrix24/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "crm-commercial-audit/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "customer-base-reactivation/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "industries/b2b-sales/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "industries/clinic-sales/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "industries/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "industries/legal-sales/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "industries/medicine-pharma/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "industries/pharma-sales/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "industries/supplements-sales/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/abc-rfm-b2b/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/abc-rfm-health/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/before-hiring-head-of-sales/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/bitrix24-sales-implementation/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/build-sales-department-guide/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/client-base-reactivation/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/clinic-funnel/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/clinic-sales-audit/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/commercial-analytics-plan-fact/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/contact-center-metrics/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/crm-audit-checklist/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/crm-management-questions/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/external-rop-when-needed/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/leads-but-no-sales/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/pharma-sales-management/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/problem-not-salespeople/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/remote-sales-control/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/sales-audit-checklist/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/sales-forecast/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/sales-kpi-guide/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/sales-manager-assessment/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/sales-plan-early-warning/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "privacy.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "remote-sales-department/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "sales-audit/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "sales-call-audit/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "sales-data-analysis/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "sales-department-from-scratch/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "sales-kpi-motivation/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "sales-team-assessment/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "sales-team-recruitment/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "services/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "site-map.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "tools/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "tools/sales-economics/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        }
+      ],
+      "errors": [],
+      "failed": []
+    },
+    {
+      "scenario": "all public UI pages",
+      "width": 1024,
+      "pages": [
+        {
+          "file": "404.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "about/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "case-contact-center.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "case-lead-generation.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "case-legal-contact-center-sales.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "case-pharma.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "case-remote-sales.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "cases.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "commercial-analytics/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "commercial-control/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "commercial-management/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "contact-center-management/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "crm-bitrix24/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "crm-commercial-audit/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "customer-base-reactivation/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "industries/b2b-sales/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "industries/clinic-sales/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "industries/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "industries/legal-sales/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "industries/medicine-pharma/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "industries/pharma-sales/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "industries/supplements-sales/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/abc-rfm-b2b/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/abc-rfm-health/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/before-hiring-head-of-sales/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/bitrix24-sales-implementation/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/build-sales-department-guide/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/client-base-reactivation/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/clinic-funnel/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/clinic-sales-audit/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/commercial-analytics-plan-fact/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/contact-center-metrics/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/crm-audit-checklist/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/crm-management-questions/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/external-rop-when-needed/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/leads-but-no-sales/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/pharma-sales-management/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/problem-not-salespeople/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/remote-sales-control/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/sales-audit-checklist/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/sales-forecast/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/sales-kpi-guide/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/sales-manager-assessment/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/sales-plan-early-warning/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "privacy.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "remote-sales-department/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "sales-audit/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "sales-call-audit/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "sales-data-analysis/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "sales-department-from-scratch/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "sales-kpi-motivation/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "sales-team-assessment/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "sales-team-recruitment/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "services/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "site-map.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "tools/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "tools/sales-economics/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        }
+      ],
+      "errors": [],
+      "failed": []
+    },
+    {
+      "scenario": "all public UI pages",
+      "width": 1440,
+      "pages": [
+        {
+          "file": "404.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "about/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "case-contact-center.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "case-lead-generation.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "case-legal-contact-center-sales.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "case-pharma.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "case-remote-sales.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "cases.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "commercial-analytics/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "commercial-control/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "commercial-management/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "contact-center-management/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "crm-bitrix24/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "crm-commercial-audit/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "customer-base-reactivation/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "industries/b2b-sales/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "industries/clinic-sales/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "industries/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "industries/legal-sales/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "industries/medicine-pharma/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "industries/pharma-sales/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "industries/supplements-sales/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/abc-rfm-b2b/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/abc-rfm-health/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/before-hiring-head-of-sales/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/bitrix24-sales-implementation/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/build-sales-department-guide/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/client-base-reactivation/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/clinic-funnel/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/clinic-sales-audit/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/commercial-analytics-plan-fact/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/contact-center-metrics/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/crm-audit-checklist/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/crm-management-questions/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/external-rop-when-needed/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/leads-but-no-sales/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/pharma-sales-management/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/problem-not-salespeople/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/remote-sales-control/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/sales-audit-checklist/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/sales-forecast/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/sales-kpi-guide/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/sales-manager-assessment/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "insights/sales-plan-early-warning/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "privacy.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "remote-sales-department/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "sales-audit/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "sales-call-audit/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "sales-data-analysis/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "sales-department-from-scratch/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "sales-kpi-motivation/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "sales-team-assessment/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "sales-team-recruitment/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "services/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "site-map.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "tools/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        },
+        {
+          "file": "tools/sales-economics/index.html",
+          "overflow": false,
+          "h1": 1,
+          "missingNames": 0,
+          "heroCardsFit": true
+        }
+      ],
+      "errors": [],
+      "failed": []
+    },
+    {
+      "scenario": "calculator unchanged",
+      "profit": 220400,
+      "breakEvenDeals": 16,
+      "breakEvenLeads": 126
+    }
+  ],
+  "telemetry": "Real SDK served locally; all external telemetry intercepted. No test visits sent to Yandex."
+}

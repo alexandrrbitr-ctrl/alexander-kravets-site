@@ -1,0 +1,37 @@
+[
+  {
+    "command": "node scripts/check-site.mjs",
+    "exitCode": 0,
+    "log": "site-check.json"
+  },
+  {
+    "command": "node tests/test-preflight.mjs",
+    "exitCode": 0,
+    "log": "preflight-tests.txt"
+  },
+  {
+    "command": "node docs/case-calculator-review/test-engine.mjs",
+    "exitCode": 0,
+    "log": "calculator-tests.txt"
+  },
+  {
+    "command": "node --check site.js",
+    "exitCode": 0,
+    "log": "javascript-check.txt"
+  },
+  {
+    "command": "node --check tools/sales-economics/engine.mjs",
+    "exitCode": 0,
+    "log": "calculator-engine-syntax.txt"
+  },
+  {
+    "command": "node --check tools/sales-economics/ui.mjs",
+    "exitCode": 0,
+    "log": "calculator-ui-syntax.txt"
+  },
+  {
+    "command": "git diff --check",
+    "exitCode": 0,
+    "log": "diff-check.txt"
+  }
+]
