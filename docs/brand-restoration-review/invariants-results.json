@@ -1,0 +1,41 @@
+{
+  "baseline": "bed0a01c761245185078dad59f1da54b595fd29b",
+  "brandSource": "8b9ceb20fba31b654445db9b867ea2479451e4dc",
+  "productionFiles": [
+    "index.html",
+    "premium.css"
+  ],
+  "paletteVerifiedAgainstGit": {
+    "--fr-brand-primary": "#18251F",
+    "--fr-brand-secondary": "#203A2E",
+    "--fr-brand-panel": "#264738",
+    "--fr-accent": "#C9A475",
+    "--fr-bg": "#F4F1E9",
+    "--fr-bg-alt": "#E8EBE3",
+    "--fr-panel-bg": "#FAF9F5",
+    "--fr-text": "#222A25",
+    "--fr-text-muted": "#546159",
+    "--fr-border": "#D3D7CE"
+  },
+  "currentBodyAndAllNewContentUnchanged": true,
+  "seoUnchangedExceptThemeColor": true,
+  "protectedFilesUnchanged": [
+    "site.js",
+    "analytics-config.js",
+    "styles.css",
+    "sitemap.xml",
+    "privacy.html",
+    "cookies.html",
+    "google702c29dfb69c29e5.html",
+    "case-pharma.html",
+    "case-contact-center.html",
+    "case-remote-sales.html",
+    "case-lead-generation.html",
+    "case-legal-contact-center-sales.html",
+    "services/index.html",
+    "tools/sales-economics/engine.mjs",
+    "tools/sales-economics/ui.mjs"
+  ],
+  "previousBlueColorsAbsent": true,
+  "cssBracesBalanced": true
+}
