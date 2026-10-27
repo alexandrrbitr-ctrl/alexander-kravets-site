@@ -1,0 +1,14 @@
+{
+  "base": "8b9ceb20fba31b654445db9b867ea2479451e4dc",
+  "production_files": [
+    "index.html",
+    "premium.css"
+  ],
+  "header_footer_canonical_jsonld_and_script_includes_unchanged": true,
+  "all_other_metadata_unchanged_except_title_and_descriptions": true,
+  "open_graph_twitter_synchronized": true,
+  "css_append_scoped_to_home_only": true,
+  "html_nesting_valid": true,
+  "analytics_cookie_requisites_case_pages_calculator_and_sitemap_unchanged": true,
+  "images": "existing portrait and silver emblem; original asset files unchanged"
+}
