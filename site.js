@@ -250,7 +250,7 @@
   const rootPath = scriptTag?.dataset?.root || "";
   const cfg = window.KRAVETS_ANALYTICS || {};
   const consentKey = "kravets_analytics_consent_v2";
-  const consentVersion = "2026-10-20";
+  const consentVersion = "2026-10-27";
   const consentLifetime = 180 * 24 * 60 * 60 * 1000;
   const yandexId = String(cfg.yandexMetricaId || "").trim();
   let memoryConsent = null;
@@ -307,6 +307,19 @@
   }
   function openConsent(moveFocus = false) {
     if (!consentBox) return;
+    // Acknowledgement alone never grants analytics. Footer/policy settings offer
+    // a separately named, explicit analytics choice and withdrawal.
+    consentBox.classList.toggle("cookie-consent--settings", moveFocus);
+    const necessary = consentBox.querySelector('[data-consent="necessary"]');
+    const analytics = consentBox.querySelector('[data-consent="analytics"]');
+    if (necessary) {
+      necessary.textContent = moveFocus ? "Без аналитики" : "Понятно";
+      necessary.setAttribute("aria-label", moveFocus ? "Без аналитики" : "Понятно — продолжить без аналитики");
+    }
+    if (analytics) analytics.hidden = !moveFocus;
+    consentBox.querySelector("p").innerHTML = moveFocus
+      ? `Для анализа посещений можно включить Яндекс Метрику. <a href="${rootPath}privacy.html#cookies">Подробнее</a>`
+      : `Чтобы сайт был удобнее, используем <a href="${rootPath}privacy.html#cookies">cookies</a>`;
     consentBox.hidden = false;
     if (moveFocus) {
       consentTrigger = document.activeElement;
@@ -344,7 +357,7 @@
     consentBox.className = "cookie-consent";
     consentBox.hidden = true;
     consentBox.setAttribute("aria-label", "Настройки аналитики");
-    consentBox.innerHTML = `<p>Если вы согласны на использование cookie, нажмите «ОК». <a href="${rootPath}privacy.html#cookies">Подробнее</a></p><div class="cookie-consent__actions"><button type="button" class="cookie-consent__dismiss" data-consent="necessary" aria-label="Закрыть без согласия на аналитику" title="Продолжить без аналитики">×</button><button type="button" data-consent="analytics">ОК</button></div>`;
+    consentBox.innerHTML = `<p>Чтобы сайт был удобнее, используем <a href="${rootPath}privacy.html#cookies">cookies</a></p><div class="cookie-consent__actions"><button type="button" data-consent="necessary" class="cookie-consent__acknowledge" aria-label="Понятно — продолжить без аналитики">Понятно</button><button type="button" data-consent="analytics" hidden>Разрешить аналитику</button></div>`;
     document.body.appendChild(consentBox);
     document.querySelectorAll(".cookie-settings").forEach(btn => {
       btn.hidden = false;
