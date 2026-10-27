@@ -1858,3 +1858,33 @@ main{padding-top:var(--header-flow-offset)}
   .cookie-consent .cookie-consent__actions{display:flex;justify-content:flex-end}
   .cookie-consent button[data-consent="analytics"]{min-height:38px;padding:0 10px}
 }
+
+/* Cookie-strip reference: dark, acknowledgement without analytics (2026-10-27) */
+.cookie-consent{
+  box-sizing:border-box;position:fixed;left:0;right:0;bottom:0;
+  width:100%;max-width:none;margin:0;padding:9px 18px;
+  min-height:58px;border:0;border-radius:0;
+  background:#3f3f3f;color:#fff;box-shadow:0 -3px 14px rgba(0,0,0,.14);
+  display:flex;align-items:center;justify-content:flex-start;gap:22px;
+}
+.cookie-consent p{margin:0;font-size:15px;line-height:1.4;color:#fff;font-weight:600}
+.cookie-consent p a{color:#fff;text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:1px}
+.cookie-consent .cookie-consent__actions{display:flex;align-items:center;justify-content:flex-start;gap:10px;flex-shrink:0}
+.cookie-consent button[data-consent="analytics"],.cookie-consent button.cookie-consent__acknowledge{
+  min-height:40px;padding:0 15px;border:0;border-radius:13px;
+  background:#fff;color:#222;font-size:14px;font-weight:650;box-shadow:none;
+}
+.cookie-consent button[data-consent="analytics"]:hover,.cookie-consent button.cookie-consent__acknowledge:hover{background:#eee;color:#111}
+.cookie-consent button[hidden]{display:none}
+.cookie-consent--settings button.cookie-consent__acknowledge{min-height:40px;padding:0 10px;border:1px solid #ddd;border-radius:13px;background:transparent;color:#fff;font-size:13px}
+.cookie-consent--settings button.cookie-consent__acknowledge:hover{background:#555}
+.cookie-consent button:focus-visible,.cookie-consent a:focus-visible{outline:2px solid #fff;outline-offset:3px}
+@media(max-width:680px){
+  .cookie-consent{width:100%;min-height:58px;padding:9px max(12px,env(safe-area-inset-right,0px)) calc(9px + env(safe-area-inset-bottom,0px)) max(12px,env(safe-area-inset-left,0px));gap:12px}
+  .cookie-consent--settings{flex-wrap:wrap}
+  .cookie-consent--settings p{flex-basis:100%}
+  .cookie-consent p{font-size:12px;line-height:1.4}
+  .cookie-consent button[data-consent="analytics"],.cookie-consent button.cookie-consent__acknowledge{font-size:13px;min-height:38px;padding:0 12px;border-radius:12px}
+  .cookie-consent .cookie-consent__actions{gap:6px;flex-wrap:wrap}
+  .cookie-consent--settings button.cookie-consent__acknowledge{min-height:36px;font-size:12px}
+}
